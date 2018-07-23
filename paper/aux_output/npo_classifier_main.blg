@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
+[51] biber-MSWIN64:313> INFO - === 
+[102] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
+[213] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[224] Utils.pm:193> WARN - The file 'aux_output\npo_classifier_main.bcf' does not contain any citations!
+[234] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[235] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
+[237] Biber.pm:110> INFO - WARNINGS: 1

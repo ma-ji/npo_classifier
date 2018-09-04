@@ -1,28 +1,81 @@
-\documentclass[11pt]{article}
-\usepackage[letterpaper, left=1in,top=1in,right=1in,bottom=1in]{geometry}
-\usepackage[usenames, dvipsnames]{color}
+\documentclass[12pt]{article}
 \usepackage[style=apa]{biblatex}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{longtable}
-\usepackage{multirow}
-\usepackage{bibentry}
-\usepackage{todonotes}
-\usepackage{graphicx}
-\usepackage{arydshln}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{lipsum}
 \usepackage[symbol]{footmisc}
+\usepackage{graphicx}
+\usepackage[capposition=top]{floatrow}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{bibentry}
+\usepackage[letterpaper, left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\usepackage{setspace}
+\usepackage{epstopdf}
+\usepackage{amssymb}
+\usepackage{lineno}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{color,soul}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{appendix}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{mfirstuc}
+\usepackage{multirow}
+\usepackage{threeparttable}
 
 \renewcommand{\baselinestretch}{1.5}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \bibliography{C:/Users/Ji/Zotero/zotero.bib}
 \setcounter{tocdepth}{2}
 
+
+\title{\textbf{\capitalisewords{An international nonprofit classification system: A machine-learning approach experimented on China, United Kingdom, and United States}}}
+% \author{%
+% \textsc{John Smith}\thanks{A thank you or further information} \\[1ex] % Your name
+% \normalsize University of California \\ % Your institution
+% \normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
+% }
+\date{} % Leave empty to omit a date \today
+
+%----------------------------------------------------------------------------------------
+
 \begin{document}
 
-\begin{center}
-{\Large \textsc{An international nonprofit classification system: A machine-learning approach experimented on China, United Kingdom, and United States}}
-\end{center}
+\maketitle
 
-The National Taxonomy of Exempt Entities (NTEE) has been used for classifying the nonprofit organizations in the United States for several decades. However, major countries in the world do not have a classification system for the nonprofit sector. This paper achieves three major goals: 1) devising a machine learning model which can classify the nonprofits using mission statements, 2) inventing a functional classification system which can be applied to different countries, 3) test the accuracy of the model and classification system. We first created a classification system cross different countries by matching existing standards, then compiled the training and testing datasets for China (data from China Foundation Center and Research Infrastructure of Chinese Foundations), United Kingdom (data from ****), and United States (data from National Center for Charitable Statistics and Internal Revenue Service). We finally test the accuracy of major text classification algorithms using country-specific training datasets and a pooled dataset. Implications and limitations are discussed.
+\begin{abstract}
+\noindent The National Taxonomy of Exempt Entities (NTEE) has been used for classifying the nonprofit organizations in the United States for several decades. However, major countries in the world do not have a classification system for the nonprofit sector. This paper achieves three major goals: 1) devising a machine learning model which can classify the nonprofits using mission statements, 2) inventing a functional classification system which can be applied to different countries, 3) test the accuracy of the model and classification system. We first created a classification system cross different countries by matching existing standards, then compiled the training and testing datasets for China (data from China Foundation Center and Research Infrastructure of Chinese Foundations), United Kingdom (data from ****), and United States (data from National Center for Charitable Statistics and Internal Revenue Service). We finally test the accuracy of major text classification algorithms using country-specific training datasets and a pooled dataset. Implications and limitations are discussed.
+\end{abstract}
+
+\section{Introduction}
+
+Although the voluntary and philanthropic organizations have long been existent for numerous centuries, the so-called ``nonprofit sector'' was only coined in the 1970s by scholars, policy makers, and nonprofit practitioners \parencite{HallHistoricalOverviewPhilanthropy2006}. A major reason for assembling the diverse organizations as a conceptual whole is to legitimize the existence of these organizations and the benefits these organizations receive \parencite{HallHistoricalOverviewPhilanthropy2006,BarmanClassificatoryStrugglesNonprofit2013a}. From Durkheim's \citeyear{DurkheimElementaryFormsReligious2012} perspective, the order and structure of a society can be reflected by a classification system. The National Taxonomy of Exempt Entities (NTEE) developed by the National Center for Charitable Statistics (NCCS), the most widely used classification system, is one of the efforts legitimizing the existence of nonprofit sector \parencite{Hodgkinsonnewresearchplanning1991,HodgkinsonMappingnonprofitsector1990}. As \textcite[105]{BarmanClassificatoryStrugglesNonprofit2013a} cite \textcite[601]{ClarkeSimpleTechnologyComplex1996}: ``The ways in which different entities (people, animals, plants, diseases, etc.) are organized into classificatory groups reveal something of the social, cultural, symbolic, and political contexts within which classifications occur.''
+
+Specifically, a classification system like NTEE has been used for many practical and academic purposes. For example, it provides a framework on which the social and economic activities of nonprofits can be mapped and compared with other types of organizations in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. Scholars also use NTEE codes for sampling purposes \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000a,CarmanEvaluationCapacityNonprofit2010}. The invention of an international classification system, although challenging, can be the cornerstone for studying ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996}.
+
+\subsection{Classification Efforts: the United States, United Kingdom, and People's Republic of China}
+
+\section{Method}
+\subsection{Datasets}
+
+\subsection{Algorithms}
+
+\section{Results}
+\subsection{Validity of algorithms}
+
+\subsection{Applying the International Nonprofit Classification System: Descriptive analysis of three countries}
+
+\subsection{Applying the International Nonprofit Classification System: Replication studies}
+
+
+\printbibliography
 
 \end{document}

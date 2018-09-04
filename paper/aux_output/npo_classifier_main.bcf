@@ -2124,6 +2124,20 @@
     <bcf:datasource type="file" datatype="bibtex">C:/Users/Ji/Zotero/zotero.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">HallHistoricalOverviewPhilanthropy2006</bcf:citekey>
+    <bcf:citekey order="2">HallHistoricalOverviewPhilanthropy2006</bcf:citekey>
+    <bcf:citekey order="2">BarmanClassificatoryStrugglesNonprofit2013a</bcf:citekey>
+    <bcf:citekey order="3">DurkheimElementaryFormsReligious2012</bcf:citekey>
+    <bcf:citekey order="4">Hodgkinsonnewresearchplanning1991</bcf:citekey>
+    <bcf:citekey order="4">HodgkinsonMappingnonprofitsector1990</bcf:citekey>
+    <bcf:citekey order="5">BarmanClassificatoryStrugglesNonprofit2013a</bcf:citekey>
+    <bcf:citekey order="6">ClarkeSimpleTechnologyComplex1996</bcf:citekey>
+    <bcf:citekey order="7">RoegerNonprofitSectorIts2015</bcf:citekey>
+    <bcf:citekey order="8">OktenDeterminantsdonationsprivate2000a</bcf:citekey>
+    <bcf:citekey order="8">CarmanEvaluationCapacityNonprofit2010</bcf:citekey>
+    <bcf:citekey order="9">VakilConfrontingclassificationproblem1997</bcf:citekey>
+    <bcf:citekey order="9">Salamonsearchnonprofitsector1992</bcf:citekey>
+    <bcf:citekey order="9">Salamoninternationalclassificationnonprofit1996</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
@@ -2163,4 +2177,13 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="apa/global//global/global"
+                type="entry"
+                sortingtemplatename="apa"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>

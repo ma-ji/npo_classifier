@@ -1,9 +1,20 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
-[51] biber-MSWIN64:313> INFO - === 
-[102] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
-[213] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[224] Utils.pm:193> WARN - The file 'aux_output\npo_classifier_main.bcf' does not contain any citations!
-[234] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
-[235] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
-[237] Biber.pm:110> INFO - WARNINGS: 1
+[48] biber-MSWIN64:313> INFO - === 
+[105] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
+[283] Biber.pm:857> INFO - Found 12 citekeys in bib section 0
+[316] Biber.pm:3976> INFO - Processing section 0
+[338] Biber.pm:4136> INFO - Looking for bibtex format file 'C:/Users/Ji/Zotero/zotero.bib' for section 0
+[841] bibtex.pm:1500> INFO - LaTeX decoding ...
+[9298] bibtex.pm:1316> INFO - Found BibTeX data source 'C:/Users/Ji/Zotero/zotero.bib'
+[9341] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'KaplanTransformingBalancedScorecard2001' and 'KaplanTransformingbalancedscorecard2001' in file 'C:/Users/Ji/Zotero/zotero.bib'
+[9624] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'PutnamBowlingalonecollapse2000' and 'PutnamBowlingAloneCollapse2000' in file 'C:/Users/Ji/Zotero/zotero.bib'
+[9628] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'SkocpolCivicEngagementAmerican1999' and 'SkocpolCivicengagementAmerican1999' in file 'C:/Users/Ji/Zotero/zotero.bib'
+[9708] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'MaResearchInfrastructureChinese2017' and 'MaresearchinfrastructureChinese2017' in file 'C:/Users/Ji/Zotero/zotero.bib'
+[9903] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[9903] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[9903] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[9903] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[9940] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[9959] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
+[9963] Biber.pm:110> INFO - WARNINGS: 4

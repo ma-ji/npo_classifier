@@ -16,14 +16,10 @@
   {}
 \endgroup
 
-\preamble{%
-\ifdefined\DeclarePrefChars\DeclarePrefChars{'’-}\else\fi%
-}
-
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{BarmanClassificatoryStrugglesNonprofit2013a}{article}{}
+    \entry{BarmanClassificatoryStrugglesNonprofit2013}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=96307cf5b03f819c9e645f683e469881}{%
            family={Barman},
@@ -41,28 +37,23 @@
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Employing Pierre Bourdieu's concept of classificatory struggles and sociological literature on professions' construction of jurisdiction, this article examines the origins of the National Taxonomy of Exempt Entities (NTEE), the dominant classification system for the US nonprofit sector. Using data drawn from archival research and secondary research, I show that the establishment of the NTEE was part of a larger symbolic struggle over the proper classification of charitable foundations. Philanthropic elites and new nonprofit scholars responded to government threats to foundations by integrating them into the newly created "nonprofit sector," whose societal value—both philanthropic and economic—would be demonstrated through research on this sector. The NTEE was formed by nonprofit researchers to generate valid data that demonstrated the nonprofit sector's multiple contributions to society's well-being. Using a theoretical approach, this article extends Bourdieu's emphasis on classificatory struggles beyond the study of the construction of the characteristics of social classes to explore contestations over the proper taxonomy of organizations and sectors in society.}
-      \field{eprinttype}{jstor}
+      \field{abstract}{Employing Pierre Bourdieu's concept of classificatory struggles and sociological literature on professions' construction of jurisdiction, this article examines the origins of the National Taxonomy of Exempt Entities (NTEE), the dominant classification system for the US nonprofit sector. Using data drawn from archival research and secondary research, I show that the establishment of the NTEE was part of a larger symbolic struggle over the proper classification of charitable foundations. Philanthropic elites and new nonprofit scholars responded to government threats to foundations by integrating them into the newly created "nonprofit sector," whose societal value—{}both philanthropic and economic—{}would be demonstrated through research on this sector. The NTEE was formed by nonprofit researchers to generate valid data that demonstrated the nonprofit sector's multiple contributions to society's well-being. Using a theoretical approach, this article extends Bourdieu's emphasis on classificatory struggles beyond the study of the construction of the characteristics of social classes to explore contestations over the proper taxonomy of organizations and sectors in society.}
       \field{issn}{0145-5532}
       \field{journaltitle}{Social Science History}
       \field{note}{00021}
       \field{number}{1}
       \field{shorttitle}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}}
-      \field{title}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}: {{The Formation}} of the {{National Taxonomy}} of {{Exempt Entities}}, 1969—1987}
+      \field{title}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}: {{The Formation}} of the {{National Taxonomy}} of {{Exempt Entities}}, 1969—{}1987}
       \field{volume}{37}
       \field{year}{2013}
-      \field{dateera}{ce}
       \field{pages}{103\bibrangedash 141}
       \range{pages}{39}
-      \verb{eprint}
-      \verb 23361114
-      \endverb
       \verb{file}
-      \verb \\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
       \endverb
     \endentry
     \entry{CarmanEvaluationCapacityNonprofit2010}{article}{}
@@ -80,6 +71,9 @@
            giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{096f23cd435c37e84ff189350c96093f}
       \strng{fullhash}{096f23cd435c37e84ff189350c96093f}
       \strng{bibnamehash}{096f23cd435c37e84ff189350c96093f}
@@ -89,38 +83,24 @@
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In this article, we explore the evaluation capacity of today’s nonprofit organizations. We report the findings of a cluster analysis that suggest that when it comes to evaluation, there are three types of nonprofit organizations. The first type of nonprofit organization is one that, by most accounts, is satisfied with their evaluation efforts. Although these organizations report that they struggle with not having as much time as they would like to devote to evaluation, they are fairly satisfied with their levels of evaluation expertise and report having few problems with the implementation of evaluation systems. The second type of organization has some struggles with evaluation. These organizations report having internal support for evaluation from management, the board and staff, and some capacity to implement an evaluation system, yet they struggle with evaluation design issues, data collection, and resources for evaluation. The third type of organization is one that is struggling across the board. These organizations report having substantial implementation challenges, in terms of lacking basic resources (i.e., staff, funding, time), lacking evaluation expertise, and they report having little support for evaluation from funders, the board, management, and staff. We conclude by exploring the implications of these findings.}
-      \field{day}{1}
+      \field{abstract}{In this article, we explore the evaluation capacity of today's nonprofit organizations. We report the findings of a cluster analysis that suggest that when it comes to evaluation, there are three types of nonprofit organizations. The first type of nonprofit organization is one that, by most accounts, is satisfied with their evaluation efforts. Although these organizations report that they struggle with not having as much time as they would like to devote to evaluation, they are fairly satisfied with their levels of evaluation expertise and report having few problems with the implementation of evaluation systems. The second type of organization has some struggles with evaluation. These organizations report having internal support for evaluation from management, the board and staff, and some capacity to implement an evaluation system, yet they struggle with evaluation design issues, data collection, and resources for evaluation. The third type of organization is one that is struggling across the board. These organizations report having substantial implementation challenges, in terms of lacking basic resources (i.e., staff, funding, time), lacking evaluation expertise, and they report having little support for evaluation from funders, the board, management, and staff. We conclude by exploring the implications of these findings.}
       \field{issn}{1098-2140}
       \field{journaltitle}{American Journal of Evaluation}
-      \field{langid}{english}
       \field{month}{3}
       \field{note}{00107}
       \field{number}{1}
-      \field{shortjournal}{American Journal of Evaluation}
       \field{shorttitle}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}}
       \field{title}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}: {{Is}} the {{Glass Half}}-{{Empty}} or {{Half}}-{{Full}}?}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{31}
       \field{year}{2010}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{84\bibrangedash 104}
       \range{pages}{21}
       \verb{doi}
       \verb 10.1177/1098214009352361
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1098214009352361
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1098214009352361
       \endverb
     \endentry
     \entry{ClarkeSimpleTechnologyComplex1996}{article}{}
@@ -147,7 +127,7 @@
       \field{sortinit}{C}
       \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
@@ -158,21 +138,10 @@
       \field{number}{4}
       \field{shorttitle}{From {{Simple Technology}} to {{Complex Arena}}}
       \field{title}{From {{Simple Technology}} to {{Complex Arena}}: {{Classification}} of {{Pap Smears}}, 1917-90}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{10}
       \field{year}{1996}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{601\bibrangedash 623}
       \range{pages}{23}
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/648664
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/648664
-      \endverb
     \endentry
     \entry{DurkheimElementaryFormsReligious2012}{book}{}
       \name{author}{1}{}{%
@@ -182,6 +151,9 @@
            given={Émile},
            giveni={É\bibinitperiod},
            givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
       }
       \list{publisher}{1}{%
         {Courier Corporation}%
@@ -195,19 +167,164 @@
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this 1912 classic, a founder of modern sociology seeks the enduring source of human social identity. Émile Durkheim presents a remarkably accessible examination of animism, naturism, totemism, myth, and ritual. His intriguing views and ultimate conclusion—that the source of religion and morality lies in collective consciousness, rather than in individual minds—remains a topic of debate among sociologists, anthropologists, ethnographers, philosophers, and theologians.Durkheim edited L'Année Sociologique, the first journal of sociology, and was instrumental in establishing the field as a social science. With The Elementary Forms of the Religious Life, he explores totemism among Australia's Aborigines, offering the opportunity "to yield an understanding of the religious nature of man, by showing us an essential and permanent aspect of humanity." Durkheim's study focuses on the need and capacity of humans to relate to one another socially, with religion as the core of the moral universe. An excellent introduction to the influential sociologist's ideas, this book continues to speak to new generations about the intriguing origin and nature of religion and society.}
-      \field{day}{7}
+      \field{abstract}{In this 1912 classic, a founder of modern sociology seeks the enduring source of human social identity. Émile Durkheim presents a remarkably accessible examination of animism, naturism, totemism, myth, and ritual. His intriguing views and ultimate conclusion—{}that the source of religion and morality lies in collective consciousness, rather than in individual minds—{}remains a topic of debate among sociologists, anthropologists, ethnographers, philosophers, and theologians.Durkheim edited L'Année Sociologique, the first journal of sociology, and was instrumental in establishing the field as a social science. With The Elementary Forms of the Religious Life, he explores totemism among Australia's Aborigines, offering the opportunity "to yield an understanding of the religious nature of man, by showing us an essential and permanent aspect of humanity." Durkheim's study focuses on the need and capacity of humans to relate to one another socially, with religion as the core of the moral universe. An excellent introduction to the influential sociologist's ideas, this book continues to speak to new generations about the intriguing origin and nature of religion and society.}
       \field{isbn}{978-0-486-12044-7}
-      \field{langid}{english}
       \field{month}{6}
-      \field{pagetotal}{482}
       \field{title}{The {{Elementary Forms}} of the {{Religious Life}}}
       \field{year}{2012}
-      \field{dateera}{ce}
+    \endentry
+    \entry{FyallNTEECodesOpportunities2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=77442818eae2f93280aea631ef5405b7}{%
+           family={Fyall},
+           familyi={F\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d6605dbc1e5bc9e75d60c0cb68f7e83e}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Kathleen},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=99245a6eb818f170cb5559b00dc5fd61}{%
+           family={Gugerty},
+           familyi={G\bibinitperiod},
+           given={Mary\bibnamedelima Kay},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e494c24442deb22311d082625f14828e}
+      \strng{fullhash}{05dfaa733f6b5c5711b0ad30d21cbb5c}
+      \strng{bibnamehash}{05dfaa733f6b5c5711b0ad30d21cbb5c}
+      \strng{authorbibnamehash}{05dfaa733f6b5c5711b0ad30d21cbb5c}
+      \strng{authornamehash}{e494c24442deb22311d082625f14828e}
+      \strng{authorfullhash}{05dfaa733f6b5c5711b0ad30d21cbb5c}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{There are profound differences within the nonprofit sector, and research benefits from the ability to group nonprofits by substantive focus. Researchers typically rely on the National Taxonomy of Exempt Entities (NTEE) codes to categorize nonprofits, but we argue that mission statement text offers a better information source for nonprofit researchers to create categories of organizations. Harnessing advances in data availability and machine-reading technology, this article introduces a new method whereby mission statement analysis drives research and analysis of ``like'' organizations. Using an automated dictionary method to analyze mission statements, we draw a sample of housing and shelter nonprofits in Washington State. Compared with the corresponding sample based on NTEE classification, our results find roughly double the number of housing and shelter nonprofits based on their mission statements. Our method also proves more accurate than NTEE codes when applied to a sub-sample of nonprofits known to provide shelter for the homeless.}
+      \field{issn}{0899-7640, 1552-7395}
+      \field{journaltitle}{Nonprofit and Voluntary Sector Quarterly}
+      \field{month}{8}
+      \field{note}{00000}
+      \field{number}{4}
+      \field{shorttitle}{Beyond {{NTEE Codes}}}
+      \field{title}{Beyond {{NTEE Codes}}: {{Opportunities}} to {{Understand Nonprofit Activity Through Mission Statement Content Coding}}}
+      \field{volume}{47}
+      \field{year}{2018}
+      \field{pages}{677\bibrangedash 701}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1177/0899764018768019
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
+      \endverb
+    \endentry
+    \entry{GrimmerTextDataPromise2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=81e3df64dcc8ffabf2106dfc23b934e0}{%
+           family={Grimmer},
+           familyi={G\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e78e606c2fa81b1917fd46933f49b33e}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{769383059478f27093d38aeaf6478c25}
+      \strng{fullhash}{769383059478f27093d38aeaf6478c25}
+      \strng{bibnamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authorbibnamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authornamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authorfullhash}{769383059478f27093d38aeaf6478c25}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Politics and political conflict often occur in the written and spoken word. Scholars have long recognized this, but the massive costs of analyzing even moderately sized collections of texts have hindered their use in political science research. Here lies the promise of automated text analysis: it substantially reduces the costs of analyzing large collections of text. We provide a guide to this exciting new area of research and show how, in many instances, the methods have already obtained part of their promise. But there are pitfalls to using automated methods—{}they are no substitute for careful thought and close reading and require extensive and problem-specific validation. We survey a wide range of new methods, provide guidance on how to validate the output of the models, and clarify misconceptions and errors in the literature. To conclude, we argue that for automated text methods to become a standard tool for political scientists, methodologists must contribute new methods and new methods of validation.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{number}{3}
+      \field{shorttitle}{Text as {{Data}}}
+      \field{title}{Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{267\bibrangedash 297}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1093/pan/mps028
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
+      \endverb
+    \endentry
+    \entry{GronbjergUsingNTEEclassify1994}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ef84b7745ceac0f99f23ce5b24d89529}{%
+           family={Grønbjerg},
+           familyi={G\bibinitperiod},
+           given={Kirsten\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \strng{fullhash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \strng{bibnamehash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \strng{authorbibnamehash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \strng{authornamehash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \strng{authorfullhash}{ef84b7745ceac0f99f23ce5b24d89529}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The National Taxonomy of Exempt Entities (NTEE) constitutes a major contribution to the field of non-profit research, but is beset by conceptual and practical problems. The application of the taxonomy to the list of charitable organisations recognised by the US Internal Revenue Service (IRS) is also an important resource for research, although it has limitations as well, especially for industry-specific and regional analyses. Using survey data from the Chicago metropolitan region, I show that regional estimates for human services based on only those charitable organisations which are required to file tax returns may miss over 40 per cent of the total number of organisations and under-estimate total revenues by almost half. Finally, I point to conceptual, technical and institutional challenges that must be addressed if the NTEE is to gain maximum utility.}
+      \field{issn}{1573-7888}
+      \field{journaltitle}{Voluntas}
+      \field{month}{10}
+      \field{note}{00055}
+      \field{number}{3}
+      \field{shorttitle}{Using {{NTEE}} to Classify Non-Profit Organisations}
+      \field{title}{Using {{NTEE}} to Classify Non-Profit Organisations: An Assessment of Human Service and Regional Applications}
+      \field{volume}{5}
+      \field{year}{1994}
+      \field{pages}{301\bibrangedash 328}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/BF02354038
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
+      \endverb
+      \keyw{Human Service,Important Resource,Maximum Utility,Practical Problem,Regional Analysis}
     \endentry
     \entry{HallHistoricalOverviewPhilanthropy2006}{incollection}{}
       \name{author}{1}{}{%
@@ -245,20 +362,19 @@
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Nonprofit Sector: {{A}} Research Handbook}
       \field{isbn}{0-300-10903-2}
       \field{note}{00000}
-      \field{title}{A {{Historical Overview}} of {{Philanthropy}}, {{Voluntary Associations}}, and {{Nonprofit Organizations}} in the {{United States}}, 1600–2000}
+      \field{title}{A {{Historical Overview}} of {{Philanthropy}}, {{Voluntary Associations}}, and {{Nonprofit Organizations}} in the {{United States}}, 1600–{}2000}
       \field{year}{2006}
-      \field{dateera}{ce}
       \field{pages}{32\bibrangedash 65}
       \range{pages}{34}
       \verb{file}
-      \verb \\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
       \endverb
       \keyw{family philan. obligation,history}
     \endentry
@@ -271,6 +387,9 @@
            giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{60a1755a0250098cc7485e198d25079b}
       \strng{fullhash}{60a1755a0250098cc7485e198d25079b}
       \strng{bibnamehash}{60a1755a0250098cc7485e198d25079b}
@@ -280,40 +399,26 @@
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The need for a national typology of the US non-profit sector has long been recognised. A typology which could better define and describe the variety and diversity of non-profit organisations by type or major function will serve numerous research and public policy uses. This article describes the essential elements of the National Taxonomy of Exempt Entities (NTEE), developed over almost a decade after extensive consultation with agencies in the non-profit sector and the United States government. The article reports an initial analysis of the classification of nearly one million non-profit organisations in the US, and comparisons are made with earlier estimates inDimensions of the Independent Sector. Based on these findings, changes are proposed to this biennial statistical profile of the US non-profit sector. The importance of developing national typologies of non-profit organisations is discussed as a basis for comparative international research.}
-      \field{day}{1}
       \field{issn}{0957-8765, 1573-7888}
-      \field{journaltitle}{Voluntas: International Journal of Voluntary and Nonprofit Organizations}
-      \field{langid}{english}
+      \field{journaltitle}{Voluntas}
       \field{month}{11}
       \field{note}{00043}
       \field{number}{2}
-      \field{shortjournal}{Voluntas}
       \field{shorttitle}{Mapping the Non-Profit Sector in the {{United States}}}
       \field{title}{Mapping the Non-Profit Sector in the {{United States}}: Implications for Research}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1990}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{6\bibrangedash 32}
       \range{pages}{27}
       \verb{doi}
       \verb 10.1007/BF01397436
       \endverb
       \verb{file}
-      \verb \\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/article/10.1007/BF01397436
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/article/10.1007/BF01397436
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
       \endverb
     \endentry
     \entry{Hodgkinsonnewresearchplanning1991}{article}{}
@@ -331,6 +436,9 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{aace7b5cac17e7bbd66580d58ae3f4aa}
       \strng{fullhash}{aace7b5cac17e7bbd66580d58ae3f4aa}
       \strng{bibnamehash}{aace7b5cac17e7bbd66580d58ae3f4aa}
@@ -340,36 +448,112 @@
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{10486682, 15427854}
       \field{journaltitle}{Nonprofit Management and Leadership}
-      \field{langid}{english}
       \field{note}{00028}
       \field{number}{4}
       \field{shorttitle}{A New Research and Planning Tool for Managers}
       \field{title}{A New Research and Planning Tool for Managers: {{The}} National Taxonomy of Exempt Entities}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1991}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{403\bibrangedash 414}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1002/nml.4130010410
       \endverb
       \verb{file}
-      \verb \\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
       \endverb
-      \verb{urlraw}
-      \verb http://doi.wiley.com/10.1002/nml.4130010410
+    \endentry
+    \entry{LampkinIntroducingNonprofitProgram2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d336dd9e2b4cdbad24ae38401d3086f6}{%
+           family={Lampkin},
+           familyi={L\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a0f6b2c02a1d9376ed5432902f729adc}{%
+           family={Romeo},
+           familyi={R\bibinitperiod},
+           given={Sheryl},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ba6e47fe6f603a067baf48240efe7e9}{%
+           family={Finnin},
+           familyi={F\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{06c264f2d76fb814a34fe3b175b979b0}
+      \strng{fullhash}{629b432478c86e7d53c480ea5372c031}
+      \strng{bibnamehash}{629b432478c86e7d53c480ea5372c031}
+      \strng{authorbibnamehash}{629b432478c86e7d53c480ea5372c031}
+      \strng{authornamehash}{06c264f2d76fb814a34fe3b175b979b0}
+      \strng{authorfullhash}{629b432478c86e7d53c480ea5372c031}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The National Center for Charitable Statistics at the Urban Institute has developed a system to classify the programs, services, and activities of public charities, called the Nonprofit Program Classification (NPC) System. Designed to serve a wide range of potential users, the system has been used to code the activities of each organization, as reported in Part III—{}Program Service Accomplishments of its Form 990. Currently, codes from the National Taxonomy of Exempt Entities (NTEE) system are used to classify nonprofit organizations according to their organizational purpose. Frequently, however, the questions that are asked by researchers, nonprofit organizations, and the public are focused on what an organization does rather than the type of organization. This article describes the development of the system and its strengths and limitations. Using both the NPC and NTEE systems, researchers will be able to develop a more complete portrait of nonprofit organizations and their activities., The National Center for Charitable Statistics at the Urban Institute has developed a system to classify the programs, services, and activities of public charities, called the Nonprofit Program Classification (NPC) System. Designed to serve a wide range of potential users, the system has been used to code the activities of each organization, as reported in Part III—{}Program Service Accomplishments of its Form 990. Currently, codes from the National Taxonomy of Exempt Entities (NTEE) system are used to classify nonprofit organizations according to their organizational purpose. Frequently, however, the questions that are asked by researchers, nonprofit organizations, and the public are focused on what an organization does rather than the type of organization. This article describes the development of the system and its strengths and limitations. Using both the NPC and NTEE systems, researchers will be able to develop a more complete portrait of nonprofit organizations and their activities.}
+      \field{issn}{0899-7640}
+      \field{journaltitle}{Nonprofit and Voluntary Sector Quarterly}
+      \field{month}{12}
+      \field{note}{00022}
+      \field{number}{4}
+      \field{shorttitle}{Introducing the {{Nonprofit Program Classification System}}}
+      \field{title}{Introducing the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for , {{Introducing}} the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for}
+      \field{volume}{30}
+      \field{year}{2001}
+      \field{pages}{781\bibrangedash 793}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1177/0899764001304009
       \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1002/nml.4130010410
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \endverb
+    \endentry
+    \entry{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=488312576310333811816df47c30dca3}{%
+           family={{National Center for Charitable Statistics}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Urban Institute}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \strng{namehash}{488312576310333811816df47c30dca3}
+      \strng{fullhash}{488312576310333811816df47c30dca3}
+      \strng{bibnamehash}{488312576310333811816df47c30dca3}
+      \strng{authorbibnamehash}{488312576310333811816df47c30dca3}
+      \strng{authornamehash}{488312576310333811816df47c30dca3}
+      \strng{authorfullhash}{488312576310333811816df47c30dca3}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guide to {{Using NCCS Data}}}
+      \field{type}{techreport}
+      \field{year}{2006}
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
       \endverb
     \endentry
     \entry{OktenDeterminantsdonationsprivate2000a}{article}{}
@@ -396,39 +580,26 @@
       \field{sortinit}{O}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We estimate the responsiveness of donations to a number of economic variables, including price, advertising, and the availability of revenue from such other sources as government grants and program service sales. Utilizing a set of IRS data on individual nonprofit organizations in each of seven industries — including hospitals and higher education — for the years 1982–1994, we find distinct overall patterns as well as notable variation across industries. A nonprofit organization’s fundraising expenditures are estimated to exert two countervailing effects on donations — the direct, advertising and information, effect augments donations, while the indirect effect, on the ‘price’ of donating, has a negative effect. We do not find evidence that fundraising is carried to the profit-maximizing levels. In some industries fundraising is substantially short of that level, while in other industries it is excessive, implying that the marginal return to fundraising is exceeded by the cost. Focusing on whether revenue from other sources affects donations to a nonprofit organization, we find evidence that revenue from either government grants or from the organization’s own program sales activity generally does not crowd-out private donations. To the contrary, in most industries there are significant positive effects.}
-      \field{day}{1}
+      \field{abstract}{We estimate the responsiveness of donations to a number of economic variables, including price, advertising, and the availability of revenue from such other sources as government grants and program service sales. Utilizing a set of IRS data on individual nonprofit organizations in each of seven industries —{} including hospitals and higher education —{} for the years 1982–{}1994, we find distinct overall patterns as well as notable variation across industries. A nonprofit organization's fundraising expenditures are estimated to exert two countervailing effects on donations —{} the direct, advertising and information, effect augments donations, while the indirect effect, on the `price' of donating, has a negative effect. We do not find evidence that fundraising is carried to the profit-maximizing levels. In some industries fundraising is substantially short of that level, while in other industries it is excessive, implying that the marginal return to fundraising is exceeded by the cost. Focusing on whether revenue from other sources affects donations to a nonprofit organization, we find evidence that revenue from either government grants or from the organization's own program sales activity generally does not crowd-out private donations. To the contrary, in most industries there are significant positive effects.}
       \field{issn}{0047-2727}
       \field{journaltitle}{Journal of Public Economics}
       \field{month}{2}
       \field{note}{00466}
       \field{number}{2}
-      \field{shortjournal}{Journal of Public Economics}
       \field{title}{Determinants of Donations in Private Nonprofit Markets}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{75}
       \field{year}{2000}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{255\bibrangedash 272}
       \range{pages}{18}
       \verb{doi}
       \verb 10.1016/S0047-2727(99)00066-3
       \endverb
       \verb{file}
-      \verb \\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;\\storage\\665GBTQS\\S0047272799000663.html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
       \endverb
       \keyw{Crowd-out,Donations,Fundraising}
     \endentry
@@ -465,6 +636,9 @@
            given={Lisa\bibnamedelima A.},
            giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {English}%
+      }
       \list{location}{1}{%
         {Boulder, CO}%
       }
@@ -483,21 +657,18 @@
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Edited by two leading nonprofit organizations scholars, The Nature of the Nonprofit Sector features classic and current readings on the nature, place and role of the nonprofit sector.}
       \field{booktitle}{The {{Nature}} of the {{Nonprofit Sector}}}
-      \field{day}{28}
       \field{edition}{Third edition}
       \field{isbn}{978-0-8133-4960-2}
-      \field{langid}{english}
       \field{month}{7}
       \field{note}{00204}
       \field{title}{The {{Nonprofit Sector}} and {{Its Place}} in the {{National Economy}}}
       \field{year}{2015}
-      \field{dateera}{ce}
       \field{pages}{22\bibrangedash 37}
       \range{pages}{16}
     \endentry
@@ -516,6 +687,9 @@
            giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \strng{namehash}{ab24955b16a01c13da0774ba5a36a0fa}
       \strng{fullhash}{ab24955b16a01c13da0774ba5a36a0fa}
       \strng{bibnamehash}{ab24955b16a01c13da0774ba5a36a0fa}
@@ -525,40 +699,26 @@
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Building on a previousVoluntas article (Salamon and Anheier, 1992b), which formulated a systematic approach to defining the non-profit sector for purposes of comparative research, this article takes on the complementary task of formulating a classification system that can be used to differentiate systematically the types of non-profit organisations that exist at the global level. To do so, the article first assesses a number of existing classification systems, such as the International Standard Industrial Classification and the National Taxonomy of Exempt Entities. Finding these systems inadequate, the article then introduces an alternative system, which we term the International Classification of Nonprofit Organizations (ICNPO). The ICNPO classifies non-profit establishments into 12 major groups based on their primary economic activity, and then further sub-divides these into 24 sub-groups. The result is a system that scores high in terms of five key evaluation criteria: economy, significance, rigour, organising power, and richness. What is more, initial tests of the ICNPO in a set of countries show that it performs well in coming to terms with the diverse types of non-profit institutions that exist around the world.}
-      \field{day}{1}
       \field{issn}{1573-7888}
-      \field{journaltitle}{Voluntas: International Journal of Voluntary and Nonprofit Organizations}
-      \field{langid}{english}
+      \field{journaltitle}{Voluntas}
       \field{month}{12}
       \field{note}{00332}
       \field{number}{3}
-      \field{shortjournal}{Voluntas}
       \field{shorttitle}{In Search of the Non-Profit Sector {{II}}}
       \field{title}{In Search of the Non-Profit Sector {{II}}: {{The}} Problem of Classification}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{3}
       \field{year}{1992}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 309}
       \range{pages}{43}
       \verb{doi}
       \verb 10.1007/BF01397460
       \endverb
       \verb{file}
-      \verb \\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF01397460
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF01397460
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
       \endverb
       \keyw{Classification System,Global Level,Initial Test,International Classification,Major Group}
     \endentry
@@ -580,6 +740,9 @@
            family={{coaut}},
            familyi={c\bibinitperiod}}}%
       }
+      \list{language}{1}{%
+        {en}%
+      }
       \list{location}{1}{%
         {Baltimore, Md}%
       }
@@ -595,17 +758,58 @@
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-886333-23-9}
-      \field{langid}{english}
       \field{note}{00230 OCLC: 760476834}
       \field{title}{The International Classification of Nonprofit Organizations {{ICNPO}}-{{Revision}} 1, 1996}
       \field{year}{1996}
-      \field{dateera}{ce}
       \verb{file}
-      \verb \\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \endverb
+    \endentry
+    \entry{SloanEffectsNonprofitAccountability2009}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c8de506cece29fd9ac86e00b20bdada7}{%
+           family={Sloan},
+           familyi={S\bibinitperiod},
+           given={Margaret\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{fullhash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{bibnamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authorbibnamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authornamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authorfullhash}{c8de506cece29fd9ac86e00b20bdada7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although accountability systems are established to ensure organizational adherence to financial and ethical standards for nonprofit organizations, the reality of whether such standards make a difference to donors has not been measured. This article discusses the current landscape of accountability systems and accountability ratings and describes a model for estimating the effect of ratings systems on donor behavior within the theoretical context of information asymmetry. Hypotheses are tested with nonprofit ratings for New York charities from the Better Business Bureau's Wise Giving Alliance to estimate the effect of accountability ratings on the amount of contributions an organization receives. Results indicate that the Wise Giving Alliance ``pass'' ratings have a statistically significant effect on the contributions received; however, ``did not pass'' ratings are nonsignificant. The study is important for academics as well as practitioners who are monitoring time and money spent on accountability issues.}
+      \field{issn}{0899-7640}
+      \field{journaltitle}{Nonprofit and Voluntary Sector Quarterly}
+      \field{month}{4}
+      \field{note}{00136}
+      \field{number}{2}
+      \field{title}{The {{Effects}} of {{Nonprofit Accountability Ratings}} on {{Donor Behavior}}}
+      \field{volume}{38}
+      \field{year}{2009}
+      \field{pages}{220\bibrangedash 236}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1177/0899764008316470
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
       \endverb
     \endentry
     \entry{VakilConfrontingclassificationproblem1997}{article}{}
@@ -626,40 +830,27 @@
       \field{sortinit}{V}
       \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Lack of consensus on how to define and classify nongovernmental organizations (NGOs) has inhibited progress on both the theoretical and empirical fronts in the effort to better understand and facilitate the functioning of the NGO sector. This paper first reviews alternative definitions of NGOs and proposes some causes of the classification problem. The paper then outlines past efforts to classify NGOs and, based on this, presents a classification framework that focuses on two types of descriptors: essential and contingent. In concluding, implications of the proposed scheme for research and practice are discussed.}
-      \field{day}{1}
       \field{issn}{0305-750X}
       \field{journaltitle}{World Development}
       \field{month}{12}
       \field{note}{00559}
       \field{number}{12}
-      \field{shortjournal}{World Development}
       \field{shorttitle}{Confronting the Classification Problem}
       \field{title}{Confronting the Classification Problem: {{Toward}} a Taxonomy of {{NGOs}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{25}
       \field{year}{1997}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
       \field{pages}{2057\bibrangedash 2070}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/S0305-750X(97)00098-3
       \endverb
       \verb{file}
-      \verb \\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
       \endverb
     \endentry
   \enddatalist

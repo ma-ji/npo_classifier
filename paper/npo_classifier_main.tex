@@ -30,14 +30,15 @@
 \usepackage{mfirstuc}
 \usepackage{multirow}
 \usepackage{threeparttable}
+\usepackage{color,soul}
 
 \renewcommand{\baselinestretch}{1.5}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-\bibliography{C:/Users/Ji/Zotero/zotero.bib}
+\bibliography{../../lib_dataset/My Library.bib}
 \setcounter{tocdepth}{2}
 
 
-\title{\textbf{\capitalisewords{An international nonprofit classification system: A machine-learning approach experimented on China, United Kingdom, and United States}}}
+\title{\textbf{\capitalisewords{A supervised machine-learning approach to multidimensional nonprofit classification system: Experimentation, validation, and replication}}}
 % \author{%
 % \textsc{John Smith}\thanks{A thank you or further information} \\[1ex] % Your name
 % \normalsize University of California \\ % Your institution
@@ -57,11 +58,13 @@
 
 \section{Introduction}
 
-Although the voluntary and philanthropic organizations have long been existent for numerous centuries, the so-called ``nonprofit sector'' was only coined in the 1970s by scholars, policy makers, and nonprofit practitioners \parencite{HallHistoricalOverviewPhilanthropy2006}. A major reason for assembling the diverse organizations as a conceptual whole is to legitimize the existence of these organizations and the benefits these organizations receive \parencite{HallHistoricalOverviewPhilanthropy2006,BarmanClassificatoryStrugglesNonprofit2013a}. From Durkheim's \citeyear{DurkheimElementaryFormsReligious2012} perspective, the order and structure of a society can be reflected by a classification system. The National Taxonomy of Exempt Entities (NTEE) developed by the National Center for Charitable Statistics (NCCS), the most widely used classification system, is one of the efforts legitimizing the existence of nonprofit sector \parencite{Hodgkinsonnewresearchplanning1991,HodgkinsonMappingnonprofitsector1990}. As \textcite[105]{BarmanClassificatoryStrugglesNonprofit2013a} cite \textcite[601]{ClarkeSimpleTechnologyComplex1996}: ``The ways in which different entities (people, animals, plants, diseases, etc.) are organized into classificatory groups reveal something of the social, cultural, symbolic, and political contexts within which classifications occur.''
+Although the voluntary and philanthropic organizations have long been existent for numerous centuries, the so-called ``nonprofit sector'' was only coined in the 1970s by scholars, policy makers, and nonprofit practitioners \parencite{HallHistoricalOverviewPhilanthropy2006}. A major reason for assembling the diverse organizations as a conceptual whole is to legitimize the existence of these organizations and the benefits these organizations receive \parencite{HallHistoricalOverviewPhilanthropy2006,BarmanClassificatoryStrugglesNonprofit2013}. From Durkheim's \citeyear{DurkheimElementaryFormsReligious2012} perspective, the order and structure of a society can be reflected by a classification system. The National Taxonomy of Exempt Entities (NTEE) developed by the National Center for Charitable Statistics (NCCS), the most widely used classification system, is one of the efforts legitimizing the existence of nonprofit sector \parencite{Hodgkinsonnewresearchplanning1991,HodgkinsonMappingnonprofitsector1990}. As \textcite[105]{BarmanClassificatoryStrugglesNonprofit2013} cite \textcite[601]{ClarkeSimpleTechnologyComplex1996}: ``The ways in which different entities (people, animals, plants, diseases, etc.) are organized into classificatory groups reveal something of the social, cultural, symbolic, and political contexts within which classifications occur.''
 
-Specifically, a classification system like NTEE has been used for many practical and academic purposes. For example, it provides a framework on which the social and economic activities of nonprofits can be mapped and compared with other types of organizations in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. Scholars also use NTEE codes for sampling purposes \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000a,CarmanEvaluationCapacityNonprofit2010}. The invention of an international classification system, although challenging, can be the cornerstone for studying ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996}.
+Specifically, a classification system like NTEE has been used for many practical and academic purposes. For example, it provides a framework on which the social and economic activities of nonprofits can be mapped and compared with other types of organizations in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. Scholars also use NTEE codes for sampling purposes \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000a,CarmanEvaluationCapacityNonprofit2010} or as independent variables \parencite{SloanEffectsNonprofitAccountability2009}. The invention of an international classification system, although challenging, can be the cornerstone for studying ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996}.
 
-\subsection{Classification Efforts: the United States, United Kingdom, and People's Republic of China}
+The NTEE classification system, although the best we have, still has several major drawbacks. First, because it only assign one major category code to an organization, it cannot accurately describe a nonprofit organization's programs which are usually diverse and across several domains \parencite[303]{GronbjergUsingNTEEclassify1994}. Although another classification system assigning purpose codes to programs was developed \parencite{LampkinIntroducingNonprofitProgram2001}, it is not widely used \hl{(why?)}. Second, the assignment of NTEE codes is not complete because it is ``based on an assessment of program descriptions contained in Parts 3 and 8 of the Form 990'' and ``program descriptions were only available for some organizations'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. A recent study found the number of organizations in Washington State with a specific NTEE code could be significantly increased if the mission statements were used for coding \parencite{FyallNTEECodesOpportunities2018}. Third, NTEE codes are static but nonprofit organizations' activities may change over time. Recoding existent NTEE assignments is laborious and almost impossible for human.
+
+By using supervised machine-learning techniques, this study advanced the NTEE classification system from the following perspective: 1) A series of datasets for training models was developed, 2) the accuracy and efficiency of popular text-classification algorithms were compared, 3) existent empirical studies were replicated to test the validity of our machine-learning approach. According to the results of experimentation, validation, and replication, the combination of \hl{\textit{ABC} algorithm} and trained datasets produced the best results.
 
 \section{Method}
 \subsection{Datasets}
@@ -71,9 +74,11 @@ Specifically, a classification system like NTEE has been used for many practical
 \section{Results}
 \subsection{Validity of algorithms}
 
-\subsection{Applying the International Nonprofit Classification System: Descriptive analysis of three countries}
+Use \textit{confusion matrix} see \textcite[279]{GrimmerTextDataPromise2013}.
 
-\subsection{Applying the International Nonprofit Classification System: Replication studies}
+\subsection{Applying the International Nonprofit Classification System: Descriptive analysis}
+
+\subsection{Applying the International Nonprofit Classification System: Replication of empirical studies}
 
 
 \printbibliography

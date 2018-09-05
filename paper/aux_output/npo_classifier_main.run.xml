@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>npo_classifier_main.bcf</file>
@@ -83,7 +83,7 @@
       <file>npo_classifier_main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>C:/Users/Ji/Zotero/zotero.bib</file>
+      <file>../../lib_dataset/My Library.bib</file>
     </requires>
   </external>
 </requests>

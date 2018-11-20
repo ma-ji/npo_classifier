@@ -177,6 +177,53 @@
       \field{title}{The {{Elementary Forms}} of the {{Religious Life}}}
       \field{year}{2012}
     \endentry
+    \entry{Erceg-HurnModernrobuststatistical2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e778c7f02eabf784a5c7271640d9aa2a}{%
+           family={{Erceg-Hurn}},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=52b862a401d3d5ba5f6f80da46df92ce}{%
+           family={Mirosevich},
+           familyi={M\bibinitperiod},
+           given={Vikki\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{fullhash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{bibnamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authorbibnamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authornamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authorfullhash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Classic parametric statistical significance tests, such as analysis of variance and least squares regression, are widely used by researchers in many disciplines, including psychology. For classic parametric tests to produce accurate results, the assumptions underlying them (e.g., normality and homoscedasticity) must be satisfied. These assumptions are rarely met when analyzing real data. The use of classic parametric methods with violated assumptions can result in the inaccurate computation of p values, effect sizes, and confidence intervals. This may lead to substantive errors in the interpretation of data. Many modern robust statistical methods alleviate the problems inherent in using parametric methods with violated assumptions, yet modern methods are rarely used by researchers. The authors examine why this is the case, arguing that most researchers are unaware of the serious limitations of classic methods and are unfamiliar with modern alternatives. A range of modern robust and rank-based significance tests suitable for analyzing a wide range of designs is introduced. Practical advice on conducting modern analyses using software such as SPSS, SAS, and R is provided. The authors conclude by discussing robust effect size indices. (PsycINFO Database Record (c) 2016 APA, all rights reserved)}
+      \field{issn}{1935-990X(Electronic),0003-066X(Print)}
+      \field{journaltitle}{American Psychologist}
+      \field{note}{00650}
+      \field{number}{7}
+      \field{shorttitle}{Modern Robust Statistical Methods}
+      \field{title}{Modern Robust Statistical Methods: {{An}} Easy Way to Maximize the Accuracy and Power of Your Research}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{pages}{591\bibrangedash 601}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/0003-066X.63.7.591
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\QKZMUAZT\\Erceg-Hurn and Mirosevich - 2008 - Modern robust statistical methods An easy way to .pdf
+      \endverb
+      \keyw{Statistics,Statistical Analysis,Effect Size (Statistical),Statistical Significance}
+    \endentry
     \entry{FyallNTEECodesOpportunities2018}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=77442818eae2f93280aea631ef5405b7}{%
@@ -267,6 +314,7 @@
       \field{abstract}{Politics and political conflict often occur in the written and spoken word. Scholars have long recognized this, but the massive costs of analyzing even moderately sized collections of texts have hindered their use in political science research. Here lies the promise of automated text analysis: it substantially reduces the costs of analyzing large collections of text. We provide a guide to this exciting new area of research and show how, in many instances, the methods have already obtained part of their promise. But there are pitfalls to using automated methods—{}they are no substitute for careful thought and close reading and require extensive and problem-specific validation. We survey a wide range of new methods, provide guidance on how to validate the output of the models, and clarify misconceptions and errors in the literature. To conclude, we argue that for automated text methods to become a standard tool for political scientists, methodologists must contribute new methods and new methods of validation.}
       \field{issn}{1047-1987, 1476-4989}
       \field{journaltitle}{Political Analysis}
+      \field{note}{01025}
       \field{number}{3}
       \field{shorttitle}{Text as {{Data}}}
       \field{title}{Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
@@ -549,6 +597,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{00004}
       \field{title}{Guide to {{Using NCCS Data}}}
       \field{type}{techreport}
       \field{year}{2006}
@@ -556,7 +605,7 @@
       \verb C:\\Users\\jm92629\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
       \endverb
     \endentry
-    \entry{OktenDeterminantsdonationsprivate2000a}{article}{}
+    \entry{OktenDeterminantsdonationsprivate2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=68c209b127c0cf4234fe221ee7a5acfe}{%
            family={Okten},
@@ -588,7 +637,7 @@
       \field{issn}{0047-2727}
       \field{journaltitle}{Journal of Public Economics}
       \field{month}{2}
-      \field{note}{00466}
+      \field{note}{00436}
       \field{number}{2}
       \field{title}{Determinants of Donations in Private Nonprofit Markets}
       \field{volume}{75}
@@ -599,9 +648,9 @@
       \verb 10.1016/S0047-2727(99)00066-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
       \endverb
-      \keyw{Crowd-out,Donations,Fundraising}
+      \keyw{Crowd-out,Donations,fundraising,Fundraising}
     \endentry
     \entry{RoegerNonprofitSectorIts2015}{incollection}{}
       \name{author}{3}{}{%

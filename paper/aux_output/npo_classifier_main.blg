@@ -1,20 +1,24 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
-[28] biber-MSWIN64:313> INFO - === 
-[61] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
-[142] Biber.pm:857> INFO - Found 18 citekeys in bib section 0
-[159] Biber.pm:3976> INFO - Processing section 0
-[173] Biber.pm:4136> INFO - Looking for bibtex format file '../../lib_dataset/My Library.bib' for section 0
+[24] biber-MSWIN64:313> INFO - === 
+[52] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
+[122] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
+[135] Biber.pm:3976> INFO - Processing section 0
+[146] Biber.pm:4136> INFO - Looking for bibtex format file '../../lib_dataset/My Library.bib' for section 0
 [404] bibtex.pm:1500> INFO - LaTeX decoding ...
-[5657] bibtex.pm:1316> INFO - Found BibTeX data source '../../lib_dataset/My Library.bib'
-[5774] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'PutnamBowlingalonecollapse2000' and 'PutnamBowlingAloneCollapse2000' in file '../../lib_dataset/My Library.bib'
-[5873] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'KaplanTransformingBalancedScorecard2001' and 'KaplanTransformingbalancedscorecard2001' in file '../../lib_dataset/My Library.bib'
-[5886] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'MaresearchinfrastructureChinese2017' and 'MaResearchInfrastructureChinese2017' in file '../../lib_dataset/My Library.bib'
-[5900] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'SkocpolCivicengagementAmerican1999' and 'SkocpolCivicEngagementAmerican1999' in file '../../lib_dataset/My Library.bib'
-[6022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[6022] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[6022] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[6022] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[6040] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
-[6053] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
-[6058] Biber.pm:110> INFO - WARNINGS: 4
+[6576] bibtex.pm:1316> INFO - Found BibTeX data source '../../lib_dataset/My Library.bib'
+[6786] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'KaplanTransformingBalancedScorecard2001' and 'KaplanTransformingbalancedscorecard2001' in file '../../lib_dataset/My Library.bib'
+[6799] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'MaresearchinfrastructureChinese2017' and 'MaResearchInfrastructureChinese2017' in file '../../lib_dataset/My Library.bib'
+[6813] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'SkocpolCivicengagementAmerican1999' and 'SkocpolCivicEngagementAmerican1999' in file '../../lib_dataset/My Library.bib'
+[6852] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'Hornecharitabledonorsknow2005' and 'HorneCharitableDonorsKnow2005' in file '../../lib_dataset/My Library.bib'
+[6862] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'ClaryFunctionalAnalysisAltruism1991' and 'Claryfunctionalanalysisaltruism1991' in file '../../lib_dataset/My Library.bib'
+[6871] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'SmallHelpingvictimhelping2003' and 'SmallHelpingVictimHelping2003' in file '../../lib_dataset/My Library.bib'
+[6883] Utils.pm:193> WARN - Possible typo (case mismatch) between datasource keys: 'PosnettDemandcharitydonations1989' and 'PosnettDemandCharityDonations1989' in file '../../lib_dataset/My Library.bib'
+[6976] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\jm92629\AppData\Local\Temp\WnHhfyPHz6\My Library.bib_18104.utf8, line 51538, warning: possible runaway string started at line 51526
+[7003] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[7004] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[7004] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[7004] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[7021] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[7034] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
+[7039] Biber.pm:110> INFO - WARNINGS: 8

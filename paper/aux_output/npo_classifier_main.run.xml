@@ -83,7 +83,7 @@
       <file>npo_classifier_main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>../../lib_dataset/My Library.bib</file>
+      <file>../reference/classification.bib</file>
     </requires>
   </external>
 </requests>

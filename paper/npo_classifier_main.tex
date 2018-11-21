@@ -103,18 +103,46 @@ This study uses three supervised machine-learning classification algorithms: Na\
 
 \subsubsection{Na\"ive Bayes Classification}
 
-Intro and mechanism.
+Na\"ive Bayes Classification is a machine learning algorithm that works on probabilistic approach. Given a set of features, this classifier predicts the class with the highest probability of the feature set. The algorithm is primarily built on Baye\'s theorem.
+
+$$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
+
+Baye\'s theorem gives probability of the occurrence of class A, while B is provided. B here is subset of all parameters. Baye\'s theorem assumes all parameters to be independent of each other, it simply follows principles of conditional probability.
+
+In the context of text classification: The classifier depends on bags of word representation, which consists of all important words for classification and their frequency. In training data set, each "text" is converted to bag of word, and given as an input along with it's "label" {need to define text and label to use it throughout the paper}. For testing purpose, the classifier is given a bag of words and asked to predict the label with the highest probability for given set.
 
 \subsubsection{Random Forest Classification}
 
-Intro and mechanism.
+Random forest classifier consists of a group of decision trees. Each decision tree is trained with unique subset of the training set. During the prediction, each forest predicts the class of the input on it's own and the final class predicted is derived from predictions of all decision trees.
 
 \subsubsection{Neural Network Classification}
 
 Intro and mechanism.
 
+\subsection{Measuring Algorithm Performance}
+
+The performance of a classification algorithm can be measured by {accuracy}, {precision}, and {recall}. The \textit{accuracy} measures the percentage of correctly classified organizations as showed in Eq. \ref{accuracy}, where $i$ is one of the three classification algorithms (i.e., NB, RF, and NN), $Org^{correct}$ is the number of organizations correctly classified by the algorithm $i$, and $Org^{total}$ is the total organizations to be classified. For example, $Accuracy^{RF}=0.6$ indicates that, when RF classifies an organization, the chance of getting right is 60\%.
+
+\begin{equation} \label{accuracy}
+    Accuracy^i=\frac{Org^{correct}}{Org^{total}}
+\end{equation}
+
+The \textit{precision} and \textit{recall} measures the performance of a classifier on a specific category. In Eq. \ref{precision}, $k$ is one of the NTEE codes, $Org^{correct}_{k}$ is the number of organizations correctly classified as $k$ by algorithm $i$, and ${Org^{i}_{k}}$ is the number of organizations classified as $k$ by algorithm $i$. $Org^{correct}_{k}$ will always be smaller than or equal to ${Org^{i}_{k}}$ because ML algorithms can hardly predict everything right. For example, $Precision^{NN}_{B}=0.75$ indicates that 75\% of all the organizations classified as ``education'' by the NN algorithm are correct.
+
+\begin{equation} \label{precision}
+    Precision^{i}_{k}=\frac{Org^{correct}_{k}}{Org^{i}_{k}}
+\end{equation}
+
+Given a human coder labels an organization as category \textit{k}, the \textit{recall} measures the chance the classifier \textit{i} also identifies the organization as \textit{k}. In Eq. \ref{recall}, $Org^{hum}_{k}$ is the number of organizations that has been classified as $k$ by human coders. For example, $Recall^{NN}_{B}=0.80$ denotes that 80\% of the organizations classified as ``education'' by human coders are correctly identified by the NN algorithm.
+
+\begin{equation} \label{recall}
+    Recall^{i}_{k}=\frac{Org^{correct}_{k}}{Org^{hum}_{k}}
+\end{equation}
+
+
 \section{Results}
 
+\subsection{Confusion Matrix}
 
 % \subsection{Applying the International Nonprofit Classification System: Descriptive analysis}
 % \subsection{Applying the International Nonprofit Classification System: Replication of empirical studies}

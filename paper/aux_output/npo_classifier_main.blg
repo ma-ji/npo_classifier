@@ -1,24 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
+[0] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
 [30] biber-MSWIN64:313> INFO - === 
-[65] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
-[144] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
-[158] Biber.pm:3976> INFO - Processing section 0
-[170] Biber.pm:4136> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
-[176] bibtex.pm:1500> INFO - LaTeX decoding ...
-[212] bibtex.pm:1316> INFO - Found BibTeX data source '../reference/classification.bib'
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'Erceg-HurnModernrobuststatistical2008' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'HallHistoricalOverviewPhilanthropy2006' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'DurkheimElementaryFormsReligious2012' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'RoegerNonprofitSectorIts2015' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'OktenDeterminantsdonationsprivate2000' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'CarmanEvaluationCapacityNonprofit2010' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'SloanEffectsNonprofitAccountability2009' (section 0)
-[269] Utils.pm:193> WARN - I didn't find a database entry for 'GrimmerTextDataPromise2013' (section 0)
-[288] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[288] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[288] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[288] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[300] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
-[307] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
-[312] Biber.pm:110> INFO - WARNINGS: 8
+[58] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
+[141] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
+[154] Biber.pm:3976> INFO - Processing section 0
+[165] Biber.pm:4136> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
+[172] bibtex.pm:1500> INFO - LaTeX decoding ...
+[232] bibtex.pm:1316> INFO - Found BibTeX data source '../reference/classification.bib'
+[368] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[368] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[368] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[368] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[391] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[406] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl

@@ -48,12 +48,79 @@
       \field{number}{1}
       \field{shorttitle}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}}
       \field{title}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}: {{The Formation}} of the {{National Taxonomy}} of {{Exempt Entities}}, 1969—{}1987}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{37}
       \field{year}{2013}
+      \field{urldateera}{ce}
       \field{pages}{103\bibrangedash 141}
       \range{pages}{39}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/23361114
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/23361114
+      \endverb
+    \endentry
+    \entry{CarmanEvaluationCapacityNonprofit2010}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7efd821fc066ad7e1893ec907a5c7b9a}{%
+           family={Carman},
+           familyi={C\bibinitperiod},
+           given={Joanne\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ca08d0387440b1deae77dfe1cfd20b3c}{%
+           family={Fredericks},
+           familyi={F\bibinitperiod},
+           given={Kimberly\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{096f23cd435c37e84ff189350c96093f}
+      \strng{fullhash}{096f23cd435c37e84ff189350c96093f}
+      \strng{bibnamehash}{096f23cd435c37e84ff189350c96093f}
+      \strng{authorbibnamehash}{096f23cd435c37e84ff189350c96093f}
+      \strng{authornamehash}{096f23cd435c37e84ff189350c96093f}
+      \strng{authorfullhash}{096f23cd435c37e84ff189350c96093f}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this article, we explore the evaluation capacity of today's nonprofit organizations. We report the findings of a cluster analysis that suggest that when it comes to evaluation, there are three types of nonprofit organizations. The first type of nonprofit organization is one that, by most accounts, is satisfied with their evaluation efforts. Although these organizations report that they struggle with not having as much time as they would like to devote to evaluation, they are fairly satisfied with their levels of evaluation expertise and report having few problems with the implementation of evaluation systems. The second type of organization has some struggles with evaluation. These organizations report having internal support for evaluation from management, the board and staff, and some capacity to implement an evaluation system, yet they struggle with evaluation design issues, data collection, and resources for evaluation. The third type of organization is one that is struggling across the board. These organizations report having substantial implementation challenges, in terms of lacking basic resources (i.e., staff, funding, time), lacking evaluation expertise, and they report having little support for evaluation from funders, the board, management, and staff. We conclude by exploring the implications of these findings.}
+      \field{issn}{1098-2140}
+      \field{journaltitle}{American Journal of Evaluation}
+      \field{month}{3}
+      \field{note}{00107}
+      \field{number}{1}
+      \field{shorttitle}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}}
+      \field{title}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}: {{Is}} the {{Glass Half}}-{{Empty}} or {{Half}}-{{Full}}?}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
+      \field{volume}{31}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{84\bibrangedash 104}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1177/1098214009352361
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/1098214009352361
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/1098214009352361
       \endverb
     \endentry
     \entry{ClarkeSimpleTechnologyComplex1996}{article}{}
@@ -91,10 +158,101 @@
       \field{number}{4}
       \field{shorttitle}{From {{Simple Technology}} to {{Complex Arena}}}
       \field{title}{From {{Simple Technology}} to {{Complex Arena}}: {{Classification}} of {{Pap Smears}}, 1917-90}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{10}
       \field{year}{1996}
+      \field{urldateera}{ce}
       \field{pages}{601\bibrangedash 623}
       \range{pages}{23}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/648664
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/648664
+      \endverb
+    \endentry
+    \entry{DurkheimElementaryFormsReligious2012}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=132c404883320a7b65da54d2ee256814}{%
+           family={Durkheim},
+           familyi={D\bibinitperiod},
+           given={Émile},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Courier Corporation}%
+      }
+      \strng{namehash}{132c404883320a7b65da54d2ee256814}
+      \strng{fullhash}{132c404883320a7b65da54d2ee256814}
+      \strng{bibnamehash}{132c404883320a7b65da54d2ee256814}
+      \strng{authorbibnamehash}{132c404883320a7b65da54d2ee256814}
+      \strng{authornamehash}{132c404883320a7b65da54d2ee256814}
+      \strng{authorfullhash}{132c404883320a7b65da54d2ee256814}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this 1912 classic, a founder of modern sociology seeks the enduring source of human social identity. Émile Durkheim presents a remarkably accessible examination of animism, naturism, totemism, myth, and ritual. His intriguing views and ultimate conclusion—{}that the source of religion and morality lies in collective consciousness, rather than in individual minds—{}remains a topic of debate among sociologists, anthropologists, ethnographers, philosophers, and theologians.Durkheim edited L'Année Sociologique, the first journal of sociology, and was instrumental in establishing the field as a social science. With The Elementary Forms of the Religious Life, he explores totemism among Australia's Aborigines, offering the opportunity "to yield an understanding of the religious nature of man, by showing us an essential and permanent aspect of humanity." Durkheim's study focuses on the need and capacity of humans to relate to one another socially, with religion as the core of the moral universe. An excellent introduction to the influential sociologist's ideas, this book continues to speak to new generations about the intriguing origin and nature of religion and society.}
+      \field{isbn}{978-0-486-12044-7}
+      \field{month}{6}
+      \field{title}{The {{Elementary Forms}} of the {{Religious Life}}}
+      \field{year}{2012}
+    \endentry
+    \entry{Erceg-HurnModernrobuststatistical2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e778c7f02eabf784a5c7271640d9aa2a}{%
+           family={{Erceg-Hurn}},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=52b862a401d3d5ba5f6f80da46df92ce}{%
+           family={Mirosevich},
+           familyi={M\bibinitperiod},
+           given={Vikki\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{fullhash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{bibnamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authorbibnamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authornamehash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \strng{authorfullhash}{9c9b111543a0a54bc3849fac03bca1a7}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Classic parametric statistical significance tests, such as analysis of variance and least squares regression, are widely used by researchers in many disciplines, including psychology. For classic parametric tests to produce accurate results, the assumptions underlying them (e.g., normality and homoscedasticity) must be satisfied. These assumptions are rarely met when analyzing real data. The use of classic parametric methods with violated assumptions can result in the inaccurate computation of p values, effect sizes, and confidence intervals. This may lead to substantive errors in the interpretation of data. Many modern robust statistical methods alleviate the problems inherent in using parametric methods with violated assumptions, yet modern methods are rarely used by researchers. The authors examine why this is the case, arguing that most researchers are unaware of the serious limitations of classic methods and are unfamiliar with modern alternatives. A range of modern robust and rank-based significance tests suitable for analyzing a wide range of designs is introduced. Practical advice on conducting modern analyses using software such as SPSS, SAS, and R is provided. The authors conclude by discussing robust effect size indices. (PsycINFO Database Record (c) 2016 APA, all rights reserved)}
+      \field{issn}{1935-990X(Electronic),0003-066X(Print)}
+      \field{journaltitle}{American Psychologist}
+      \field{note}{00650}
+      \field{number}{7}
+      \field{shorttitle}{Modern Robust Statistical Methods}
+      \field{title}{Modern Robust Statistical Methods: {{An}} Easy Way to Maximize the Accuracy and Power of Your Research}
+      \field{volume}{63}
+      \field{year}{2008}
+      \field{pages}{591\bibrangedash 601}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/0003-066X.63.7.591
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\QKZMUAZT\\Erceg-Hurn and Mirosevich - 2008 - Modern robust statistical methods An easy way to .pdf
+      \endverb
+      \keyw{Statistical Analysis,Statistics,Effect Size (Statistical),Statistical Significance}
     \endentry
     \entry{FyallNTEECodesOpportunities2018}{article}{}
       \name{author}{3}{}{%
@@ -141,15 +299,84 @@
       \field{number}{4}
       \field{shorttitle}{Beyond {{NTEE Codes}}}
       \field{title}{Beyond {{NTEE Codes}}: {{Opportunities}} to {{Understand Nonprofit Activity Through Mission Statement Content Coding}}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
       \field{volume}{47}
       \field{year}{2018}
+      \field{urldateera}{ce}
       \field{pages}{677\bibrangedash 701}
       \range{pages}{25}
       \verb{doi}
       \verb 10.1177/0899764018768019
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
+      \endverb
+    \endentry
+    \entry{GrimmerTextDataPromise2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=81e3df64dcc8ffabf2106dfc23b934e0}{%
+           family={Grimmer},
+           familyi={G\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e78e606c2fa81b1917fd46933f49b33e}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{769383059478f27093d38aeaf6478c25}
+      \strng{fullhash}{769383059478f27093d38aeaf6478c25}
+      \strng{bibnamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authorbibnamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authornamehash}{769383059478f27093d38aeaf6478c25}
+      \strng{authorfullhash}{769383059478f27093d38aeaf6478c25}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Politics and political conflict often occur in the written and spoken word. Scholars have long recognized this, but the massive costs of analyzing even moderately sized collections of texts have hindered their use in political science research. Here lies the promise of automated text analysis: it substantially reduces the costs of analyzing large collections of text. We provide a guide to this exciting new area of research and show how, in many instances, the methods have already obtained part of their promise. But there are pitfalls to using automated methods—{}they are no substitute for careful thought and close reading and require extensive and problem-specific validation. We survey a wide range of new methods, provide guidance on how to validate the output of the models, and clarify misconceptions and errors in the literature. To conclude, we argue that for automated text methods to become a standard tool for political scientists, methodologists must contribute new methods and new methods of validation.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{note}{01025}
+      \field{number}{3}
+      \field{shorttitle}{Text as {{Data}}}
+      \field{title}{Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{267\bibrangedash 297}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1093/pan/mps028
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
       \endverb
     \endentry
     \entry{GronbjergUsingNTEEclassify1994}{article}{}
@@ -185,17 +412,79 @@
       \field{number}{3}
       \field{shorttitle}{Using {{NTEE}} to Classify Non-Profit Organisations}
       \field{title}{Using {{NTEE}} to Classify Non-Profit Organisations: An Assessment of Human Service and Regional Applications}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{5}
       \field{year}{1994}
+      \field{urldateera}{ce}
       \field{pages}{301\bibrangedash 328}
       \range{pages}{28}
       \verb{doi}
       \verb 10.1007/BF02354038
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02354038
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02354038
       \endverb
       \keyw{Human Service,Important Resource,Maximum Utility,Practical Problem,Regional Analysis}
+    \endentry
+    \entry{HallHistoricalOverviewPhilanthropy2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3106108bcd03faa568748a318db666d1}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima Dobkin},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=f47c09ddeeaf6acea488b0f5ee4ea808}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={Walter\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=17c408d292558f2c32f64f9142657bef}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{3106108bcd03faa568748a318db666d1}
+      \strng{fullhash}{3106108bcd03faa568748a318db666d1}
+      \strng{bibnamehash}{3106108bcd03faa568748a318db666d1}
+      \strng{authorbibnamehash}{3106108bcd03faa568748a318db666d1}
+      \strng{authornamehash}{3106108bcd03faa568748a318db666d1}
+      \strng{authorfullhash}{3106108bcd03faa568748a318db666d1}
+      \strng{editorbibnamehash}{491dcbefb305052bb29a4de68562fe7a}
+      \strng{editornamehash}{491dcbefb305052bb29a4de68562fe7a}
+      \strng{editorfullhash}{491dcbefb305052bb29a4de68562fe7a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Nonprofit Sector: {{A}} Research Handbook}
+      \field{isbn}{0-300-10903-2}
+      \field{note}{00000}
+      \field{title}{A {{Historical Overview}} of {{Philanthropy}}, {{Voluntary Associations}}, and {{Nonprofit Organizations}} in the {{United States}}, 1600–{}2000}
+      \field{year}{2006}
+      \field{pages}{32\bibrangedash 65}
+      \range{pages}{34}
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
+      \endverb
+      \keyw{family philan. obligation,history}
     \endentry
     \entry{HodgkinsonMappingnonprofitsector1990}{article}{}
       \name{author}{1}{}{%
@@ -229,15 +518,25 @@
       \field{number}{2}
       \field{shorttitle}{Mapping the Non-Profit Sector in the {{United States}}}
       \field{title}{Mapping the Non-Profit Sector in the {{United States}}: Implications for Research}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1990}
+      \field{urldateera}{ce}
       \field{pages}{6\bibrangedash 32}
       \range{pages}{27}
       \verb{doi}
       \verb 10.1007/BF01397436
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/BF01397436
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/BF01397436
       \endverb
     \endentry
     \entry{Hodgkinsonnewresearchplanning1991}{article}{}
@@ -276,15 +575,25 @@
       \field{number}{4}
       \field{shorttitle}{A New Research and Planning Tool for Managers}
       \field{title}{A New Research and Planning Tool for Managers: {{The}} National Taxonomy of Exempt Entities}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1991}
+      \field{urldateera}{ce}
       \field{pages}{403\bibrangedash 414}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1002/nml.4130010410
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/nml.4130010410
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/nml.4130010410
       \endverb
     \endentry
     \entry{LampkinIntroducingNonprofitProgram2001}{article}{}
@@ -332,15 +641,25 @@
       \field{number}{4}
       \field{shorttitle}{Introducing the {{Nonprofit Program Classification System}}}
       \field{title}{Introducing the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for , {{Introducing}} the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{30}
       \field{year}{2001}
+      \field{urldateera}{ce}
       \field{pages}{781\bibrangedash 793}
       \range{pages}{13}
       \verb{doi}
       \verb 10.1177/0899764001304009
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0899764001304009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0899764001304009
       \endverb
     \endentry
     \entry{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}{report}{}
@@ -371,10 +690,146 @@
       \field{note}{00004}
       \field{title}{Guide to {{Using NCCS Data}}}
       \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{year}{2006}
+      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
+      \endverb
+    \endentry
+    \entry{OktenDeterminantsdonationsprivate2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=68c209b127c0cf4234fe221ee7a5acfe}{%
+           family={Okten},
+           familyi={O\bibinitperiod},
+           given={Cagla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fadf3df19ae062bc87940da900e06fd3}{%
+           family={Weisbrod},
+           familyi={W\bibinitperiod},
+           given={Burton\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dff961658e8e80776a5e19be44a2b380}
+      \strng{fullhash}{dff961658e8e80776a5e19be44a2b380}
+      \strng{bibnamehash}{dff961658e8e80776a5e19be44a2b380}
+      \strng{authorbibnamehash}{dff961658e8e80776a5e19be44a2b380}
+      \strng{authornamehash}{dff961658e8e80776a5e19be44a2b380}
+      \strng{authorfullhash}{dff961658e8e80776a5e19be44a2b380}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We estimate the responsiveness of donations to a number of economic variables, including price, advertising, and the availability of revenue from such other sources as government grants and program service sales. Utilizing a set of IRS data on individual nonprofit organizations in each of seven industries —{} including hospitals and higher education —{} for the years 1982–{}1994, we find distinct overall patterns as well as notable variation across industries. A nonprofit organization's fundraising expenditures are estimated to exert two countervailing effects on donations —{} the direct, advertising and information, effect augments donations, while the indirect effect, on the `price' of donating, has a negative effect. We do not find evidence that fundraising is carried to the profit-maximizing levels. In some industries fundraising is substantially short of that level, while in other industries it is excessive, implying that the marginal return to fundraising is exceeded by the cost. Focusing on whether revenue from other sources affects donations to a nonprofit organization, we find evidence that revenue from either government grants or from the organization's own program sales activity generally does not crowd-out private donations. To the contrary, in most industries there are significant positive effects.}
+      \field{issn}{0047-2727}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{month}{2}
+      \field{note}{00436}
+      \field{number}{2}
+      \field{title}{Determinants of Donations in Private Nonprofit Markets}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2016}
+      \field{volume}{75}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{255\bibrangedash 272}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/S0047-2727(99)00066-3
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
+      \endverb
+      \keyw{Crowd-out,Donations,fundraising,Fundraising}
+    \endentry
+    \entry{RoegerNonprofitSectorIts2015}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=2c1bd335fae846682bd8a178ec704847}{%
+           family={Roeger},
+           familyi={R\bibinitperiod},
+           given={Katie\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a2fde3397a94d3099feeac5652ac9eab}{%
+           family={Blackwood},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c2fd0e464d45e011879e7c3738dcf37f}{%
+           family={Pettijohn},
+           familyi={P\bibinitperiod},
+           given={Sarah\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=f541f9eee98accf21a14aadaf27e4610}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi Steven},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=06bb2c03d50d5a3045a1001f27f97a44}{%
+           family={Dicke},
+           familyi={D\bibinitperiod},
+           given={Lisa\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Boulder, CO}%
+      }
+      \list{publisher}{1}{%
+        {Westview Press}%
+      }
+      \strng{namehash}{2678d206e25c4f41bd170b3c01b9e1a9}
+      \strng{fullhash}{29b248cf906362ad54dfbe061ffded5d}
+      \strng{bibnamehash}{29b248cf906362ad54dfbe061ffded5d}
+      \strng{authorbibnamehash}{29b248cf906362ad54dfbe061ffded5d}
+      \strng{authornamehash}{2678d206e25c4f41bd170b3c01b9e1a9}
+      \strng{authorfullhash}{29b248cf906362ad54dfbe061ffded5d}
+      \strng{editorbibnamehash}{61f6685dceec29335a585361285849f6}
+      \strng{editornamehash}{61f6685dceec29335a585361285849f6}
+      \strng{editorfullhash}{61f6685dceec29335a585361285849f6}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Edited by two leading nonprofit organizations scholars, The Nature of the Nonprofit Sector features classic and current readings on the nature, place and role of the nonprofit sector.}
+      \field{booktitle}{The {{Nature}} of the {{Nonprofit Sector}}}
+      \field{edition}{Third edition}
+      \field{isbn}{978-0-8133-4960-2}
+      \field{month}{7}
+      \field{note}{00204}
+      \field{title}{The {{Nonprofit Sector}} and {{Its Place}} in the {{National Economy}}}
+      \field{year}{2015}
+      \field{pages}{22\bibrangedash 37}
+      \range{pages}{16}
     \endentry
     \entry{Salamonsearchnonprofitsector1992}{article}{}
       \name{author}{2}{}{%
@@ -414,15 +869,25 @@
       \field{number}{3}
       \field{shorttitle}{In Search of the Non-Profit Sector {{II}}}
       \field{title}{In Search of the Non-Profit Sector {{II}}: {{The}} Problem of Classification}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{3}
       \field{year}{1992}
+      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 309}
       \range{pages}{43}
       \verb{doi}
       \verb 10.1007/BF01397460
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01397460
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01397460
       \endverb
       \keyw{Classification System,Global Level,Initial Test,International Classification,Major Group}
     \endentry
@@ -470,7 +935,60 @@
       \field{title}{The International Classification of Nonprofit Organizations {{ICNPO}}-{{Revision}} 1, 1996}
       \field{year}{1996}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \endverb
+    \endentry
+    \entry{SloanEffectsNonprofitAccountability2009}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c8de506cece29fd9ac86e00b20bdada7}{%
+           family={Sloan},
+           familyi={S\bibinitperiod},
+           given={Margaret\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{fullhash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{bibnamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authorbibnamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authornamehash}{c8de506cece29fd9ac86e00b20bdada7}
+      \strng{authorfullhash}{c8de506cece29fd9ac86e00b20bdada7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although accountability systems are established to ensure organizational adherence to financial and ethical standards for nonprofit organizations, the reality of whether such standards make a difference to donors has not been measured. This article discusses the current landscape of accountability systems and accountability ratings and describes a model for estimating the effect of ratings systems on donor behavior within the theoretical context of information asymmetry. Hypotheses are tested with nonprofit ratings for New York charities from the Better Business Bureau's Wise Giving Alliance to estimate the effect of accountability ratings on the amount of contributions an organization receives. Results indicate that the Wise Giving Alliance ``pass'' ratings have a statistically significant effect on the contributions received; however, ``did not pass'' ratings are nonsignificant. The study is important for academics as well as practitioners who are monitoring time and money spent on accountability issues.}
+      \field{issn}{0899-7640}
+      \field{journaltitle}{Nonprofit and Voluntary Sector Quarterly}
+      \field{month}{4}
+      \field{note}{00136}
+      \field{number}{2}
+      \field{title}{The {{Effects}} of {{Nonprofit Accountability Ratings}} on {{Donor Behavior}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
+      \field{volume}{38}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{220\bibrangedash 236}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1177/0899764008316470
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0899764008316470
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0899764008316470
       \endverb
     \endentry
     \entry{VakilConfrontingclassificationproblem1997}{article}{}
@@ -503,26 +1021,28 @@
       \field{number}{12}
       \field{shorttitle}{Confronting the Classification Problem}
       \field{title}{Confronting the Classification Problem: {{Toward}} a Taxonomy of {{NGOs}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{25}
       \field{year}{1997}
+      \field{urldateera}{ce}
       \field{pages}{2057\bibrangedash 2070}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/S0305-750X(97)00098-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
       \endverb
     \endentry
   \enddatalist
-  \missing{CarmanEvaluationCapacityNonprofit2010}
-  \missing{DurkheimElementaryFormsReligious2012}
-  \missing{Erceg-HurnModernrobuststatistical2008}
-  \missing{GrimmerTextDataPromise2013}
-  \missing{HallHistoricalOverviewPhilanthropy2006}
-  \missing{OktenDeterminantsdonationsprivate2000}
-  \missing{RoegerNonprofitSectorIts2015}
-  \missing{SloanEffectsNonprofitAccountability2009}
 \endrefsection
 \endinput
 

@@ -98,6 +98,9 @@ There are two types of datasets for supervised text classification: training dat
 
 \subsubsection{Text Data}
 \todo[inline]{How NTEE codes are assigned: by whom according to what? Where to obtain text data?}
+
+The text records of this study are collected from the program descriptions in Part 3 (supplemented with data from Schedule O) and 8 of Form 990 which were used by NCCS in assigning NTEE codes \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. We also collected the mission statements in Part 1 of Form 990 because \textcite{FyallNTEECodesOpportunities2018} reported that the mission statements are also valuable for classifying nonprofits.
+
 \parencites{HodgkinsonMappingnonprofitsector1990}[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}
 
 \subsubsection{Classification Data}
@@ -105,7 +108,7 @@ BMF file.
 
 \subsubsection{Sampling}
 \todo[inline]{Why and how to do the bootstrap sampling \parencite[596]{Erceg-HurnModernrobuststatistical2008}.}
-NTEE classification confidence rating (A/B/C).
+A confidence level of A, B, or C is assigned to indicate the accuracy of classification, ``A confidence level of A, for example, indicates that there is at least a 90 percent probability that the major group classification is correct'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. For training purposes, we only include records with confidence level A in the training dataset. But we include all the classifications with different confidence levels in the testing dataset, expecting the performance of ML algorithms should decrease as the confidence level goes from A to C.
 
 
 Figure \ref{fig:NTEE_dist} shows the proportions of NTEE major categories from 1989 to 2015 ... 

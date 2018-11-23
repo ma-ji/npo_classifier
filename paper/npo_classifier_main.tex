@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{english}{english-apa} % Resolve labelyearlabelmonthlabelday errors.
 \usepackage{listings}
 \usepackage{enumitem}
 \usepackage{lipsum}
@@ -98,6 +99,21 @@ There are two types of datasets for supervised text classification: training dat
 
 \subsubsection{Text Data}
 \todo[inline]{How NTEE codes are assigned: by whom according to what? Where to obtain text data?}
+
+Text records are collected from three forms: 990, 990-EZ, and 990-PF, supplemented with program descriptions from Schedule O. The Form 990 (Return of Organization Exempt From Income Tax) is submitted by most of the nonprofit organizations. For smaller organizations with gross income of less than \$200,000 and total assets of less than \$500,000 at the end of their tax year \parencite{IRS}, they can file the Form 990-EZ (Short Form Return of Organization Exempt From Income Tax), a shorter version of the Form 990. The Form 990-PF (Return of Private Foundation) is only for private foundations. Different forms generally have two types of texts describing the organizational activities: overall mission statement and specific program description. Table \ref{text_loc} describes the specific locations of the text fields in different forms.
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{r|l|l}
+         & Mission & Program  \\
+         \hline
+         990 & Part I, Line 1; Part III, Line 1 & Part III, Line 4; Schedule O \\
+         990-EZ & Part III & Part III, Line 28-30; Schedule O \\
+         990-PF & -- & Part IX-A; Part XVI-B \\
+    \end{tabular}
+    \caption{Locations of text fields in different forms.} \label{text_loc}
+    \label{tab:my_label}
+\end{table}
 
 The text records of this study are collected from the program descriptions in Part 3 (supplemented with data from Schedule O) and 8 of Form 990 which were used by NCCS in assigning NTEE codes \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. We also collected the mission statements in Part 1 of Form 990 because \textcite{FyallNTEECodesOpportunities2018} reported that the mission statements are also valuable for classifying nonprofits.
 

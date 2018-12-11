@@ -1,0 +1,30 @@
+Use Lemmatizer or other stemmer: In Naive-Bayes
+Reason: The words are not using Word2Vec technique to vectoroze
+The method will normalize words
+
+In NN: Use words Embedding
+No need to use lemmatizer or stemmer in NN, as Embedder does the job
+
+NN Baseline:
+Word Embedding and 1 layer
+
+level 1: Word embedding and multiple layers
+
+#Sampling condition:
+Each category should have at-least 100 records each
+Apply the same condition
+
+Implement CNN- non-static, Yoo Kim, Based to TREC
+• CNN-static: A model with pre-trained
+vectors from word2vec. All words—
+including the unknown ones that are randomly initialized—are kept static and only
+the other parameters of the model are learned.
+• CNN-non-static: Same as above but the pretrained vectors are fine-tuned for each task.
+
+Notes from Suyog (PhD passout from UT Austin):
+for NLP: Make sure that the layers are fine-tuned
+In case of overfitting: Reduce the number of layers used
+What they use for NLP: RNN, LSTM
+Activation: Sigmoid & tanh
+Try: Gensem for sentence level embedding: use it for XGBoost or Random Forest
+Try: Don't fine-tune embedding layers, keep the finetuning parameter off

@@ -28,3 +28,5 @@ What they use for NLP: RNN, LSTM
 Activation: Sigmoid & tanh
 Try: Gensem for sentence level embedding: use it for XGBoost or Random Forest
 Try: Don't fine-tune embedding layers, keep the finetuning parameter off
+
+optimizers: try 'adam' over 'rmsprop'

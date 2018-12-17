@@ -38,6 +38,7 @@
 \renewcommand{\baselinestretch}{1.5}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \bibliography{../reference/classification.bib}
+\bibliography{../reference/algorithms/ml_algorithms.bib}
 \setcounter{tocdepth}{2}
 
 
@@ -119,8 +120,7 @@ BMF file.
 
 \subsubsection{Sampling}
 \todo[inline]{Why and how to do the bootstrap sampling \parencite[596]{Erceg-HurnModernrobuststatistical2008}.}
-A confidence level of A, B, or C is assigned to indicate the accuracy of classification, ``A confidence level of A, for example, indicates that there is at least a 90 percent probability that the major group classification is correct'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. For training purposes, we only include records with confidence level A in the training dataset. But we include all the classifications with different confidence levels in the testing dataset, expecting the performance of ML algorithms should decrease as the confidence level goes from A to C.
-
+A confidence level of A, B, or C is assigned to indicate the accuracy of classification, ``A confidence level of A, for example, indicates that there is at least a 90 percent probability that the major group classification is correct'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. From 2014 to 2016, 56.12\% records are classified at A level, 37.32\% at B level, and 6.56\% at C level. For training purposes, we only include records at confidence level A in the training dataset. But we include all the records at different confidence levels in the testing dataset, expecting the performance of ML algorithms should decrease as the confidence level goes from A to C.
 
 Figure \ref{fig:NTEE_dist} shows the proportions of NTEE major categories from 1989 to 2015 ... 
 \todo[inline]{Figures or tables describing the patterns of datasets.}
@@ -130,23 +130,47 @@ Figure \ref{fig:NTEE_dist} shows the proportions of NTEE major categories from 1
 
 This study uses three supervised machine-learning classification algorithms: Na\"ive Bayes, Random Forest, and Neural Network. Other than these three individual methods, an ensemble approach that combines all the three models is also experimented. 
 
+\begin{figure}
+\caption{Draft to be modified}
+\label{classification_algo}
+\centering
+\includegraphics[width=\textwidth]{reference/algorithms/classification_algo.jpeg}
+\end{figure}
+
+
 \subsubsection{Na\"ive Bayes Classification}
 
-Na\"ive Bayes Classification is a machine learning algorithm that works on probabilistic approach. Given a set of features, this classifier predicts the class with the highest probability of the feature set. The algorithm is primarily built on Baye\'s theorem.
+Na\"ive Bayes Classification is primarily built on Baye\'s theorem \parencites[34]{upton2014dictionary}.
 
-$$ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} $$
+\begin{equation} \label{Baye\'s Theorem}
+ P(A \mid B) = \frac{P(B \mid A) \, P(A)}{P(B)} 
+\end{equation}
 
-Baye\'s theorem gives probability of the occurrence of class A, while B is provided. B here is subset of all parameters. Baye\'s theorem assumes all parameters to be independent of each other, it simply follows principles of conditional probability.
+Let us consider B to be words extracted from the mission statement of a non-profit organization X, and A to be any NTEE category CAT. Here, given the words from the mission statement, Baye\'s theorem calculates the probability of organization C belonging to the NTEE category CAT. Na\"ive Bayes Classification is a machine learning algorithm that works on the same approach. Given a set of features, this classifier predicts the class with the highest probability of the feature set.
 
-In the context of text classification: The classifier depends on bags of word representation, which consists of all important words for classification and their frequency. In training data set, each "text" is converted to bag of word, and given as an input along with it's "label" {need to define text and label to use it throughout the paper}. For testing purpose, the classifier is given a bag of words and asked to predict the label with the highest probability for given set.
+In the context of text classification: 
+Na\"ive Bayes classifier needs a set of features as an input, hence we need to provide our text in the form of a set that consists of words from the text. This representation is called bag-of-words \parencites{Jurafsky:2009:SLP:1214993}, which consists of all important words from the text, and the number of times each word occurs in the text. Since the input is a set of words, all the words are considered to be mutually independent of each other. This means that the order in which the words occur in the text is not considered in this classification, i.e. the input for ``Manchester City beat Barcelona'' and ``Barcelona beat Manchester City'' will be the same bag-of-words for Na\"ive Baye's classification.
+
+In the training data set, each ``text'' is converted to a bag-of-words where the mission statement is converted into the set of words and given as an input. Along with the input, the output class ``label'' is also provided for the training purpose. The classifier links each input set with its corresponding output class and trains itself. For testing purpose, the classifier is given a bag-of-words as an input and asked to predict the class with the highest probability for given set of words.
+
+Pros and cons:
+Na\"ive Bayes classifier is one of the simplest classifier to learn and implement among all machine learning algorithms. It is built on simple principles and takes lesser time for training computations. The classifier works well even with the small data set. A major disadvantage is this classifier is that it assumes all features to be independent of each other, which is not always the case in real-life scenarios \parencites{lewis1998naive}. The classifier does not perform well when dependent input features are given to predict the class.
 
 \subsubsection{Random Forest Classification}
 
-Random forest classifier consists of a group of decision trees. Each decision tree is trained with unique subset of the training set. During the prediction, each forest predicts the class of the input on it's own and the final class predicted is derived from predictions of all decision trees.
+Random forest algorithm is implemented by developing multiple prediction models. Each model in this algorithm is trained by different data, and then all of these models are asked to predict for the same record. A prediction class that is elected by most of these small algorithms is given as the prediction result by random forest algorithm. It uses the word forest because each small algorithm trained is a decision tree \parencites[83]{quinlan1986induction}. A decision tree represents a set of questions that usually has Yes/No answers. Each decision tree is trained on a different training set \parencites[124]{breiman1996bagging}. For example, if our training set S consists of n records, and we have total of m decision trees in our random forest, our training set is divided into m different sets, one training set for each tree, each set consisting of n/m randomly selected records. Since each tree is trained on different set, when a record is given for prediction, each tree predicts the class independent of other tree. In total of m class predictions are collected, and the class which has the highest occurrence in the prediction results is given as the final predicted class by the random forest algorithm. 
+
+While providing training set, a decision tree learns how to classify any organization into NTEE codes based on whether a word occurs in the mission statement or not. While words from a mission statement is given for the testing purpose, a decision tree uses the words it has from training purpose, examines whether each word is present in the word set given or not, and predicts the final NTEE code.
+
+Pros and Cons: Random Forest classifier trains each tree independently with unique training set, which strengthens the performance. The visual interpretation of the classifier is not easy.
+
+\todo[inline]{Where to Explain Count Vector (Bag of words), TF-IDF vector and n-gram vector? All three of these are to be used in both random forest and Naive Bayes?}
 
 \subsubsection{Neural Network Classification}
 
-Intro and mechanism.
+Neural Network Classification is built on the concepts of a neuron structure of the human mind. Each neuron in the network is connected to few other neurons of the network by a numerical value called ``weight''. The neurons process records each one in turn, and learn by looking at their classification (i.e., NTEE code in this case) with the known previous NTEE codes of records. With every new record the neurons learn, they update the connection value ``weight'' to update the model \parencites[163]{collobert2008unified}. After the network is done processing each record of the training set, it has final weights for each connection between two neurons. When a testing set is provided, the neurons use the final weights to predict the class (NTEE code), which is most likely to contain such test set.
+
+Pros and Cons of Neural Networks: Neural Networks algorithm beats many other machine learning algorithms in most cases. However, the model only works well when the data is in significant amount. Along with the large size of data, this classification method also consumes a high computation power to train the network. One of the biggest disadvantages of Neural Networks is its ``Black Box Nature'' \parencites{benitez1997artificial}.
 
 \subsection{Measuring Algorithm Performance}
 
@@ -178,6 +202,7 @@ Given a human coder labels an organization as category \textit{k}, the \textit{r
 
 
 \singlespacing
+\sloppy
 \printbibliography
 
 \end{document}

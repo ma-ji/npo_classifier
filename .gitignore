@@ -105,3 +105,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 data_raw/
+dataset/glove.6B/

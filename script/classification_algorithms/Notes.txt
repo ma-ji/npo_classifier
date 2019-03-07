@@ -30,3 +30,33 @@ Try: Gensem for sentence level embedding: use it for XGBoost or Random Forest
 Try: Don't fine-tune embedding layers, keep the finetuning parameter off
 
 optimizers: try 'adam' over 'rmsprop'
+
+### VM GPU environments:
+Install tensorflow-gpu: https://stackoverflow.com/questions/46080634/keras-with-tensorflow-backend-not-using-gpu
+conda uninstall tensorflow tensorflow-gpu
+conda install tensorflow-gpu
+
+Update nvida driver: https://www.nvidia.com/Download/index.aspx?lang=en-us
+https://github.com/tensorflow/tensorflow/issues/21832
+Step 1: Add the Official Nvidia PPA to Ubuntu: sudo add-apt-repository ppa:graphics-drivers/ppa
+Step 2: Update and Install Nvidia Drivers: sudo apt update; apt list --upgradable
+Step 3: Upgrade all packages: sudo apt upgrade
+
+
+https://stackoverflow.com/questions/52346957/cudagetdevice-failed-status-cuda-driver-version-is-insufficient-for-cuda-run
+sudo apt install nvidia-cuda-toolkit
+sudo reboot
+
+# GPU monitor:
+pip install gpustat
+watch gpustat / gpustat
+
+# Match CUDA version: https://www.tensorflow.org/install/source#tested_build_configurations
+
+# Download latest nvida driver: https://www.nvidia.com/Download/index.aspx?lang=en-us.
+# Install fresh Anaconda
+conda install -c conda-forge tensorflow # Install tensorflow and dependencies.
+conda install -c conda-forge keras # Install keras and dependencies.
+conda uninstall tensorflow # Uninstall tensorflow.
+conda install -c conda-forge keras # Reinstall keras.
+conda install -c anaconda tensorflow-gpu # Install GPU version tensorflow last.

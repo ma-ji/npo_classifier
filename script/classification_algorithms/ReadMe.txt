@@ -13,3 +13,5 @@ glove50d_keras.ipynb                            glove50d                      Ke
 use_keras.ipynb                       Universal Sentence Encoder              Keras - DNN, LSTM, CNN
 use_tensorflow.ipynb                  Universal Sentence Encoder              Tensorflow  - RNN, DNN
 xgboost.ipynb                                  Tokenizer                      Xgboost - Count Vecotor, TF-IDF
+
+Run on different GPUs: Start with gpu0, then gpu1; otherwise will have OOM error (memory not enough).

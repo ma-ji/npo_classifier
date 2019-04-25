@@ -1,15 +1,17 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
-[26] biber-MSWIN64:313> INFO - === 
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
+[26] biber-MSWIN64:315> INFO - === 
 [55] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
-[128] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
-[142] Biber.pm:3976> INFO - Processing section 0
-[153] Biber.pm:4136> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
-[160] bibtex.pm:1500> INFO - LaTeX decoding ...
-[217] bibtex.pm:1316> INFO - Found BibTeX data source '../reference/classification.bib'
-[360] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[360] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[360] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[360] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[384] bbl.pm:617> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
-[399] bbl.pm:720> INFO - Output to aux_output\npo_classifier_main.bbl
+[136] Biber.pm:889> INFO - Found 30 citekeys in bib section 0
+[149] Biber.pm:4093> INFO - Processing section 0
+[161] Biber.pm:4254> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
+[170] bibtex.pm:1523> INFO - LaTeX decoding ...
+[253] bibtex.pm:1340> INFO - Found BibTeX data source '../reference/classification.bib'
+[359] Utils.pm:193> WARN - year field '[1961] 2015' in entry 'BellmanAdaptiveControlProcesses2015' is not an integer - this will probably not sort properly.
+[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[426] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[426] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[426] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[451] bbl.pm:636> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[473] bbl.pm:739> INFO - Output to aux_output\npo_classifier_main.bbl
+[478] Biber.pm:110> INFO - WARNINGS: 1

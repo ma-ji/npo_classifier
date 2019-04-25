@@ -1,440 +1,539 @@
-PWD C:/Users/jm92629/Google Drive/npo_classifier/paper
-INPUT C:/Users/jm92629/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+PWD C:\Users\jm92629\Google Drive\npo_classifier\paper
+INPUT C:\Users\jm92629\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT npo_classifier_main.tex
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.log
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/xstring/xstring.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-dm.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-dm.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.dbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.dbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-compat.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-compat.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.bbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.bbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/standard.bbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/standard.bbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.cbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/apa.cbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/lstmisc.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/listings/listings.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/enumitem/enumitem.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/enumitem/enumitem.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/footmisc/footmisc.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/footmisc/footmisc.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/floatrow/floatrow.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/floatrow/floatrow.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/natbib/bibentry.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/natbib/bibentry.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/setspace/setspace.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/setspace/setspace.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/lineno/lineno.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/lineno/lineno.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/wrapfig/wrapfig.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/wrapfig/wrapfig.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/soul/soul.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/soul/soul.sty
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1000.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/tabularx.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/lscape.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/lscape.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/subcaption.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/subcaption.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/siunitx/siunitx.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/siunitx/siunitx.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/expl3-code.tex
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3kernel/l3pdfmode.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/xparse/xparse.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/xparse/xparse.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/appendix/appendix.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/appendix/appendix.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pdfpages/pdfpages.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pdfpages/pdfpages.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/eso-pic/eso-pic.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/eso-pic/eso-pic.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pdfpages/pppdftex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pdfpages/pppdftex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/mfirstuc/mfirstuc.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/mfirstuc/mfirstuc.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/threeparttable/threeparttable.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/threeparttable/threeparttable.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/todonotes/todonotes.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/todonotes/todonotes.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgf.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgf.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-common.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-common-lists.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-latex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathcalc.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathutil.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathparser.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfloat.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgffor.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgffor.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/math/pgfmath.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/math/pgfmath.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/english-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/english-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/english-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/american-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/american-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex-apa/american-apa.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/american.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/american.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.aux
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.aux
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.aux
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.bcf
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.bbl
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.bbl
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.bbl
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/ltcaption.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/ltcaption.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/floatrow/fr-longtable.sty
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/floatrow/fr-longtable.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.pdf
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.dfu
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/translator/translator-basic-dictionary-English.dict
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/siunitx/siunitx-abbreviations.cfg
-INPUT C:/Users/jm92629/AppData/Roaming/MiKTeX/2.9/tex/latex/siunitx/siunitx-abbreviations.cfg
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmss8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt8.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
-INPUT C:/Users/jm92629/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.tdo
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.tdo
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.tdo
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.aux
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.out
-INPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.run.xml
-OUTPUT C:/Users/jm92629/Google Drive/npo_classifier/paper/aux_output/npo_classifier_main.run.xml
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.log
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.dbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.dbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.bbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.bbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\apa.cbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\nul:.tex
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\nul:.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\bibentry.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\bibentry.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\soul.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\soul.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1000.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.pdf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arydshln\arydshln.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arydshln\arydshln.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\english-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\english-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\english-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\american-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\american-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-apa\american-apa.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\american.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\american.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.aux
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.aux
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.aux
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.bcf
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.bbl
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.bbl
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.bbl
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\floatrow\fr-longtable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\floatrow\fr-longtable.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss9.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt12.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt9.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmrc7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.toc
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.toc
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.toc
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lot
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lot
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmrc7t.tfm
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lot
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lof
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lof
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.lof
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT tbl_fig\ntee_classification.pdf
+INPUT .\tbl_fig\ntee_classification.pdf
+INPUT .\tbl_fig\ntee_classification.pdf
+INPUT .\tbl_fig\ntee_classification.pdf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\jm92629\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.aux
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
+INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.run.xml
+OUTPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.run.xml
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmri8a.pfb
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\times\utmri8a.pfb

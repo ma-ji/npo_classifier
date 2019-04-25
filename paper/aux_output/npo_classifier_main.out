@@ -1,8 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Method}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Working with Texts and Research Workflow}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Datasets and Sampling}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Machine-Learning Algorithms}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Measuring Algorithm Performance}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Data Preprocessing}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Word representation and feature extraction}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Training and intermediate decision making}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{Results}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Confusion Matrix}{section.3}% 8

@@ -2171,9 +2171,9 @@
     <bcf:citekey order="18">NationalCenterforCharitableStatisticsGuideUsingNCCS2006</bcf:citekey>
     <bcf:citekey order="19">FyallNTEECodesOpportunities2018</bcf:citekey>
     <bcf:citekey order="20">USInternalRevenueServiceIRSStaticFiles2013</bcf:citekey>
-    <bcf:citekey order="21">Salamonsearchnonprofitsector1992</bcf:citekey>
-    <bcf:citekey order="22">GrimmerTextDataPromise2013</bcf:citekey>
-    <bcf:citekey order="23">USInternalRevenueService2017InstructionsForm2018</bcf:citekey>
+    <bcf:citekey order="21">GrimmerTextDataPromise2013</bcf:citekey>
+    <bcf:citekey order="22">USInternalRevenueService2017InstructionsForm2018</bcf:citekey>
+    <bcf:citekey order="23">USInternalRevenueServiceExemptOrganizationsBusiness2014</bcf:citekey>
     <bcf:citekey order="24">NationalCenterforCharitableStatisticsGuideUsingNCCS2006</bcf:citekey>
     <bcf:citekey order="25">JurafskySpeechLanguageProcessing2017</bcf:citekey>
     <bcf:citekey order="26">BengfortAppliedTextAnalysis2018</bcf:citekey>
@@ -2185,11 +2185,12 @@
     <bcf:citekey order="32">PenningtonGloveGlobalVectors2014</bcf:citekey>
     <bcf:citekey order="33">JurafskySpeechLanguageProcessing2017</bcf:citekey>
     <bcf:citekey order="34">GrimmerTextDataPromise2013</bcf:citekey>
-    <bcf:citekey order="35">QuinlanInductiondecisiontrees1986</bcf:citekey>
-    <bcf:citekey order="36">BreimanBaggingpredictors1996</bcf:citekey>
-    <bcf:citekey order="37">CollobertUnifiedArchitectureNatural2008</bcf:citekey>
-    <bcf:citekey order="38">ZhangSensitivityAnalysisPractitioners2015</bcf:citekey>
-    <bcf:citekey order="39">BenitezAreartificialneural1997</bcf:citekey>
+    <bcf:citekey order="35">RennieTacklingPoorAssumptions2003</bcf:citekey>
+    <bcf:citekey order="36">QuinlanInductiondecisiontrees1986</bcf:citekey>
+    <bcf:citekey order="37">BreimanBaggingpredictors1996</bcf:citekey>
+    <bcf:citekey order="38">CollobertUnifiedArchitectureNatural2008</bcf:citekey>
+    <bcf:citekey order="39">ZhangSensitivityAnalysisPractitioners2015</bcf:citekey>
+    <bcf:citekey order="40">BenitezAreartificialneural1997</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

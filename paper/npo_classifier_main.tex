@@ -86,10 +86,10 @@ Two agencies took the task of assigning NTEE codes: NCCS and IRS. Before 1995, N
 
 The NTEE classifications has been used for numerous practical and academic purposes. For example, it provides a framework on which the social and economic activities of nonprofits can be mapped and compared with other types of organizations in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. It can also serve as an analytical tool for measuring the organizational capacity in different service domains and inform the practitioners and policymakers in decision-making \parencite{Hodgkinsonnewresearchplanning1991}. Scholars also use NTEE codes for sampling purposes \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000,CarmanEvaluationCapacityNonprofit2010} or as independent variables \parencite{SloanEffectsNonprofitAccountability2009}. The invention of NTEE also provides a fundamental necessity for comparative international research, facilitating the study of ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996,HodgkinsonMappingnonprofitsector1990}.
 
-The NTEE classification system, although one of the best we have, still has several major drawbacks. First, because it only assign one major category code to an organization, it cannot accurately describe a nonprofit organization's programs which are usually diverse and across several domains \parencite[303]{GronbjergUsingNTEEclassify1994}. Although another classification system assigning purpose codes to programs was developed \parencite{LampkinIntroducingNonprofitProgram2001}, it is not widely used \hl{(why?)}. Second, the assignment of NTEE codes is not complete because it is ``based on an assessment of program descriptions contained in Parts 3 and 8 of the Form 990'' and ``program descriptions were only available for some organizations'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. A recent study found the number of organizations in Washington State with a specific NTEE code could be significantly increased if the mission statements were used for coding \parencite{FyallNTEECodesOpportunities2018}. Third, NTEE codes are static but nonprofit organizations' activities may change over time. Recoding existent NTEE assignments is extremely onerous, and this may be one of the reason that IRS does not have a procedure by which the nonprofits can request the change of their NTEE codes \parencite{USInternalRevenueServiceIRSStaticFiles2013}.
-\todo[inline]{NTEE limitations: \textcite{Salamonsearchnonprofitsector1992}.}
+The NTEE classification system, although one of the best we have, still has several drawbacks. First, because it only assign one major category code to an organization, it cannot accurately describe a nonprofit's programs which are usually diverse and across several service domains \parencite[303]{GronbjergUsingNTEEclassify1994}. Although a program classification system was developed later \parencite{LampkinIntroducingNonprofitProgram2001}, it is not widely used probably because it is impractical to assign codes to massive amount of programs. Second, the assignment of NTEE codes is not complete because it is ``based on an assessment of program descriptions contained in Parts 3 and 8 of the Form 990'' and ``program descriptions were only available for some organizations'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. A recent study found the number of organizations in Washington State with a specific NTEE code could be significantly increased if the mission statements were used for coding \parencite{FyallNTEECodesOpportunities2018}. Third, NTEE codes are static but nonprofit organizations' activities may change over time. Recoding existent NTEE assignments is extremely onerous, and this may be one of the reason that IRS does not have a procedure by which the nonprofits can request the change of their NTEE codes \parencite{USInternalRevenueServiceIRSStaticFiles2013}. In general, the tremendous human labor needed for classification is a prominent challenge, and such challenge is also an evident barrier for improving any classification system.
 
-\todo[inline]{Contribution of this study.}
+This research note responds to this challenge by applying supervised machine-learning techniques to nonprofit classification. It made the following contributions: 1) we established a standardized workflow and benchmarks which future studies and industrial applications can build on and compare to; 2) we achieved 77\% average accuracy for classifying the nonprofits into 10 broad categories, and 72\% for the classification of 25 major groups; 3) we made a Python package for classifying nonprofits which can be used by academia for free; 4) we released all source codes and data for replication purposes and future study, this is particularly important since there are many caveats in tuning algorithms.\footnote{Will do this after blind peer-review.} 
+
 
 % By using supervised machine-learning techniques, this study advanced the NTEE classification system from the following perspective: 1) A series of datasets for training models was developed, 2) the accuracy and efficiency of popular text-classification algorithms were compared, 3) existent empirical studies were replicated to test the validity of our machine-learning approach. According to the results of experimentation, validation, and replication, the combination of \hl{\textit{ABC} algorithm} and trained datasets produced the best results.
 
@@ -113,8 +113,6 @@ Figure \ref{fig:workflow} shows this paper's complete workflow. We implement fou
 
 % \subsubsection{Text Data}
 
-\textit{Data acquisition and dataset preprocessing.} We collected text records from form 990, 990-EZ, and 990-PF, and supplemented these records with program descriptions from Schedule O. Form 990 (Return of Organization Exempt From Income Tax) is submitted by most of the nonprofit organizations. For smaller organizations with ``gross receipts of less than \$200,000 and total assets of less than \$500,000 at the end of their tax year'' \parencite[1]{USInternalRevenueService2017InstructionsForm2018}, they can file Form 990-EZ (Short Form Return of Organization Exempt From Income Tax), a shorter version of Form 990. Private foundations use Form 990-PF (Return of Private Foundation). The texts describes organizational activities in two forms: overall mission statement and specific program description. Table \ref{text_loc} summarizes these text fields' specific locations in different forms.
-
 \begin{table}[]
     \centering
     \begin{tabularx}{\textwidth}{r|X|X}
@@ -128,11 +126,36 @@ Figure \ref{fig:workflow} shows this paper's complete workflow. We implement fou
          990-PF & -- & Part IX-A; Part XVI-B \\
          \hline
     \end{tabularx}
-    \caption{Locations of text fields in different forms.} \label{text_loc}
+    \caption{\textsc{Locations of text fields in different forms}} \label{tab:text_loc}
     \label{tab:my_label}
 \end{table}
 
-Classification records (i.e., NTEE codes) are collected from the 2014-2016 Business Master Files on NCCS website.\footnote{https://nccs-data.urban.org} The accuracy of classification is indicated by a letter of A, B, or C: ``A confidence level of A, for example, indicates that there is at least a 90 percent probability that the major group classification is correct'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. From 2014 to 2016, 56.12\% records are classified at A level, 37.32\% at B level, and 6.56\% at C level. For training purposes, we only use records at confidence level A. About 1.76\% organizations changed their NTEE codes between 2014 and 2016. We dropped the records of these organizations since these records are less credible.
+\textit{Data acquisition and dataset preprocessing.} We collected text records from form 990, 990-EZ, and 990-PF, and supplemented these records with program descriptions from Schedule O. Form 990 (Return of Organization Exempt From Income Tax) is submitted by most of the nonprofit organizations. For smaller organizations with ``gross receipts of less than \$200,000 and total assets of less than \$500,000 at the end of their tax year'' \parencite[1]{USInternalRevenueService2017InstructionsForm2018}, they can file Form 990-EZ (Short Form Return of Organization Exempt From Income Tax), a shorter version of Form 990. Private foundations use Form 990-PF (Return of Private Foundation). The texts describes organizational activities in two forms: overall mission statement and specific program description. Table \ref{tab:text_loc} summarizes these text fields' specific locations in different forms.
+
+Classification records (i.e., NTEE codes) are collected from the 2014-2016 Business Master Files on NCCS website.\footnote{https://nccs-data.urban.org} This study deals with two types of NTEE classifications: 10 broad category and 26 major groups. Table \ref{tab:classification} shows the relationship between broad categories and major groups. A detail list of the 26 major groups can be found in \textcite{USInternalRevenueServiceExemptOrganizationsBusiness2014}. The accuracy of classification is indicated by a letter of A, B, or C: ``A confidence level of A, for example, indicates that there is at least a 90 percent probability that the major group classification is correct'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. From 2014 to 2016, 56.12\% records are classified at A level, 37.32\% at B level, and 6.56\% at C level. For training purposes, we only use records at confidence level A and drop all X/Z category (i.e., unknown or unclassified). About 1.76\% organizations changed their NTEE codes between 2014 and 2016. We dropped the records of these organizations since these records are less credible.
+
+\begin{table}[]
+    \centering
+    \begin{tabularx}{\textwidth}{r|X|X}
+    	 \hline
+         Broad Category Code & Explanation & Major Group Code \\
+         \hline
+		I & Arts, Culture, and Humanities & A \\
+		II & Education & B \\
+		III & Environment and Animals & C, D \\
+		IV & Health & E, F, G, H \\
+		V & Human Services & I, J, K, L, M, N, O, P \\
+		VI & International, Foreign Affairs & Q \\
+		VII & Public, Societal Benefit & R, S, T, U, V, W \\
+		VIII & Religion Related & X \\
+		IX & Mutual/Membership Benefit & Y \\
+		X & Unknown, Unclassified & Z \\
+         \hline
+    \end{tabularx}
+    \caption{\textsc{NTEE-CC classification system}} \label{tab:classification}
+    \label{tab:my_label}
+\end{table}
+
 
 \textit{Text Preprocessing.} Texts in sentences need to be ``tokenized'' into words before analysis, which is called ``tokenization'' in natural language processing. We also removed stop words (e.g., ``the'', ``a'' and punctuation marks) and checked spelling errors using algorithms based on ``minimum edit distance'' (ie., the minimum number of editing operations needed to change one word into another; \textcite[26]{JurafskySpeechLanguageProcessing2017}).
 
@@ -189,9 +212,9 @@ Disregarding the contexts in which the words appear is an evident drawback of ba
 
 \subsubsection{Classifiers for Training}
 
-\textit{Na\"ive Bayes classifier} is built on Baye\'s theorem. It is one of the simplest classifiers to learn and implement among all machine learning algorithms and built on simple conditional probability principles. The classifier assumes all features extracted from the texts are conditionally independent, which is wrong in most cases. But the classifier is efficient and has proven to be useful for a variety of tasks even on a small dataset \parencites[][76]{JurafskySpeechLanguageProcessing2017}[][277]{GrimmerTextDataPromise2013}.
+\textit{Na\"ive Bayes (NB) classifier} is built on Baye\'s theorem. It is one of the simplest classifiers to learn and implement among all machine learning algorithms and built on simple conditional probability principles. The classifier assumes all features extracted from the texts are conditionally independent, which is wrong in most cases. But the classifier is efficient and has proven to be useful for a variety of tasks even on a small dataset \parencites[][76]{JurafskySpeechLanguageProcessing2017}[][277]{GrimmerTextDataPromise2013}. We tested two types of NB classifiers: multinomial and Complement NB classifiers \parencite{RennieTacklingPoorAssumptions2003}.
 
-% Eq. \ref{bayes} calculates the probability that organization $i$ belongs to a $NTEE$ classification (e.g., ``A'', arts, culture, and humanities), given its text collection $TXT$ defined in Table \ref{text_loc} (i.e., mission statement and program descriptions). 
+% Eq. \ref{bayes} calculates the probability that organization $i$ belongs to a $NTEE$ classification (e.g., ``A'', arts, culture, and humanities), given its text collection $TXT$ defined in Table \ref{tab:text_loc} (i.e., mission statement and program descriptions). 
 
 % \begin{equation} \label{bayes}
 %  P(NTEE_i \mid TXT_i) = \frac{P(TXT_i \mid NTEE_i) \, P(NTEE_i)}{P(TXT_i)} 
@@ -234,14 +257,11 @@ Given a human coder labels an organization as category \textit{k}, the \textit{r
 We conduced two rounds of grid search. The first found is for \textit{satisficing decision making} in which we only considered the configurations that can perform at the top 5 percent. Then we ran the second found grid search for \textit{optimizing decision making} in which we increased the values of some parameters to allow the algorithms to reach their performance ceilings. We then choose the best algorithm and parameters for final training.
 
 
-
-
-
-
 \section{Results}
 
-% \subsection{Applying the International Nonprofit Classification System: Descriptive analysis}
-% \subsection{Applying the International Nonprofit Classification System: Replication of empirical studies}
+CNN classifier achieves the best overall performances for classifying the 10 broad categories and the 25 major groups: 77\% accuracy (precision, recall, F1). Detail satisficing decision table can be found in source code repository published online (\texttt{/output} folder). The accuracy for each category or group varies as showed in Table. This is table important for researchers who may want to use our model to identify certain types of nonprofits for their own research question. For example, researchers focusing on ``Education'' organizations should feel confident that 83\% organizations that classified as broad category II are correct.
+
+The performance of our CNN classier approximate or even outperform that of human coders.
 
 
 \sloppy

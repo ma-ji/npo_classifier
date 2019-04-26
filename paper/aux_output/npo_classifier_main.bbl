@@ -984,6 +984,59 @@
       \endverb
       \keyw{classification,decision trees,expert systems,induction,information theory,knowledge acquisition}
     \endentry
+    \entry{RennieTacklingPoorAssumptions2003}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=f48c44207bb10ee3ead23a7cf6c756a0}{%
+           family={Rennie},
+           familyi={R\bibinitperiod},
+           given={Jason\bibnamedelimb D.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f3cae04b2511192c38d8c0293ea4e1a2}{%
+           family={Shih},
+           familyi={S\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bbfc6d3550769a86de1bfe6a3fe890d}{%
+           family={Teevan},
+           familyi={T\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c583a42e891550b0d55f659f34537f82}{%
+           family={Karger},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {AAAI Press}%
+      }
+      \strng{namehash}{b1d6c40c91fea9733f08546f06a026a2}
+      \strng{fullhash}{dca0b90d35102fe82c707bb16b3ffa26}
+      \strng{bibnamehash}{dca0b90d35102fe82c707bb16b3ffa26}
+      \strng{authorbibnamehash}{dca0b90d35102fe82c707bb16b3ffa26}
+      \strng{authornamehash}{b1d6c40c91fea9733f08546f06a026a2}
+      \strng{authorfullhash}{dca0b90d35102fe82c707bb16b3ffa26}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Naive Bayes is often used as a baseline in text classification because it is fast and easy to implement. Its severe assumptions make such efficiency possible but also adversely affect the quality of its results. In this paper we propose simple, heuristic solutions to some of the problems with Naive Bayes classifiers, addressing both systemic issues as well as problems that arise because text is not actually generated according to a multinomial model. We find that our simple corrections result in a fast algorithm that is competitive with state-of-the-art text classification algorithms such as the Support Vector Machine.}
+      \field{booktitle}{Proceedings of the {{Twentieth International Conference}} on {{International Conference}} on {{Machine Learning}}}
+      \field{isbn}{978-1-57735-189-4}
+      \field{note}{00946}
+      \field{series}{{{ICML}}'03}
+      \field{title}{Tackling the {{Poor Assumptions}} of {{Naive Bayes Text Classifiers}}}
+      \field{year}{2003}
+      \field{pages}{616\bibrangedash 623}
+      \range{pages}{8}
+    \endentry
     \entry{RoegerNonprofitSectorIts2015}{incollection}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=8afdef7acbefab2c7fff28a46bcdfbe9}{%

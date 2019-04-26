@@ -48,12 +48,22 @@
       \field{number}{1}
       \field{shorttitle}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}}
       \field{title}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}: {{The Formation}} of the {{National Taxonomy}} of {{Exempt Entities}}, 1969—{}1987}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{37}
       \field{year}{2013}
+      \field{urldateera}{ce}
       \field{pages}{103\bibrangedash 141}
       \range{pages}{39}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/23361114
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/23361114
       \endverb
     \endentry
     \entry{BellmanAdaptiveControlProcesses2015}{book}{}
@@ -88,11 +98,21 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4008-7466-8}
-      \field{note}{06093}
+      \field{note}{06095}
       \field{title}{Adaptive {{Control Processes}}, {{A Guided Tour}}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{year}{[1961] 2015}
+      \field{urldateera}{ce}
       \verb{doi}
       \verb 10.1515/9781400874668
+      \endverb
+      \verb{urlraw}
+      \verb https://www.degruyter.com/viewbooktoc/product/474680
+      \endverb
+      \verb{url}
+      \verb https://www.degruyter.com/viewbooktoc/product/474680
       \endverb
     \endentry
     \entry{BengfortAppliedTextAnalysis2018}{book}{}
@@ -147,7 +167,7 @@
       \field{title}{Applied {{Text Analysis}} with {{Python}}: {{Enabling Language}}-{{Aware Data Products}} with {{Machine Learning}}}
       \field{year}{2018}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\EY99XGVV\\Bengfort et al. - 2018 - Applied Text Analysis with Python Enabling Langua.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\EY99XGVV\\Bengfort et al. - 2018 - Applied Text Analysis with Python Enabling Langua.pdf
       \endverb
       \keyw{COMPUTERS / Data Modeling \& Design,COMPUTERS / Data Processing,COMPUTERS / Databases / Data Mining,COMPUTERS / Databases / General,COMPUTERS / Intelligence (AI) \& Semantics,COMPUTERS / Natural Language Processing,COMPUTERS / Programming / Algorithms,COMPUTERS / Programming / General,COMPUTERS / Programming Languages / Python,Python (Computer program language)}
     \endentry
@@ -200,9 +220,9 @@
       \verb 10.1109/72.623216
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\A7V7IPTT\\Benitez et al. - 1997 - Are artificial neural networks black boxes.pdf;C:\\Users\\jm92629\\Zotero\\storage\\I8TG4SCB\\623216.html
+      \verb C:\\Users\\Ji\\Zotero\\storage\\A7V7IPTT\\Benitez et al. - 1997 - Are artificial neural networks black boxes.pdf;C:\\Users\\Ji\\Zotero\\storage\\I8TG4SCB\\623216.html
       \endverb
-      \keyw{artificial intelligence,Artificial intelligence,Artificial neural networks,Computer networks,f-duality concept,feedforward neural nets,feedforward neural networks,fuzzy additive systems,fuzzy logic,Fuzzy logic,Fuzzy neural networks,fuzzy rule-based systems,fuzzy systems,Fuzzy systems,knowledge acquisition,knowledge based systems,Knowledge based systems,Multi-layer neural network,multilayer perceptrons,Neural networks,Neurons}
+      \keyw{artificial intelligence,knowledge acquisition,Artificial intelligence,Artificial neural networks,Computer networks,f-duality concept,feedforward neural nets,feedforward neural networks,fuzzy additive systems,fuzzy logic,Fuzzy logic,Fuzzy neural networks,fuzzy rule-based systems,fuzzy systems,Fuzzy systems,knowledge based systems,Knowledge based systems,Multi-layer neural network,multilayer perceptrons,Neural networks,Neurons}
     \endentry
     \entry{BreimanBaggingpredictors1996}{article}{}
       \name{author}{1}{}{%
@@ -236,15 +256,25 @@
       \field{note}{20500}
       \field{number}{2}
       \field{title}{Bagging Predictors}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{volume}{24}
       \field{year}{1996}
+      \field{urldateera}{ce}
       \field{pages}{123\bibrangedash 140}
       \range{pages}{18}
       \verb{doi}
       \verb 10.1007/BF00058655
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\N5F3BEMZ\\Breiman - 1996 - Bagging predictors.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\N5F3BEMZ\\Breiman - 1996 - Bagging predictors.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF00058655
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF00058655
       \endverb
       \keyw{Aggregation,Averaging,Bootstrap,Combining}
     \endentry
@@ -287,12 +317,22 @@
       \field{number}{1}
       \field{shorttitle}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}}
       \field{title}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}: {{Is}} the {{Glass Half}}-{{Empty}} or {{Half}}-{{Full}}?}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{31}
       \field{year}{2010}
+      \field{urldateera}{ce}
       \field{pages}{84\bibrangedash 104}
       \range{pages}{21}
       \verb{doi}
       \verb 10.1177/1098214009352361
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/1098214009352361
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/1098214009352361
       \endverb
     \endentry
     \entry{ClarkeSimpleTechnologyComplex1996}{article}{}
@@ -330,10 +370,20 @@
       \field{number}{4}
       \field{shorttitle}{From {{Simple Technology}} to {{Complex Arena}}}
       \field{title}{From {{Simple Technology}} to {{Complex Arena}}: {{Classification}} of {{Pap Smears}}, 1917-90}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{10}
       \field{year}{1996}
+      \field{urldateera}{ce}
       \field{pages}{601\bibrangedash 623}
       \range{pages}{23}
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/648664
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/648664
+      \endverb
     \endentry
     \entry{CollobertUnifiedArchitectureNatural2008}{inproceedings}{}
       \name{author}{2}{}{%
@@ -376,14 +426,24 @@
       \field{series}{{{ICML}} '08}
       \field{shorttitle}{A {{Unified Architecture}} for {{Natural Language Processing}}}
       \field{title}{A {{Unified Architecture}} for {{Natural Language Processing}}: {{Deep Neural Networks}} with {{Multitask Learning}}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{year}{2008}
+      \field{urldateera}{ce}
       \field{pages}{160\bibrangedash 167}
       \range{pages}{8}
       \verb{doi}
       \verb 10.1145/1390156.1390177
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\VVHMDIVC\\Collobert and Weston - 2008 - A Unified Architecture for Natural Language Proces.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\VVHMDIVC\\Collobert and Weston - 2008 - A Unified Architecture for Natural Language Proces.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/1390156.1390177
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1390156.1390177
       \endverb
     \endentry
     \entry{DurkheimElementaryFormsReligious2012}{book}{}
@@ -465,15 +525,25 @@
       \field{number}{4}
       \field{shorttitle}{Beyond {{NTEE Codes}}}
       \field{title}{Beyond {{NTEE Codes}}: {{Opportunities}} to {{Understand Nonprofit Activity Through Mission Statement Content Coding}}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
       \field{volume}{47}
       \field{year}{2018}
+      \field{urldateera}{ce}
       \field{pages}{677\bibrangedash 701}
       \range{pages}{25}
       \verb{doi}
       \verb 10.1177/0899764018768019
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
       \endverb
     \endentry
     \entry{GrimmerTextDataPromise2013}{article}{}
@@ -514,15 +584,25 @@
       \field{number}{3}
       \field{shorttitle}{Text as {{Data}}}
       \field{title}{Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{21}
       \field{year}{2013}
+      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 297}
       \range{pages}{31}
       \verb{doi}
       \verb 10.1093/pan/mps028
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
       \endverb
     \endentry
     \entry{GronbjergUsingNTEEclassify1994}{article}{}
@@ -558,15 +638,25 @@
       \field{number}{3}
       \field{shorttitle}{Using {{NTEE}} to Classify Non-Profit Organisations}
       \field{title}{Using {{NTEE}} to Classify Non-Profit Organisations: An Assessment of Human Service and Regional Applications}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{5}
       \field{year}{1994}
+      \field{urldateera}{ce}
       \field{pages}{301\bibrangedash 328}
       \range{pages}{28}
       \verb{doi}
       \verb 10.1007/BF02354038
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF02354038
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF02354038
       \endverb
       \keyw{Human Service,Important Resource,Maximum Utility,Practical Problem,Regional Analysis}
     \endentry
@@ -618,7 +708,7 @@
       \field{pages}{32\bibrangedash 65}
       \range{pages}{34}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
       \endverb
       \keyw{family philan. obligation,history}
     \endentry
@@ -654,15 +744,25 @@
       \field{number}{2}
       \field{shorttitle}{Mapping the Non-Profit Sector in the {{United States}}}
       \field{title}{Mapping the Non-Profit Sector in the {{United States}}: Implications for Research}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1990}
+      \field{urldateera}{ce}
       \field{pages}{6\bibrangedash 32}
       \range{pages}{27}
       \verb{doi}
       \verb 10.1007/BF01397436
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/article/10.1007/BF01397436
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/BF01397436
       \endverb
     \endentry
     \entry{Hodgkinsonnewresearchplanning1991}{article}{}
@@ -701,15 +801,25 @@
       \field{number}{4}
       \field{shorttitle}{A New Research and Planning Tool for Managers}
       \field{title}{A New Research and Planning Tool for Managers: {{The}} National Taxonomy of Exempt Entities}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1991}
+      \field{urldateera}{ce}
       \field{pages}{403\bibrangedash 414}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1002/nml.4130010410
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/nml.4130010410
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/nml.4130010410
       \endverb
     \endentry
     \entry{JurafskySpeechLanguageProcessing2017}{book}{}
@@ -744,9 +854,19 @@
       \field{month}{8}
       \field{note}{02913}
       \field{title}{Speech and {{Language Processing}}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2016}
       \field{year}{2017}
+      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\5VY6DFU9\\Jurafsky and Martin - Speech and Language Processing An Introduction to.pdf;C:\\Users\\jm92629\\Zotero\\storage\\WR5EIFR4\\slp3.html
+      \verb C:\\Users\\Ji\\Zotero\\storage\\5VY6DFU9\\Jurafsky and Martin - Speech and Language Processing An Introduction to.pdf;C:\\Users\\Ji\\Zotero\\storage\\WR5EIFR4\\slp3.html
+      \endverb
+      \verb{urlraw}
+      \verb https://web.stanford.edu/~jurafsky/slp3/
+      \endverb
+      \verb{url}
+      \verb https://web.stanford.edu/~jurafsky/slp3/
       \endverb
     \endentry
     \entry{LampkinIntroducingNonprofitProgram2001}{article}{}
@@ -794,15 +914,25 @@
       \field{number}{4}
       \field{shorttitle}{Introducing the {{Nonprofit Program Classification System}}}
       \field{title}{Introducing the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for , {{Introducing}} the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
       \field{volume}{30}
       \field{year}{2001}
+      \field{urldateera}{ce}
       \field{pages}{781\bibrangedash 793}
       \range{pages}{13}
       \verb{doi}
       \verb 10.1177/0899764001304009
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0899764001304009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0899764001304009
       \endverb
     \endentry
     \entry{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}{report}{}
@@ -833,9 +963,19 @@
       \field{note}{00004}
       \field{title}{Guide to {{Using NCCS Data}}}
       \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{year}{2006}
+      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
       \endverb
     \endentry
     \entry{OktenDeterminantsdonationsprivate2000}{article}{}
@@ -873,15 +1013,25 @@
       \field{note}{00436}
       \field{number}{2}
       \field{title}{Determinants of Donations in Private Nonprofit Markets}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2016}
       \field{volume}{75}
       \field{year}{2000}
+      \field{urldateera}{ce}
       \field{pages}{255\bibrangedash 272}
       \range{pages}{18}
       \verb{doi}
       \verb 10.1016/S0047-2727(99)00066-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
+      \verb C:\\Users\\Ji\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
       \endverb
       \keyw{fundraising,Crowd-out,Donations,Fundraising}
     \endentry
@@ -927,17 +1077,27 @@
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{Proceedings of the 2014 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}} ({{EMNLP}})}
       \field{month}{10}
-      \field{note}{07208}
+      \field{note}{07213}
       \field{shorttitle}{Glove}
       \field{title}{Glove: {{Global Vectors}} for {{Word Representation}}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{year}{2014}
+      \field{urldateera}{ce}
       \field{pages}{1532\bibrangedash 1543}
       \range{pages}{12}
       \verb{doi}
       \verb 10.3115/v1/D14-1162
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\5EBLX887\\Pennington et al. - 2014 - Glove Global Vectors for Word Representation.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\5EBLX887\\Pennington et al. - 2014 - Glove Global Vectors for Word Representation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/D14-1162
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/D14-1162
       \endverb
     \endentry
     \entry{QuinlanInductiondecisiontrees1986}{article}{}
@@ -972,15 +1132,25 @@
       \field{note}{20067}
       \field{number}{1}
       \field{title}{Induction of Decision Trees}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{volume}{1}
       \field{year}{1986}
+      \field{urldateera}{ce}
       \field{pages}{81\bibrangedash 106}
       \range{pages}{26}
       \verb{doi}
       \verb 10.1007/BF00116251
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\QWJ7U8HM\\Quinlan - 1986 - Induction of decision trees.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\QWJ7U8HM\\Quinlan - 1986 - Induction of decision trees.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF00116251
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF00116251
       \endverb
       \keyw{classification,decision trees,expert systems,induction,information theory,knowledge acquisition}
     \endentry
@@ -1033,9 +1203,19 @@
       \field{note}{00946}
       \field{series}{{{ICML}}'03}
       \field{title}{Tackling the {{Poor Assumptions}} of {{Naive Bayes Text Classifiers}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{year}{2003}
+      \field{urldateera}{ce}
       \field{pages}{616\bibrangedash 623}
       \range{pages}{8}
+      \verb{urlraw}
+      \verb http://dl.acm.org/citation.cfm?id=3041838.3041916
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3041838.3041916
+      \endverb
     \endentry
     \entry{RoegerNonprofitSectorIts2015}{incollection}{}
       \name{author}{3}{}{%
@@ -1144,15 +1324,25 @@
       \field{number}{3}
       \field{shorttitle}{In Search of the Non-Profit Sector {{II}}}
       \field{title}{In Search of the Non-Profit Sector {{II}}: {{The}} Problem of Classification}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{3}
       \field{year}{1992}
+      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 309}
       \range{pages}{43}
       \verb{doi}
       \verb 10.1007/BF01397460
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01397460
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01397460
       \endverb
       \keyw{Classification System,Global Level,Initial Test,International Classification,Major Group}
     \endentry
@@ -1200,7 +1390,7 @@
       \field{title}{The International Classification of Nonprofit Organizations {{ICNPO}}-{{Revision}} 1, 1996}
       \field{year}{1996}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
       \endverb
     \endentry
     \entry{SloanEffectsNonprofitAccountability2009}{article}{}
@@ -1235,15 +1425,87 @@
       \field{note}{00136}
       \field{number}{2}
       \field{title}{The {{Effects}} of {{Nonprofit Accountability Ratings}} on {{Donor Behavior}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{38}
       \field{year}{2009}
+      \field{urldateera}{ce}
       \field{pages}{220\bibrangedash 236}
       \range{pages}{17}
       \verb{doi}
       \verb 10.1177/0899764008316470
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0899764008316470
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0899764008316470
+      \endverb
+    \endentry
+    \entry{StengelGettingItRight1998}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=976c8b2af632e71a31a45dabf55c0841}{%
+           family={Stengel},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ca6bd5e2dd669b59b2df40c137274538}{%
+           family={Lampkin},
+           familyi={L\bibinitperiod},
+           given={Linda\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5861dd3d4aa33957a060f0ce40af3c42}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=10442fb9d9c52b65ff578d866427263a}{%
+           family={{Statistics of Income Division}},
+           familyi={S\bibinitperiod}}}%
+        {{hash=dcabeb296bd04a014ee04510c1d740e1}{%
+           family={{Internal Revenue Service}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Statistics of Income Division, Internal Revenue Service}%
+      }
+      \strng{namehash}{c72889ab23865b243a6c7cbc77ffd513}
+      \strng{fullhash}{62d5f1bf3beeb6577b08478d9bbbe6f8}
+      \strng{bibnamehash}{62d5f1bf3beeb6577b08478d9bbbe6f8}
+      \strng{authorbibnamehash}{62d5f1bf3beeb6577b08478d9bbbe6f8}
+      \strng{authornamehash}{c72889ab23865b243a6c7cbc77ffd513}
+      \strng{authorfullhash}{62d5f1bf3beeb6577b08478d9bbbe6f8}
+      \strng{editorbibnamehash}{73823da743be5dae39966215d1fea0c5}
+      \strng{editornamehash}{73823da743be5dae39966215d1fea0c5}
+      \strng{editorfullhash}{73823da743be5dae39966215d1fea0c5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Turning {{Administrative Systems Into Information Systems}}}
+      \field{note}{00000}
+      \field{title}{Getting {{It Right}}: {{Verifying}} the {{Classification}} of {{Public Charities}} in the 1994 {{Statistics}} of {{Income Study Sample}}}
+      \field{volume}{6}
+      \field{year}{1998}
+      \field{pages}{145\bibrangedash 167}
+      \range{pages}{23}
+      \verb{file}
+      \verb C:\\Users\\Ji\\Zotero\\storage\\U6HB8XTJ\\Stengel et al. - 1998 - Getting It Right Verifying the Classification of .pdf
       \endverb
     \endentry
     \entry{USInternalRevenueServiceIRSStaticFiles2013}{misc}{}
@@ -1265,13 +1527,22 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.irs.gov/pub/irs-wd/13-0005.pdf}
       \field{month}{3}
       \field{note}{00000}
       \field{title}{{{IRS Static Files No}}. 2013-0005}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
       \field{year}{2013}
+      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\DLAMYNEV\\13-0005.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\DLAMYNEV\\13-0005.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.irs.gov/pub/irs-wd/13-0005.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irs.gov/pub/irs-wd/13-0005.pdf
       \endverb
     \endentry
     \entry{USInternalRevenueServiceExemptOrganizationsBusiness2014}{misc}{}
@@ -1293,13 +1564,22 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.irs.gov/pub/irs-soi/eo\_info.pdf}
       \field{month}{4}
       \field{note}{00000}
       \field{title}{Exempt {{Organizations Business Master File Information Sheet}}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
       \field{year}{2014}
+      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\V47666E6\\US Internal Revenue Service - 2014 - Exempt Organizations Business Master File Informat.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\V47666E6\\US Internal Revenue Service - 2014 - Exempt Organizations Business Master File Informat.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.irs.gov/pub/irs-soi/eo_info.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irs.gov/pub/irs-soi/eo_info.pdf
       \endverb
     \endentry
     \entry{USInternalRevenueService2017InstructionsForm2018}{misc}{}
@@ -1324,13 +1604,18 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.irs.gov/pub/irs-pdf/i990ez.pdf}
       \field{month}{1}
       \field{note}{00000}
       \field{title}{2017 {{Instructions}} for {{Form}} 990-{{EZ}}}
       \field{year}{2018}
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\R7JAEMMQ\\US Internal Revenue Service - 2017 - 2017 Instructions for Form 990-EZ.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\R7JAEMMQ\\US Internal Revenue Service - 2017 - 2017 Instructions for Form 990-EZ.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.irs.gov/pub/irs-pdf/i990ez.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irs.gov/pub/irs-pdf/i990ez.pdf
       \endverb
     \endentry
     \entry{VakilConfrontingclassificationproblem1997}{article}{}
@@ -1363,15 +1648,25 @@
       \field{number}{12}
       \field{shorttitle}{Confronting the Classification Problem}
       \field{title}{Confronting the Classification Problem: {{Toward}} a Taxonomy of {{NGOs}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2018}
       \field{volume}{25}
       \field{year}{1997}
+      \field{urldateera}{ce}
       \field{pages}{2057\bibrangedash 2070}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/S0305-750X(97)00098-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
+      \verb C:\\Users\\Ji\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
       \endverb
     \endentry
     \entry{ZhangSensitivityAnalysisPractitioners2015}{article}{}
@@ -1409,12 +1704,22 @@
       \field{month}{10}
       \field{note}{00343}
       \field{title}{A {{Sensitivity Analysis}} of (and {{Practitioners}}' {{Guide}} to) {{Convolutional Neural Networks}} for {{Sentence Classification}}}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
       \field{year}{2015}
+      \field{urldateera}{ce}
       \verb{eprint}
       \verb 1510.03820
       \endverb
       \verb{file}
-      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVIWFINS\\Zhang and Wallace - 2015 - A Sensitivity Analysis of (and Practitioners' Guid.pdf;C:\\Users\\jm92629\\Zotero\\storage\\82ZC8D38\\1510.html
+      \verb C:\\Users\\Ji\\Zotero\\storage\\KVIWFINS\\Zhang and Wallace - 2015 - A Sensitivity Analysis of (and Practitioners' Guid.pdf;C:\\Users\\Ji\\Zotero\\storage\\82ZC8D38\\1510.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1510.03820
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1510.03820
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
     \endentry

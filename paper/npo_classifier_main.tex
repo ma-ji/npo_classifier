@@ -127,7 +127,6 @@ Figure \ref{fig:workflow} shows this paper's complete workflow. We implement fou
          \hline
     \end{tabularx}
     \caption{\textsc{Locations of text fields in different forms}} \label{tab:text_loc}
-    \label{tab:my_label}
 \end{table}
 
 \textit{Data acquisition and dataset preprocessing.} We collected text records from form 990, 990-EZ, and 990-PF, and supplemented these records with program descriptions from Schedule O. Form 990 (Return of Organization Exempt From Income Tax) is submitted by most of the nonprofit organizations. For smaller organizations with ``gross receipts of less than \$200,000 and total assets of less than \$500,000 at the end of their tax year'' \parencite[1]{USInternalRevenueService2017InstructionsForm2018}, they can file Form 990-EZ (Short Form Return of Organization Exempt From Income Tax), a shorter version of Form 990. Private foundations use Form 990-PF (Return of Private Foundation). The texts describes organizational activities in two forms: overall mission statement and specific program description. Table \ref{tab:text_loc} summarizes these text fields' specific locations in different forms.
@@ -153,7 +152,6 @@ Classification records (i.e., NTEE codes) are collected from the 2014-2016 Busin
          \hline
     \end{tabularx}
     \caption{\textsc{NTEE-CC classification system}} \label{tab:classification}
-    \label{tab:my_label}
 \end{table}
 
 
@@ -261,7 +259,79 @@ We conduced two rounds of grid search. The first found is for \textit{satisficin
 
 CNN classifier achieves the best overall performances for classifying the 10 broad categories and the 25 major groups: 77\% accuracy (precision, recall, F1). Detail satisficing decision table can be found in source code repository published online (\texttt{/output} folder). The accuracy for each category or group varies as showed in Table. This is table important for researchers who may want to use our model to identify certain types of nonprofits for their own research question. For example, researchers focusing on ``Education'' organizations should feel confident that 83\% organizations that classified as broad category II are correct.
 
-The performance of our CNN classier approximate or even outperform that of human coders.
+\begin{table}
+\centering
+\begin{threeparttable}
+    \caption{\textsc{Comparison of accuracy: broad category}} \label{tab:acc_bc}
+    \begin{tabular}{r|r|r}
+		\hline
+			Code & Algorithm Accuracy & Human-coder Accuracy \\
+		\hline
+			I & 83.16\% & ** \\
+			II & 83.02\% & **  \\
+			III & 79.97\% & **  \\
+			IV & 82.10\% & **  \\
+			V & 75.38\% & **  \\
+			VI & 82.54\% & **  \\
+			VII & 1.32\% & **  \\
+			VIII & 63.29\% & **  \\
+			IX & 67.57\% & ** \\
+    	 \hline
+    \end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \emph{Notes:} Human-coder accuracy is from \textcite{StengelGettingItRight1998}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+\begin{table}
+\centering
+\begin{threeparttable}
+    \caption{\textsc{Comparison of accuracy: major group}} \label{tab:acc_mg}
+    \begin{tabular}{r|r|r}
+		\hline
+			Code & Algorithm Accuracy & Human-coder Accuracy \\
+		\hline
+		A & *** & 88.49\% \\
+		B & *** & 92.72\% \\
+		C & *** & 85.71\% \\
+		D & *** & 89.89\% \\
+		E & *** & 92.33\% \\
+		F & *** & 85.79\% \\
+		G & *** & 64.96\% \\
+		H & *** & 72.97\% \\
+		I & *** & 84.09\% \\
+		J & *** & 72.09\% \\
+		K & *** & 81.82\% \\
+		L & *** & 82.77\% \\
+		M & *** & 87.50\% \\
+		N & *** & 87.80\% \\
+		O & *** & 90.76\% \\
+		P & *** & 87.51\% \\
+		Q & *** & 76.64\% \\
+		R & *** & 66.67\% \\
+		S & *** & 75.44\% \\
+		T & *** & 78.41\% \\
+		U & *** & 76.36\% \\
+		V & *** & 23.53\% \\
+		W & *** & 58.00\% \\
+		X & *** & 86.57\% \\
+		Y & *** & 89.52\% \\
+		Z & -- & 10.00\% \\
+         \hline
+    \end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \emph{Notes:} Human-coder accuracy is from \textcite{StengelGettingItRight1998}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+
+Our CNN classier approximates human coders in most broad categories, even outperforms in certain categories. For example, the accuracy of broad category I and II coded by human is around 90\%, and our classifier achieve 83\% accuracy; human coders achieve about 78\% accuracy in broad category VI, but our classifier outperforms about 4\%, achieving 82.54\% accuracy \textcite[153]{StengelGettingItRight1998}.
+
 
 
 \sloppy

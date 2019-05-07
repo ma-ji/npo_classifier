@@ -5,3 +5,7 @@
 \BOOKMARK [2][-]{subsection.2.3}{Word representation and feature extraction}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Training and intermediate decision making}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{Results}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Selecting the best classifier}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Performance of best model: Convolutional Neural Network}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Functions of software package for classifying texts using NTEE codes}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 11

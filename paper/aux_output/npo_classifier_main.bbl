@@ -19,6 +19,54 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{BacakPrincipledMachineLearning2018}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=57df49fcc0cea0d14089c27b14af5f35}{%
+           family={Baćak},
+           familyi={B\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c6b5587c511fc918dbab2afc11b7400e}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2bd0c7f186d685da908e23e6d59b328e}
+      \strng{fullhash}{2bd0c7f186d685da908e23e6d59b328e}
+      \strng{bibnamehash}{2bd0c7f186d685da908e23e6d59b328e}
+      \strng{authorbibnamehash}{2bd0c7f186d685da908e23e6d59b328e}
+      \strng{authornamehash}{2bd0c7f186d685da908e23e6d59b328e}
+      \strng{authorfullhash}{2bd0c7f186d685da908e23e6d59b328e}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A rapidly growing number of algorithms are available to researchers who apply statistical or machine learning methods to answer social science research questions. The unique advantages and limitations of each algorithm are relatively well known, but it is not possible to know in advance which algorithm is best suited for the particular research question and the data set at hand. Typically, researchers end up choosing, in a largely arbitrary fashion, one or a handful of algorithms. In this article, we present the Super Learner—{}a powerful new approach to statistical learning that leverages a variety of data-adaptive methods, such as random forests and spline regression, and systematically chooses the one, or a weighted combination of many, that produces the best forecasts. We illustrate the use of the Super Learner by predicting violence among inmates from the 2005 Census of State and Federal Adult Correctional Facilities. Over the past 40 years, mass incarceration has drastically weakened prisons' capacities to ensure inmate safety, yet we know little about the characteristics of prisons related to inmate victimization. We discuss the value of the Super Learner in social science research and the implications of our findings for understanding prison violence.}
+      \field{issn}{0049-1241}
+      \field{journaltitle}{Sociological Methods \& Research}
+      \field{month}{1}
+      \field{note}{00002}
+      \field{shorttitle}{Principled {{Machine Learning Using}} the {{Super Learner}}}
+      \field{title}{Principled {{Machine Learning Using}} the {{Super Learner}}: {{An Application}} to {{Predicting Prison Violence}}}
+      \field{year}{2018}
+      \field{pages}{0049124117747301}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/0049124117747301
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\72WYHP3U\\Baćak and Kennedy - 2018 - Principled Machine Learning Using the Super Learne.pdf
+      \endverb
+    \endentry
     \entry{BarmanClassificatoryStrugglesNonprofit2013}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=96307cf5b03f819c9e645f683e469881}{%
@@ -48,22 +96,12 @@
       \field{number}{1}
       \field{shorttitle}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}}
       \field{title}{Classificatory {{Struggles}} in the {{Nonprofit Sector}}: {{The Formation}} of the {{National Taxonomy}} of {{Exempt Entities}}, 1969—{}1987}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{37}
       \field{year}{2013}
-      \field{urldateera}{ce}
       \field{pages}{103\bibrangedash 141}
       \range{pages}{39}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.jstor.org/stable/23361114
-      \endverb
-      \verb{url}
-      \verb http://www.jstor.org/stable/23361114
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\6EU8RLX8\\Barman - 2013 - Classificatory Struggles in the Nonprofit Sector .pdf
       \endverb
     \endentry
     \entry{BellmanAdaptiveControlProcesses2015}{book}{}
@@ -98,21 +136,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4008-7466-8}
-      \field{note}{06095}
+      \field{note}{06093}
       \field{title}{Adaptive {{Control Processes}}, {{A Guided Tour}}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{year}{[1961] 2015}
-      \field{urldateera}{ce}
       \verb{doi}
       \verb 10.1515/9781400874668
-      \endverb
-      \verb{urlraw}
-      \verb https://www.degruyter.com/viewbooktoc/product/474680
-      \endverb
-      \verb{url}
-      \verb https://www.degruyter.com/viewbooktoc/product/474680
       \endverb
     \endentry
     \entry{BengfortAppliedTextAnalysis2018}{book}{}
@@ -167,62 +195,9 @@
       \field{title}{Applied {{Text Analysis}} with {{Python}}: {{Enabling Language}}-{{Aware Data Products}} with {{Machine Learning}}}
       \field{year}{2018}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\EY99XGVV\\Bengfort et al. - 2018 - Applied Text Analysis with Python Enabling Langua.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\EY99XGVV\\Bengfort et al. - 2018 - Applied Text Analysis with Python Enabling Langua.pdf
       \endverb
       \keyw{COMPUTERS / Data Modeling \& Design,COMPUTERS / Data Processing,COMPUTERS / Databases / Data Mining,COMPUTERS / Databases / General,COMPUTERS / Intelligence (AI) \& Semantics,COMPUTERS / Natural Language Processing,COMPUTERS / Programming / Algorithms,COMPUTERS / Programming / General,COMPUTERS / Programming Languages / Python,Python (Computer program language)}
-    \endentry
-    \entry{BenitezAreartificialneural1997}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=8353e8a00cb8666955d72efa11233093}{%
-           family={Benitez},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=6b43b7e9da3f363dc3789ecfa3d6c605}{%
-           family={Castro},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=422516dd35eed88dde07e309013d772b}{%
-           family={Requena},
-           familyi={R\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{846477553d13c0ff1559f7fbecbd2292}
-      \strng{fullhash}{c689c09179c545d499e7e619ee1836fd}
-      \strng{bibnamehash}{c689c09179c545d499e7e619ee1836fd}
-      \strng{authorbibnamehash}{c689c09179c545d499e7e619ee1836fd}
-      \strng{authornamehash}{846477553d13c0ff1559f7fbecbd2292}
-      \strng{authorfullhash}{c689c09179c545d499e7e619ee1836fd}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Artificial neural networks are efficient computing models which have shown their strengths in solving hard problems in artificial intelligence. They have also been shown to be universal approximators. Notwithstanding, one of the major criticisms is their being black boxes, since no satisfactory explanation of their behavior has been offered. In this paper, we provide such an interpretation of neural networks so that they will no longer be seen as black boxes. This is stated after establishing the equality between a certain class of neural nets and fuzzy rule-based systems. This interpretation is built with fuzzy rules using a new fuzzy logic operator which is defined after introducing the concept of f-duality. In addition, this interpretation offers an automated knowledge acquisition procedure.}
-      \field{issn}{1045-9227}
-      \field{journaltitle}{IEEE Transactions on Neural Networks}
-      \field{month}{9}
-      \field{note}{00432}
-      \field{number}{5}
-      \field{title}{Are Artificial Neural Networks Black Boxes?}
-      \field{volume}{8}
-      \field{year}{1997}
-      \field{pages}{1156\bibrangedash 1164}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1109/72.623216
-      \endverb
-      \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\A7V7IPTT\\Benitez et al. - 1997 - Are artificial neural networks black boxes.pdf;C:\\Users\\Ji\\Zotero\\storage\\I8TG4SCB\\623216.html
-      \endverb
-      \keyw{artificial intelligence,knowledge acquisition,Artificial intelligence,Artificial neural networks,Computer networks,f-duality concept,feedforward neural nets,feedforward neural networks,fuzzy additive systems,fuzzy logic,Fuzzy logic,Fuzzy neural networks,fuzzy rule-based systems,fuzzy systems,Fuzzy systems,knowledge based systems,Knowledge based systems,Multi-layer neural network,multilayer perceptrons,Neural networks,Neurons}
     \endentry
     \entry{BreimanBaggingpredictors1996}{article}{}
       \name{author}{1}{}{%
@@ -256,25 +231,15 @@
       \field{note}{20500}
       \field{number}{2}
       \field{title}{Bagging Predictors}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{volume}{24}
       \field{year}{1996}
-      \field{urldateera}{ce}
       \field{pages}{123\bibrangedash 140}
       \range{pages}{18}
       \verb{doi}
       \verb 10.1007/BF00058655
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\N5F3BEMZ\\Breiman - 1996 - Bagging predictors.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF00058655
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF00058655
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\N5F3BEMZ\\Breiman - 1996 - Bagging predictors.pdf
       \endverb
       \keyw{Aggregation,Averaging,Bootstrap,Combining}
     \endentry
@@ -317,22 +282,12 @@
       \field{number}{1}
       \field{shorttitle}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}}
       \field{title}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}: {{Is}} the {{Glass Half}}-{{Empty}} or {{Half}}-{{Full}}?}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{31}
       \field{year}{2010}
-      \field{urldateera}{ce}
       \field{pages}{84\bibrangedash 104}
       \range{pages}{21}
       \verb{doi}
       \verb 10.1177/1098214009352361
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1098214009352361
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1098214009352361
       \endverb
     \endentry
     \entry{ClarkeSimpleTechnologyComplex1996}{article}{}
@@ -370,20 +325,10 @@
       \field{number}{4}
       \field{shorttitle}{From {{Simple Technology}} to {{Complex Arena}}}
       \field{title}{From {{Simple Technology}} to {{Complex Arena}}: {{Classification}} of {{Pap Smears}}, 1917-90}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{10}
       \field{year}{1996}
-      \field{urldateera}{ce}
       \field{pages}{601\bibrangedash 623}
       \range{pages}{23}
-      \verb{urlraw}
-      \verb https://www.jstor.org/stable/648664
-      \endverb
-      \verb{url}
-      \verb https://www.jstor.org/stable/648664
-      \endverb
     \endentry
     \entry{CollobertUnifiedArchitectureNatural2008}{inproceedings}{}
       \name{author}{2}{}{%
@@ -426,24 +371,14 @@
       \field{series}{{{ICML}} '08}
       \field{shorttitle}{A {{Unified Architecture}} for {{Natural Language Processing}}}
       \field{title}{A {{Unified Architecture}} for {{Natural Language Processing}}: {{Deep Neural Networks}} with {{Multitask Learning}}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{year}{2008}
-      \field{urldateera}{ce}
       \field{pages}{160\bibrangedash 167}
       \range{pages}{8}
       \verb{doi}
       \verb 10.1145/1390156.1390177
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\VVHMDIVC\\Collobert and Weston - 2008 - A Unified Architecture for Natural Language Proces.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.acm.org/10.1145/1390156.1390177
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/1390156.1390177
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\VVHMDIVC\\Collobert and Weston - 2008 - A Unified Architecture for Natural Language Proces.pdf
       \endverb
     \endentry
     \entry{DurkheimElementaryFormsReligious2012}{book}{}
@@ -476,9 +411,8 @@
       \field{labeltitlesource}{title}
       \field{abstract}{In this 1912 classic, a founder of modern sociology seeks the enduring source of human social identity. Émile Durkheim presents a remarkably accessible examination of animism, naturism, totemism, myth, and ritual. His intriguing views and ultimate conclusion—{}that the source of religion and morality lies in collective consciousness, rather than in individual minds—{}remains a topic of debate among sociologists, anthropologists, ethnographers, philosophers, and theologians.Durkheim edited L'Année Sociologique, the first journal of sociology, and was instrumental in establishing the field as a social science. With The Elementary Forms of the Religious Life, he explores totemism among Australia's Aborigines, offering the opportunity "to yield an understanding of the religious nature of man, by showing us an essential and permanent aspect of humanity." Durkheim's study focuses on the need and capacity of humans to relate to one another socially, with religion as the core of the moral universe. An excellent introduction to the influential sociologist's ideas, this book continues to speak to new generations about the intriguing origin and nature of religion and society.}
       \field{isbn}{978-0-486-12044-7}
-      \field{month}{6}
       \field{title}{The {{Elementary Forms}} of the {{Religious Life}}}
-      \field{year}{2012}
+      \field{year}{[1912] 2012}
     \endentry
     \entry{FyallNTEECodesOpportunities2018}{article}{}
       \name{author}{3}{}{%
@@ -525,25 +459,15 @@
       \field{number}{4}
       \field{shorttitle}{Beyond {{NTEE Codes}}}
       \field{title}{Beyond {{NTEE Codes}}: {{Opportunities}} to {{Understand Nonprofit Activity Through Mission Statement Content Coding}}}
-      \field{urlday}{6}
-      \field{urlmonth}{8}
-      \field{urlyear}{2018}
       \field{volume}{47}
       \field{year}{2018}
-      \field{urldateera}{ce}
       \field{pages}{677\bibrangedash 701}
       \range{pages}{25}
       \verb{doi}
       \verb 10.1177/0899764018768019
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
-      \endverb
-      \verb{url}
-      \verb http://journals.sagepub.com/doi/10.1177/0899764018768019
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\TKVFVPRW\\Fyall et al. - 2018 - Beyond NTEE Codes Opportunities to Understand Non.pdf
       \endverb
     \endentry
     \entry{GrimmerTextDataPromise2013}{article}{}
@@ -584,25 +508,15 @@
       \field{number}{3}
       \field{shorttitle}{Text as {{Data}}}
       \field{title}{Text as {{Data}}: {{The Promise}} and {{Pitfalls}} of {{Automatic Content Analysis Methods}} for {{Political Texts}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{21}
       \field{year}{2013}
-      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 297}
       \range{pages}{31}
       \verb{doi}
       \verb 10.1093/pan/mps028
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
-      \endverb
-      \verb{url}
-      \verb https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\R5AMGV6N\\Grimmer and Stewart - 2013 - Text as Data The Promise and Pitfalls of Automati.pdf
       \endverb
     \endentry
     \entry{GronbjergUsingNTEEclassify1994}{article}{}
@@ -638,25 +552,15 @@
       \field{number}{3}
       \field{shorttitle}{Using {{NTEE}} to Classify Non-Profit Organisations}
       \field{title}{Using {{NTEE}} to Classify Non-Profit Organisations: An Assessment of Human Service and Regional Applications}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{5}
       \field{year}{1994}
-      \field{urldateera}{ce}
       \field{pages}{301\bibrangedash 328}
       \range{pages}{28}
       \verb{doi}
       \verb 10.1007/BF02354038
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF02354038
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF02354038
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\5I7JPR9J\\Grønbjerg - 1994 - Using NTEE to classify non-profit organisations a.pdf
       \endverb
       \keyw{Human Service,Important Resource,Maximum Utility,Practical Problem,Regional Analysis}
     \endentry
@@ -708,7 +612,7 @@
       \field{pages}{32\bibrangedash 65}
       \range{pages}{34}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\VI3TA35D\\Hall - 2006 - A Historical Overview of Philanthropy, Voluntary A.pdf
       \endverb
       \keyw{family philan. obligation,history}
     \endentry
@@ -744,25 +648,15 @@
       \field{number}{2}
       \field{shorttitle}{Mapping the Non-Profit Sector in the {{United States}}}
       \field{title}{Mapping the Non-Profit Sector in the {{United States}}: Implications for Research}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1990}
-      \field{urldateera}{ce}
       \field{pages}{6\bibrangedash 32}
       \range{pages}{27}
       \verb{doi}
       \verb 10.1007/BF01397436
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/article/10.1007/BF01397436
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/article/10.1007/BF01397436
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\SDN8Y5HB\\Hodgkinson - 1990 - Mapping the non-profit sector in the United States.pdf
       \endverb
     \endentry
     \entry{Hodgkinsonnewresearchplanning1991}{article}{}
@@ -801,25 +695,15 @@
       \field{number}{4}
       \field{shorttitle}{A New Research and Planning Tool for Managers}
       \field{title}{A New Research and Planning Tool for Managers: {{The}} National Taxonomy of Exempt Entities}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{1}
       \field{year}{1991}
-      \field{urldateera}{ce}
       \field{pages}{403\bibrangedash 414}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1002/nml.4130010410
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.wiley.com/10.1002/nml.4130010410
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1002/nml.4130010410
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\6725FE22\\Hodgkinson and Toppe - 1991 - A new research and planning tool for managers The.pdf
       \endverb
     \endentry
     \entry{JurafskySpeechLanguageProcessing2017}{book}{}
@@ -854,20 +738,91 @@
       \field{month}{8}
       \field{note}{02913}
       \field{title}{Speech and {{Language Processing}}}
-      \field{urlday}{25}
-      \field{urlmonth}{11}
-      \field{urlyear}{2016}
       \field{year}{2017}
-      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\5VY6DFU9\\Jurafsky and Martin - Speech and Language Processing An Introduction to.pdf;C:\\Users\\Ji\\Zotero\\storage\\WR5EIFR4\\slp3.html
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\5VY6DFU9\\Jurafsky and Martin - Speech and Language Processing An Introduction to.pdf;C:\\Users\\jm92629\\Zotero\\storage\\WR5EIFR4\\slp3.html
       \endverb
-      \verb{urlraw}
-      \verb https://web.stanford.edu/~jurafsky/slp3/
-      \endverb
-      \verb{url}
-      \verb https://web.stanford.edu/~jurafsky/slp3/
-      \endverb
+    \endentry
+    \entry{KeaheyChameleonScalableProduction2018}{incollection}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=d305547a836e01d0d67528665638cc63}{%
+           family={Keahey},
+           familyi={K\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f736ca6e0d8fb976cf785c54e7b30e1}{%
+           family={Riteau},
+           familyi={R\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=191606af8875efa2aa15a16b3da604fb}{%
+           family={Stanzione},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=333c7394368bfc9cb5ed7f759cb0e991}{%
+           family={Cockerill},
+           familyi={C\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=476e47182192683ae02590aacc1ebf73}{%
+           family={Mambretti},
+           familyi={M\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8ffa1be1916865686f807d0cd4ae1136}{%
+           family={Rad},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c77f8532a9a9150772a3b1baf1690259}{%
+           family={Ruth},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6b48a3255fd235791279ee8253b46d50}{%
+           family={Vetter},
+           familyi={V\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{7752375406d8fed06dd7034c978c632b}
+      \strng{fullhash}{32feef2b633f0375548823fd2c3c1f2b}
+      \strng{bibnamehash}{32feef2b633f0375548823fd2c3c1f2b}
+      \strng{authorbibnamehash}{32feef2b633f0375548823fd2c3c1f2b}
+      \strng{authornamehash}{7752375406d8fed06dd7034c978c632b}
+      \strng{authorfullhash}{32feef2b633f0375548823fd2c3c1f2b}
+      \strng{editorbibnamehash}{6b48a3255fd235791279ee8253b46d50}
+      \strng{editornamehash}{6b48a3255fd235791279ee8253b46d50}
+      \strng{editorfullhash}{6b48a3255fd235791279ee8253b46d50}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Contemporary {{High Performance Computing}}: {{From Petascale}} toward {{Exascale}}}
+      \field{edition}{1}
+      \field{series}{Chapman \& {{Hall}}/{{CRC Computational Science}}}
+      \field{title}{Chameleon: A {{Scalable Production Testbed}} for {{Computer Science Research}}}
+      \field{volume}{3}
+      \field{year}{2018}
     \endentry
     \entry{LampkinIntroducingNonprofitProgram2001}{article}{}
       \name{author}{3}{}{%
@@ -914,26 +869,116 @@
       \field{number}{4}
       \field{shorttitle}{Introducing the {{Nonprofit Program Classification System}}}
       \field{title}{Introducing the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for , {{Introducing}} the {{Nonprofit Program Classification System}}: {{The Taxonomy We}}'ve {{Been Waiting}} for}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2018}
       \field{volume}{30}
       \field{year}{2001}
-      \field{urldateera}{ce}
       \field{pages}{781\bibrangedash 793}
       \range{pages}{13}
       \verb{doi}
       \verb 10.1177/0899764001304009
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\9P9I4X3C\\Lampkin et al. - 2001 - Introducing the Nonprofit Program Classification S.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/0899764001304009
+    \endentry
+    \entry{LemaitreImbalancedlearnPythonToolbox2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=781d41794e363edaf811a97df6ec0bcc}{%
+           family={Lemaître},
+           familyi={L\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f945a9261b3f3da4e3890d52a239ebf9}{%
+           family={Nogueira},
+           familyi={N\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb30326373010a04c92d57f4b0d63ebe}{%
+           family={Aridas},
+           familyi={A\bibinitperiod},
+           given={Christos\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a1e8015f8278954c4a6e5623eb2f2a8}
+      \strng{fullhash}{c56aface77a37dd46bd4d9851b1c5453}
+      \strng{bibnamehash}{c56aface77a37dd46bd4d9851b1c5453}
+      \strng{authorbibnamehash}{c56aface77a37dd46bd4d9851b1c5453}
+      \strng{authornamehash}{6a1e8015f8278954c4a6e5623eb2f2a8}
+      \strng{authorfullhash}{c56aface77a37dd46bd4d9851b1c5453}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{imbalanced-learn is an open-source python toolbox aiming at providing a wide range of methods to cope with the problem of imbalanced dataset frequently encountered in machine learning and pattern recognition. The implemented state-of-the-art methods can be categorized into 4 groups: (i) under-sampling, (ii) over-sampling, (iii) combination of over-and under-sampling, and (iv) ensemble learning methods. The proposed toolbox depends only on numpy, scipy, and scikit-learn and is distributed under MIT license. Furthermore, it is fully compatible with scikit-learn and is part of the scikit-learn-contrib supported project. Documentation, unit tests as well as integration tests are provided to ease usage and contribution. Source code, binaries, and documentation can be downloaded from https://github.com/scikit-learn-contrib/imbalanced-learn.}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{month}{1}
+      \field{note}{00222}
+      \field{number}{1}
+      \field{shorttitle}{Imbalanced-Learn}
+      \field{title}{Imbalanced-Learn: {{A Python Toolbox}} to {{Tackle}} the {{Curse}} of {{Imbalanced Datasets}} in {{Machine Learning}}}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{559\bibrangedash 563}
+      \range{pages}{5}
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\RKXHMHHB\\Lemaître et al. - 2017 - Imbalanced-learn A Python Toolbox to Tackle the C.pdf
       \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/0899764001304009
-      \endverb
+      \keyw{ensemble learning,imbalanced dataset,machine learning,over-sampling,python,under-sampling}
+    \endentry
+    \entry{McKeeverNonprofitAlmanacEssential2016}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c72c68b81c2bc18ee3cde2960ce28be7}{%
+           family={McKeever},
+           familyi={M\bibinitperiod},
+           given={Brice\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6266a77ad3ad81c7bc5373d279f72ee8}{%
+           family={Dietz},
+           familyi={D\bibinitperiod},
+           given={Nathan\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5da171c274875a2b672e02a347faed9c}{%
+           family={Fyffe},
+           familyi={F\bibinitperiod},
+           given={Saunji\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield}%
+      }
+      \strng{namehash}{369d96797e9773f888c84f0dab2f7fbf}
+      \strng{fullhash}{4ffa9836c4a79f9dd107708ed457ed4f}
+      \strng{bibnamehash}{4ffa9836c4a79f9dd107708ed457ed4f}
+      \strng{authorbibnamehash}{4ffa9836c4a79f9dd107708ed457ed4f}
+      \strng{authornamehash}{369d96797e9773f888c84f0dab2f7fbf}
+      \strng{authorfullhash}{4ffa9836c4a79f9dd107708ed457ed4f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Nonprofit Almanac, Ninth Edition, completely updated to include the most recent data available,assembles into one compact and well-organized volume an accessible and reader-friendly bible of data on America's extraordinary and rapidly growing civic sector. In many cases, the data cover spans of ten years or more, allowing for a detailed retrospective look at trends in the sector. This edition, celebrating the twentieth anniversary of the Urban Institute's Center on Nonprofits and Philanthropy, traces the growth of nonprofits in the post-recession period, providing insights into which subsectors have not fully recovered from the recession and which flourished throughout the period. Other key results include the shifting of revenue streams for nonprofits, as well as post-recession trends in giving and volunteering. New to this edition is a series of analyses on nonprofit growth and finances at the metropolitan level. Building on the Center on Nonprofits and Philanthropy's two decades of experience in analyzing the size, scope, and performance of the nonprofit field, The Nonprofit Almanac, Ninth Edition, is an invaluable reference for managers of nonprofit organizations, foundations, and corporate social responsibility programs, as well as scholars, teachers, students, and journalists.}
+      \field{isbn}{978-1-4422-7594-2}
+      \field{month}{10}
+      \field{note}{00017}
+      \field{shorttitle}{The {{Nonprofit Almanac}}}
+      \field{title}{The {{Nonprofit Almanac}}: {{The Essential Facts}} and {{Figures}} for {{Managers}}, {{Researchers}}, and {{Volunteers}}}
+      \field{year}{2016}
+      \keyw{Business \& Economics / Nonprofit Organizations \& Charities / General,Political Science / Reference}
     \endentry
     \entry{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}{report}{}
       \name{author}{1}{}{%
@@ -963,19 +1008,69 @@
       \field{note}{00004}
       \field{title}{Guide to {{Using NCCS Data}}}
       \field{type}{techreport}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{year}{2006}
-      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVFGIHMV\\NCCS-data-guide.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
+    \endentry
+    \entry{NelsonFutureCodingComparison2018}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=72d1a8844dcaaad7a1ed8704819886fb}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Laura\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=760349cf6a435cb513e9118230f05be7}{%
+           family={Burk},
+           familyi={B\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=33478e4f40bd43d1e53f33bba9721c97}{%
+           family={Knudsen},
+           familyi={K\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb5629a18113dd7da87be6d774bc4a01}{%
+           family={McCall},
+           familyi={M\bibinitperiod},
+           given={Leslie},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5c2a7a457f282245fae5a64af1e4083c}
+      \strng{fullhash}{63166a18b31e8d7393201a00e1f25bcc}
+      \strng{bibnamehash}{63166a18b31e8d7393201a00e1f25bcc}
+      \strng{authorbibnamehash}{63166a18b31e8d7393201a00e1f25bcc}
+      \strng{authornamehash}{5c2a7a457f282245fae5a64af1e4083c}
+      \strng{authorfullhash}{63166a18b31e8d7393201a00e1f25bcc}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Advances in computer science and computational linguistics have yielded new, and faster, computational approaches to structuring and analyzing textual data. These approaches perform well on tasks like information extraction, but their ability to identify complex, socially constructed, and unsettled theoretical concepts—{}a central goal of sociological content analysis—{}has not been tested. To fill this gap, we compare the results produced by three common computer-assisted approaches—{}dictionary, supervised machine learning (SML), and unsupervised machine learning—{}to those produced through a rigorous hand-coding analysis of inequality in the news (N = 1,253 articles). Although we find that SML methods perform best in replicating hand-coded results, we document and clarify the strengths and weaknesses of each approach, including how they can complement one another. We argue that content analysts in the social sciences would do well to keep all these approaches in their toolkit, deploying them purposefully according to the task at hand.}
+      \field{issn}{0049-1241}
+      \field{journaltitle}{Sociological Methods \& Research}
+      \field{month}{5}
+      \field{note}{00006}
+      \field{shorttitle}{The {{Future}} of {{Coding}}}
+      \field{title}{The {{Future}} of {{Coding}}: {{A Comparison}} of {{Hand}}-{{Coding}} and {{Three Types}} of {{Computer}}-{{Assisted Text Analysis Methods}}}
+      \field{year}{2018}
+      \field{pages}{0049124118769114}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/0049124118769114
       \endverb
-      \verb{url}
-      \verb https://nccs-data.urban.org/NCCS-data-guide.pdf
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\6RT4M3EL\\Nelson_etal_OnlineAppendix.pdf;C:\\Users\\jm92629\\Zotero\\storage\\UH9BBXIC\\Nelson et al. - 2018 - The Future of Coding A Comparison of Hand-Coding .pdf
       \endverb
     \endentry
     \entry{OktenDeterminantsdonationsprivate2000}{article}{}
@@ -1013,25 +1108,15 @@
       \field{note}{00436}
       \field{number}{2}
       \field{title}{Determinants of Donations in Private Nonprofit Markets}
-      \field{urlday}{12}
-      \field{urlmonth}{6}
-      \field{urlyear}{2016}
       \field{volume}{75}
       \field{year}{2000}
-      \field{urldateera}{ce}
       \field{pages}{255\bibrangedash 272}
       \range{pages}{18}
       \verb{doi}
       \verb 10.1016/S0047-2727(99)00066-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\Ji\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0047272799000663
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
       \endverb
       \keyw{fundraising,Crowd-out,Donations,Fundraising}
     \endentry
@@ -1077,27 +1162,17 @@
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{Proceedings of the 2014 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}} ({{EMNLP}})}
       \field{month}{10}
-      \field{note}{07213}
+      \field{note}{07208}
       \field{shorttitle}{Glove}
       \field{title}{Glove: {{Global Vectors}} for {{Word Representation}}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{year}{2014}
-      \field{urldateera}{ce}
       \field{pages}{1532\bibrangedash 1543}
       \range{pages}{12}
       \verb{doi}
       \verb 10.3115/v1/D14-1162
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\5EBLX887\\Pennington et al. - 2014 - Glove Global Vectors for Word Representation.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.aclweb.org/anthology/D14-1162
-      \endverb
-      \verb{url}
-      \verb https://www.aclweb.org/anthology/D14-1162
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\5EBLX887\\Pennington et al. - 2014 - Glove Global Vectors for Word Representation.pdf
       \endverb
     \endentry
     \entry{QuinlanInductiondecisiontrees1986}{article}{}
@@ -1132,25 +1207,15 @@
       \field{note}{20067}
       \field{number}{1}
       \field{title}{Induction of Decision Trees}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{volume}{1}
       \field{year}{1986}
-      \field{urldateera}{ce}
       \field{pages}{81\bibrangedash 106}
       \range{pages}{26}
       \verb{doi}
       \verb 10.1007/BF00116251
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\QWJ7U8HM\\Quinlan - 1986 - Induction of decision trees.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF00116251
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF00116251
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\QWJ7U8HM\\Quinlan - 1986 - Induction of decision trees.pdf
       \endverb
       \keyw{classification,decision trees,expert systems,induction,information theory,knowledge acquisition}
     \endentry
@@ -1203,19 +1268,9 @@
       \field{note}{00946}
       \field{series}{{{ICML}}'03}
       \field{title}{Tackling the {{Poor Assumptions}} of {{Naive Bayes Text Classifiers}}}
-      \field{urlday}{25}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{year}{2003}
-      \field{urldateera}{ce}
       \field{pages}{616\bibrangedash 623}
       \range{pages}{8}
-      \verb{urlraw}
-      \verb http://dl.acm.org/citation.cfm?id=3041838.3041916
-      \endverb
-      \verb{url}
-      \verb http://dl.acm.org/citation.cfm?id=3041838.3041916
-      \endverb
     \endentry
     \entry{RoegerNonprofitSectorIts2015}{incollection}{}
       \name{author}{3}{}{%
@@ -1324,25 +1379,15 @@
       \field{number}{3}
       \field{shorttitle}{In Search of the Non-Profit Sector {{II}}}
       \field{title}{In Search of the Non-Profit Sector {{II}}: {{The}} Problem of Classification}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{3}
       \field{year}{1992}
-      \field{urldateera}{ce}
       \field{pages}{267\bibrangedash 309}
       \range{pages}{43}
       \verb{doi}
       \verb 10.1007/BF01397460
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF01397460
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF01397460
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\8SBXY6RF\\Salamon and Anheier - 1992 - In search of the non-profit sector II The problem.pdf
       \endverb
       \keyw{Classification System,Global Level,Initial Test,International Classification,Major Group}
     \endentry
@@ -1390,7 +1435,7 @@
       \field{title}{The International Classification of Nonprofit Organizations {{ICNPO}}-{{Revision}} 1, 1996}
       \field{year}{1996}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
       \endverb
     \endentry
     \entry{SloanEffectsNonprofitAccountability2009}{article}{}
@@ -1425,25 +1470,15 @@
       \field{note}{00136}
       \field{number}{2}
       \field{title}{The {{Effects}} of {{Nonprofit Accountability Ratings}} on {{Donor Behavior}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{38}
       \field{year}{2009}
-      \field{urldateera}{ce}
       \field{pages}{220\bibrangedash 236}
       \range{pages}{17}
       \verb{doi}
       \verb 10.1177/0899764008316470
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/0899764008316470
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/0899764008316470
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
       \endverb
     \endentry
     \entry{StengelGettingItRight1998}{incollection}{}
@@ -1505,7 +1540,7 @@
       \field{pages}{145\bibrangedash 167}
       \range{pages}{23}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\U6HB8XTJ\\Stengel et al. - 1998 - Getting It Right Verifying the Classification of .pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\U6HB8XTJ\\Stengel et al. - 1998 - Getting It Right Verifying the Classification of .pdf
       \endverb
     \endentry
     \entry{USInternalRevenueServiceIRSStaticFiles2013}{misc}{}
@@ -1527,22 +1562,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.irs.gov/pub/irs-wd/13-0005.pdf}
       \field{month}{3}
       \field{note}{00000}
       \field{title}{{{IRS Static Files No}}. 2013-0005}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
       \field{year}{2013}
-      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\DLAMYNEV\\13-0005.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.irs.gov/pub/irs-wd/13-0005.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.irs.gov/pub/irs-wd/13-0005.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\DLAMYNEV\\13-0005.pdf
       \endverb
     \endentry
     \entry{USInternalRevenueServiceExemptOrganizationsBusiness2014}{misc}{}
@@ -1564,22 +1590,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.irs.gov/pub/irs-soi/eo\_info.pdf}
       \field{month}{4}
       \field{note}{00000}
       \field{title}{Exempt {{Organizations Business Master File Information Sheet}}}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
       \field{year}{2014}
-      \field{urldateera}{ce}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\V47666E6\\US Internal Revenue Service - 2014 - Exempt Organizations Business Master File Informat.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.irs.gov/pub/irs-soi/eo_info.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.irs.gov/pub/irs-soi/eo_info.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\V47666E6\\US Internal Revenue Service - 2014 - Exempt Organizations Business Master File Informat.pdf
       \endverb
     \endentry
     \entry{USInternalRevenueService2017InstructionsForm2018}{misc}{}
@@ -1604,18 +1621,13 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.irs.gov/pub/irs-pdf/i990ez.pdf}
       \field{month}{1}
       \field{note}{00000}
       \field{title}{2017 {{Instructions}} for {{Form}} 990-{{EZ}}}
       \field{year}{2018}
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\R7JAEMMQ\\US Internal Revenue Service - 2017 - 2017 Instructions for Form 990-EZ.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.irs.gov/pub/irs-pdf/i990ez.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.irs.gov/pub/irs-pdf/i990ez.pdf
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\R7JAEMMQ\\US Internal Revenue Service - 2017 - 2017 Instructions for Form 990-EZ.pdf
       \endverb
     \endentry
     \entry{VakilConfrontingclassificationproblem1997}{article}{}
@@ -1648,25 +1660,15 @@
       \field{number}{12}
       \field{shorttitle}{Confronting the Classification Problem}
       \field{title}{Confronting the Classification Problem: {{Toward}} a Taxonomy of {{NGOs}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2018}
       \field{volume}{25}
       \field{year}{1997}
-      \field{urldateera}{ce}
       \field{pages}{2057\bibrangedash 2070}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/S0305-750X(97)00098-3
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0305750X97000983
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
       \endverb
     \endentry
     \entry{ZhangSensitivityAnalysisPractitioners2015}{article}{}
@@ -1704,22 +1706,12 @@
       \field{month}{10}
       \field{note}{00343}
       \field{title}{A {{Sensitivity Analysis}} of (and {{Practitioners}}' {{Guide}} to) {{Convolutional Neural Networks}} for {{Sentence Classification}}}
-      \field{urlday}{24}
-      \field{urlmonth}{4}
-      \field{urlyear}{2019}
       \field{year}{2015}
-      \field{urldateera}{ce}
       \verb{eprint}
       \verb 1510.03820
       \endverb
       \verb{file}
-      \verb C:\\Users\\Ji\\Zotero\\storage\\KVIWFINS\\Zhang and Wallace - 2015 - A Sensitivity Analysis of (and Practitioners' Guid.pdf;C:\\Users\\Ji\\Zotero\\storage\\82ZC8D38\\1510.html
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1510.03820
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1510.03820
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\KVIWFINS\\Zhang and Wallace - 2015 - A Sensitivity Analysis of (and Practitioners' Guid.pdf;C:\\Users\\jm92629\\Zotero\\storage\\82ZC8D38\\1510.html
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
     \endentry

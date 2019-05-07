@@ -2,11 +2,17 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}% 
 \contentsline {section}{\numberline {2}Method}{4}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Working with Texts and Research Workflow}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Data Preprocessing}{5}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Word representation and feature extraction}{6}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Bag-of-words approach}{6}{subsubsection.2.3.1}% 
-\contentsline {subsubsection}{\numberline {2.3.2}Word embedding approach}{7}{subsubsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.4}Training and intermediate decision making}{8}{subsection.2.4}% 
-\contentsline {subsubsection}{\numberline {2.4.1}Classifiers for Training}{8}{subsubsection.2.4.1}% 
-\contentsline {subsubsection}{\numberline {2.4.2}Measuring performance and intermediate decision making}{9}{subsubsection.2.4.2}% 
-\contentsline {section}{\numberline {3}Results}{10}{section.3}% 
+\contentsline {subsection}{\numberline {2.2}Data Preprocessing}{6}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Word representation and feature extraction}{7}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Bag-of-words approach}{7}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Word embedding approach}{9}{subsubsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.4}Training and intermediate decision making}{9}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Imbalanced dataset resampling}{9}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Classifiers for training}{10}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}Measuring algorithm performance}{11}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Intermediate decision making}{11}{subsubsection.2.4.4}% 
+\contentsline {section}{\numberline {3}Results}{12}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Selecting the best classifier}{12}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Performance of best model: Convolutional Neural Network}{12}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Functions of software package for classifying texts using NTEE codes}{13}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Discussion}{13}{section.4}% 

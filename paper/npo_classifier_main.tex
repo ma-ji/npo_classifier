@@ -36,6 +36,7 @@
 \usepackage{todonotes}
 \usepackage{mathptmx} % almost times new roman font.
 \usepackage{arydshln} % Dashed line.
+\usepackage{enumitem} % enumerate line space.
 
 
 \renewcommand{\baselinestretch}{1.5}
@@ -50,7 +51,7 @@
 
 % 
 
-\title{{\textsc{Classifying nonprofits using machine-learning: Benchmark and guide for social scientists solving real-world problems}}}
+\title{{\textsc{Classifying nonprofits using supervised machine-learning: Benchmark and guide for social scientists solving real-world problems}}}
 \author{%
 \textsc{Ji Ma and Isha Kanani} \thanks{J.M.: maji@austin.utexas.edu, LBJ School of Public Affairs and RGK Center for Philanthropy and Community Service; I.K.: ishakanani@utexas.edu, School of Information.} \\[1ex] % Your name \thanks{}
 \normalsize University of Texas at Austin \\ % Your institution
@@ -69,9 +70,9 @@
 \maketitle
 
 \begin{abstract}
-\noindent This research note reports the use of supervised machine-learning algorithms in classifying the nonprofit organizations in the United States. Mission statements and project descriptions are collected from the 990 forms as text data, and classifications using National Taxonomy of Exempt Entities are collected from the National Center for Charitable Statistics at the Urban Institute. Three text classification algorithms are experimented: Na\"ive Bayes, Random Forest, and Neural Network. The Neural Network classification achieves the best results with an average accuracy of 9*.9\% (standard deviation **), recall *** (standard deviation **), and precision *** (SD **). An open-source Python package \textit{npocat} is developed and shared using the trained algorithms. Future projects are discussed.
 
-% The National Taxonomy of Exempt Entities (NTEE) has been used for classifying the nonprofit organizations in the United States for several decades. However, major countries in the world do not have a classification system for the nonprofit sector. This paper achieves three major goals: 1) devising a machine learning model which can classify the nonprofits using mission statements, 2) inventing a functional classification system which can be applied to different countries, 3) test the accuracy of the model and classification system. We first created a classification system cross different countries by matching existing standards, then compiled the training and testing datasets for China (data from China Foundation Center and Research Infrastructure of Chinese Foundations), United Kingdom (data from ****), and United States (data from National Center for Charitable Statistics and Internal Revenue Service). We finally test the accuracy of major text classification algorithms using country-specific training datasets and a pooled dataset. Implications and limitations are discussed.
+This research classified the nonprofit organizations in the United States using supervised machine-learning algorithms according to text descriptions, built a workflow and benchmark of applying computational linguistics for future sociological studies, and can help researchers to profile a more accurate civil society. We achieved 83\% overall accuracy for classifying the nonprofits into 10 broad categories, and 78\% for classifying them into 25 major groups. Our study suggests that, machine-learning algorithms, Neural Networks in particular, can substantially and reliably improve researchers' productivity as they can approximate or even outperform human coders on many categories. Therefore, human researchers can focusing on the categories on which the algorithms have poor performance. We provided a clear strategy and operationalization method on how machine-learning classifiers can ``complement'' human researchers. A Python software package was developed for scholars. Practical suggestions and future directions are discussed. 
+
 \end{abstract}
 \clearpage
 
@@ -89,16 +90,20 @@ The development of NTEE classifications can date back to the 1980s \parencite[8-
 
 Two agencies took the task of assigning NTEE codes: NCCS and IRS. Before 1995, NCCS coded nonprofits according to the program descriptions in Part III and VIII of Form 990, supplemented with information from Form 1023 (``Application for Recognition of Exemption'') and additional research \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. After 1995, IRS began to issue ``new exempt organizations an NTEE code as part of the determination process,'' and ``the determination specialist assigns an NTEE code to each organization exempt under I.R.C. \S 501(a) as part of the process of closing a case when the organization is recognized as tax-exempt'' \parencite[1]{USInternalRevenueServiceIRSStaticFiles2013}.
 
-The NTEE classification system supported many applied or academic studies of nonprofit organizations which have critical economic and political roles in society. For example, NTEE provides a framework on which the social and economic activities of nonprofits can be mapped and compared with other types of organizations in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. It can also serve as an analytical tool for measuring the organizational capacity in different service domains and inform the practitioners and policymakers in decision-making \parencite{Hodgkinsonnewresearchplanning1991}. Scholars also use NTEE codes for sampling purposes \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000,CarmanEvaluationCapacityNonprofit2010} or as independent variables \parencite{SloanEffectsNonprofitAccountability2009}. The invention of NTEE also provides a fundamental necessity for comparative international research, facilitating the study of ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996,HodgkinsonMappingnonprofitsector1990}.
+The NTEE classification system supported many applied and academic researches on nonprofit organizations which have critical economic and political roles in society. For example, NTEE provides a framework on which the social and economic activities of civil society can be mapped and compared with other sectors in a society \parencite[e.g.,][]{RoegerNonprofitSectorIts2015}. Scholars use NTEE codes to sample the nonprofits of their interests \parencite[e.g.,][]{OktenDeterminantsdonationsprivate2000,SharkeyCommunityCrimeDecline2017,McVeighStructuralInfluencesActivism2006,VasiNoFrackingWay2015} or as independent variables \parencite{SloanEffectsNonprofitAccountability2009}. NTEE can also serve as an analytical tool for measuring the organizational capacity in different service domains and inform practitioners and policymakers' decision-making \parencite{Hodgkinsonnewresearchplanning1991}. The invention of NTEE also provides a fundamental necessity for comparative international research, facilitating the study of ``global civil society'' \parencite{VakilConfrontingclassificationproblem1997,Salamonsearchnonprofitsector1992,Salamoninternationalclassificationnonprofit1996,HodgkinsonMappingnonprofitsector1990}.
 
-The NTEE classification system, although one of the best we have so far, still has several drawbacks. First, because it only assign one major category code to an organization, it cannot accurately describe a nonprofit's programs which are usually diverse and across several service domains \parencite[303]{GronbjergUsingNTEEclassify1994}. Although a program classification system was developed later \parencite{LampkinIntroducingNonprofitProgram2001}, it is not widely used probably because it is impractical to assign codes to massive amount of programs. Second, the assignment of NTEE codes is not complete because it is ``based on an assessment of program descriptions contained in Parts 3 and 8 of the Form 990'' and ``program descriptions were only available for some organizations'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. A recent study found the number of organizations in Washington State with a specific NTEE code could be significantly increased if the mission statements were used for coding \parencite{FyallNTEECodesOpportunities2018}. Third, NTEE codes are static but nonprofit organizations' activities may change over time. Recoding existent NTEE assignments is extremely onerous, and this may be one of the reason that IRS does not have a procedure by which the nonprofits can request the change of their NTEE codes \parencite{USInternalRevenueServiceIRSStaticFiles2013}. In general, the tremendous human labor needed for classification is a prominent challenge, and such challenge is also an evident barrier for improving any classification system.
+The NTEE classification system, although one of the best we have so far, still has several drawbacks. First, because it only assign one major category code to an organization, it cannot accurately describe a nonprofit's programs which are usually diverse and across several service domains \parencite[303]{GronbjergUsingNTEEclassify1994}. Although a program classification system was developed later \parencite{LampkinIntroducingNonprofitProgram2001}, it is not widely used probably because it is impractical to assign codes to massive amount of programs.
 
-Numerous social scientists experimented with applying computational research methods in classifying objects for solving real-world problems \parencite[e.g.,][]{BacakPrincipledMachineLearning2018,NelsonFutureCodingComparison2018,FyallNTEECodesOpportunities2018,GrimmerTextDataPromise2013}. We respond to the challenge by applying the advances in computational linguistics and made the following contributions to the growing literature: 1) we established a standardized workflow and benchmarks which future studies of nonprofit or classification in other social science disciplines can build on and compare to; 2) we achieved \hl{83.47\%} overall accuracy for classifying the nonprofits into 10 broad categories, and \hl{77\%} for classifying into 25 major groups; 3) we developed a Python software package for scholars to classify text statements using NTEE codes; 4) we released all source codes and data for replication purposes and future studies, this is particularly important since there are many caveats in tuning algorithms which cannot be detailed by this paper.\footnote{Follow this link for the complete working directory with detail instructions: https://github.com/***}
+Second, the assignment of NTEE codes is not complete because it is ``based on an assessment of program descriptions contained in Parts 3 and 8 of the Form 990'' and ``program descriptions were only available for some organizations'' \parencite[16]{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}. A recent study found the number of organizations in Washington State with a specific NTEE code could be significantly increased if the mission statements were used for coding \parencite{FyallNTEECodesOpportunities2018}.
+
+Third, NTEE codes are static but nonprofit organizations' activities may change over time. Recoding existent NTEE assignments is extremely onerous, and this may be one of the reason that IRS does not have a procedure by which the nonprofits can request the change of their NTEE codes \parencite{USInternalRevenueServiceIRSStaticFiles2013}.
+
+Fourth, a vast amount of grassroots organizations are not classified and missing in existing datasets because organizations ``that normally has annual gross receipts of \$50,000 or less'' are not required to report to IRS \parencite{USInternalRevenueServiceAnnualExemptOrganization2019}. As \textcite{SmithRestNonprofitSector1997} estimates, the IRS listings ignore about 90\% nonprofits of which most are grassroots associations. The organizational activities at grassroots level are particularly important for sociological and political studies, and most studies fail to consider these grassroots organizations because of dataset limitation \parencite[e.g.,][]{McVeighStructuralInfluencesActivism2006,VasiNoFrackingWay2015,SharkeyCommunityCrimeDecline2017}.
+
+The tremendous human labor needed for classification is a prominent challenge, and such challenge is also an evident barrier for improving any classification system. Numerous social scientists experimented with applying computational methods in classifying objects for solving real-world problems \parencite[e.g.,][]{BacakPrincipledMachineLearning2018,NelsonFutureCodingComparison2018,FyallNTEECodesOpportunities2018,GrimmerTextDataPromise2013}. We respond to the challenge by applying the advances in computational linguistics and made the following contributions to the growing literature: 1) we established a standardized workflow and benchmarks which future studies of nonprofit or classification in other social science disciplines can build on and compare to; 2) we achieved {83\%} overall accuracy for classifying the nonprofits into 10 broad categories, and {78\%} for classifying them into 25 major groups; 3) we developed a Python software package for scholars to classify text descriptions using NTEE codes; 4) we released all source codes, data, and work history for replication purposes and future studies, this is particularly important since there are many caveats in tuning algorithms which cannot be detailed in this paper.\footnote{Follow this link for the complete working directory with detail instructions: https://github.com/***}
 
 
 \section{Method}
-
-\subsection{Working with Texts and Research Workflow}
 
 Classifying texts is a typical task of automatic content analysis and usually employs three types of methods: dictionary, supervised, and unsupervised methods \parencite[268-269]{GrimmerTextDataPromise2013}. The dictionary methods use a predefined dictionary of words to classifying the texts. Although accurate, this approach is not capable to deal with the variations and contexts of language. The supervised method is an improved solution which uses computer algorithms to ``learn'' the linguistic patters in a dataset classified by human coders. Unlike the dictionary and supervised methods which require predefined categories of interest, unsupervised methods can discover linguistic patters in texts without inputting any knowledge of classification. However, unsupervised method's validity can be problematic because the returned classifications may not be theoretically meaningful. To take the advantage of existing human-coded NTEE classifications and the experience of existing studies \parencite{NelsonFutureCodingComparison2018,FyallNTEECodesOpportunities2018}, this study employs a supervised approach as Figure \ref{fig:workflow} illustrates.
 
@@ -108,9 +113,9 @@ Classifying texts is a typical task of automatic content analysis and usually em
 	\includegraphics[width=0.7\textwidth]{tbl_fig/ntee_classification.pdf}
 \end{figure}
 
-Figure \ref{fig:workflow} shows this paper's complete workflow. We implement four stages of analysis: 1) \textit{preprocessing stage} includes data acquisition and the preprocessing of datasets and texts; 2) \textit{feature extraction} includes bag-of-words (used by Naive Bayes and Random Forest algorithms) and word embedding (used by neural network algorithms); 3) at \textit{training and intermediate decision making} phase, we use stochastic and grid search to train, search, and optimize the machine learning algorithms; 4) we \textit{train the model finalist} with the complete dataset and prepare the trained model for public use. The following part introduces the four phases in detail.
+Figure \ref{fig:workflow} presents this paper's complete workflow. We implement four stages of analysis: 1) \textit{preprocessing stage} includes data acquisition and the preprocessing of datasets and texts; 2) \textit{feature extraction} includes bag-of-words (used by Naive Bayes and Random Forest algorithms) and word embedding (used by neural network algorithms); 3) at \textit{training and intermediate decision making} phase, we use stochastic and grid search to train, search, and optimize the machine learning algorithms; 4) we \textit{train the model finalist} with the complete dataset and prepare the trained model for public use. The following part introduces the four phases in detail.
 
-\subsection{Data Preprocessing}
+\subsection{Data preprocessing}
 
 \begin{table}[]
     \centering
@@ -208,16 +213,10 @@ From 2014 to 2016, 56.12\% records are classified at A level, 37.32\% at B level
          \hline
     \end{tabularx}
     \begin{tablenotes}
-    \item\footnotesize \textit{Source}: Numbers and percentages reported to IRS (i.e., last two columns) are from \textcite{McKeeverNonprofitAlmanacEssential2016}. Dashed lines separate the ten broad categories.
+    \item\footnotesize \textit{Note}: Numbers and percentages reported to the Internal Revenue Service (i.e., last two columns) are from \textcite{McKeeverNonprofitAlmanacEssential2016}. Dashed lines separate the ten broad categories.
     \end{tablenotes}
     \end{threeparttable}
 \end{table}
-
-% A major part of the text available for processing is input by humans.  We all have different writing styles. Also, one word is used in many different ways based on the sentence construction, for example, the word ``paint" can be used as paint, paints, painting and painted, which all mean the same. The algorithm will not automatically discern these words to be the same and this, in turn, will increase the complexity of the text. It is important to normalize the text before giving it for training purpose to reduce the complexity. The normalization process is further divided into three parts.
-
-% \subsubsection{Tokenization}
-
-% The method of breaking the text input into smaller parts is called tokenization, and these parts are called tokens \parencites[57]{manning2014stanford}. Usually, in text classification, each word is treated as an individual token. When defined the separator to be a space `` '', the text between two spaces will be treated as one token, thus a word. We can define separator depending on the text. If we want to tokenize sentences, we can provide the separator to be a full-stop ``.''. In this case, the text between two full-stops, a sentence, will be taken as one token. The natural language toolkit is a widely used toolkit for tokenization in Python \parencites{bird2004nltk}.
 
 \subsection{Word representation and feature extraction}
 
@@ -259,25 +258,17 @@ The process of finding stems is called ``morphological parsing'' which includes 
 
 \subsubsection{Word embedding approach}
 
-Disregarding the contexts in which the words appear is an evident drawback of bag-of-words approach. The word embedding approach represents words in a multi-dimensional space (i.e., each word has a vector value), in which words that often appear together in texts have closer distance with each other \parencites[][290]{JurafskySpeechLanguageProcessing2017}[][65]{BengfortAppliedTextAnalysis2018}. We can either train our own word vectors which require a large corpus and is time-consuming, or use pre-trained word vectors. We use the 100-dimension word vectors pre-trained from a corpus of 6 billion word tokens \parencite{PenningtonGloveGlobalVectors2014}.
+Disregarding the contexts in which the words appear is an evident drawback of bag-of-words approach. The word embedding approach is an new advancement \parencite{MikolovEfficientEstimationWord2013} and was suggested by \textcite{NelsonFutureCodingComparison2018} as a future direction in sociological studies. It represents words in a multi-dimensional space (i.e., each word has a vector value), in which words that often appear together in texts have closer distance with each other \parencites[][290]{JurafskySpeechLanguageProcessing2017}[][65]{BengfortAppliedTextAnalysis2018}. We can either train our own word vectors which require a large corpus and is time-consuming, or use pre-trained word vectors. In this study, we use the 100-dimension word vectors pre-trained from a corpus of 6 billion word tokens \parencite{PenningtonGloveGlobalVectors2014}.
 
 \subsection{Training and intermediate decision making}
 
 \subsubsection{Imbalanced dataset resampling}
 
-Training using imbalanced dataset like UCF-Training can bias our estimation because machine learning algorithms cannot extract enough information from minority classes (e.g., group H and V). Therefore, resampling the imbalanced dataset to build a more balanced one is crucial for predicting minority classes. We experimented with four strategies of over-sampling (i.e., ADASYN, RandomOverSampler, and SMOTE) and two strategies of over-sampling followed by under-sampling to reduce the noise (i.e., SMOTEENN and SMOTETomek; \cite{LemaitreImbalancedlearnPythonToolbox2017}). The influence of resampling is substantial: the F1 score of predicting minority class broad category VI (i.e., major group Q) were improved from 15\% to over 30\% in our pilot experiments.
+Training using imbalanced dataset like UCF-Training can bias our estimation because machine learning algorithms cannot extract enough information from minority classes (e.g., group H and V). Therefore, resampling the imbalanced dataset to build a more balanced one is crucial for predicting minority classes. We experimented with four strategies of over-sampling (i.e., ADASYN, RandomOverSampler, and SMOTE) and two strategies of over-sampling followed by under-sampling to reduce the noise (i.e., SMOTEENN and SMOTETomek; \cite{LemaitreImbalancedlearnPythonToolbox2017}). The influence of resampling is substantial: the $F_1$ score of predicting minority class major group \textit{Q} were improved from 15\% to over 30\% in our pilot experiments.\footnote{Although major group \textit{Q} and broad category \textit{VI} represent the same group of organizations, for computer algorithms, the classification contexts are different, therefore, performance on this category varies.}
 
 \subsubsection{Classifiers for training}
 
 \textit{Na\"ive Bayes (NB) classifier} is built on Baye\'s theorem. It is one of the simplest classifiers to learn and implement among all machine learning algorithms and built on simple conditional probability principles. The classifier assumes all features extracted from the texts are conditionally independent, which is wrong in most cases. But the classifier is efficient and has proven to be useful for a variety of tasks even on a small dataset \parencites[][76]{JurafskySpeechLanguageProcessing2017}[][277]{GrimmerTextDataPromise2013}. We tested two types of NB classifiers: multinomial and Complement NB classifiers \parencite{RennieTacklingPoorAssumptions2003}.
-
-% Eq. \ref{bayes} calculates the probability that organization $i$ belongs to a $NTEE$ classification (e.g., ``A'', arts, culture, and humanities), given its text collection $TXT$ defined in Table \ref{tab:text_loc} (i.e., mission statement and program descriptions). 
-
-% \begin{equation} \label{bayes}
-%  P(NTEE_i \mid TXT_i) = \frac{P(TXT_i \mid NTEE_i) \, P(NTEE_i)}{P(TXT_i)} 
-% \end{equation}
-
-% Na\"ive Bayes classifier   \parencites{lewis1998naive}. So the classifier may not perform well on dependent features.
 
 \textit{Random Forest classifier} is implemented by developing multiple prediction models. Each model in this algorithm is trained by different data, and then all of these models are asked to predict for the same record. A prediction class that is elected by most of these small algorithms is given as the prediction result by the random forest algorithm. It uses the word ``forest'' because each small algorithm trained is a decision tree \parencites[83]{QuinlanInductiondecisiontrees1986}. A decision tree represents a set of questions that usually have Yes/No answers. The process starts from the top of the tree with one question, and based on the answer, we further run down on either one side of the tree, and answer another question and repeat till we reach the end of the tree. Each decision tree is trained on a different training set \parencites[124]{BreimanBaggingpredictors1996}. 
 
@@ -287,19 +278,9 @@ Since each decision tree in a Random Forest classifier is provided with a unique
 
 \textit{Neural Network (NN) classification} is built on the concepts of a neuron structure of the human mind. Each neuron in the network is connected to a few other neurons of the network by a numerical value called ``weight.'' The neurons process records each one in turn, and learn by looking at their classification (i.e., NTEE code in this case) with the known previous NTEE codes of records. With every new record the neurons learn, they update the connection value ``weight'' to update the model \parencites[163]{CollobertUnifiedArchitectureNatural2008}. After the network is done processing each record of the training set, it has final weights for each connection between two neurons. When a testing set is provided, the neurons use the final weights to predict the NTEE code. Depending on the architecture of the neurons, we can design a variety of NNs (e.g., the basic fully connected, Recurrent, and Long Short-Term Memory). This study uses Convolutional NN (CNN) following other scholars' recommendation \parencite{ZhangSensitivityAnalysisPractitioners2015}.
 
-% NN algorithms beat many other machine learning algorithms in most cases. A significant amount of work available compares the performance of different approaches for the same dataset and neural networks algorithm beats many times. However, the model only works well when the data is in a significant amount. Along with the large size of data, this classification method also consumes a high computation power to train the network. One of the biggest disadvantages of Neural Networks is its ``Black Box Nature'' \parencites{BenitezAreartificialneural1997}, which means that it is difficult to interpret the training process of this approach. There is no pre-defined algorithm that would provide the best results for all data format like text, audio, image etc. Also, the model yielding good accuracy for one text dataset might not give satisfactory results for another text dataset. One has to test different configurations to get the model that works best for the target dataset.
-
 \subsubsection{Measuring algorithm performance}
 
-An algorithm's performance can be measured by numerous metrics, but social scientists particularly concern two questions while solving real-word problems: 1) how many predicted observations are correct (i.e., \textit{precision} calculated by Eq. \ref{precision})? 2) how many observations are correctly predicted (i.e., \textit{recall} calculated by Eq. \ref{recall}). Answering the two questions is critical for social scientists to apply ML research methods, and we will analyze the methodological implications and recommended practices in discussion section.
-
-% The performance of a classification algorithm can be measured by {accuracy}, {precision}, and {recall}. The \textit{accuracy} measures the percentage of correctly classified organizations as showed in Eq. \ref{accuracy}, where $i$ is one of the three classification algorithms (i.e., NB, RF, and NN), $Org^{correct}$ is the number of organizations correctly classified by the algorithm $i$, and $Org^{total}$ is the total organizations to be classified. For example, $Accuracy^{RF}=0.6$ indicates that, when RF classifies an organization, the chance of getting right is 60\%.
-
-% \begin{equation} \label{accuracy}
-%     Accuracy^i=\frac{Org^{correct}}{Org^{total}}
-% \end{equation}
-
-% The \textit{precision} and \textit{recall} measures the performance of a classifier on a specific category. 
+An algorithm's performance can be measured by many metrics, but social scientists particularly concern two questions while solving real-word problems: 1) how many predicted observations are correct (i.e., \textit{precision} calculated by Eq. \ref{precision})? 2) how many observations are correctly predicted (i.e., \textit{recall} calculated by Eq. \ref{recall}). Answering the two questions is critical for social scientists to apply ML research methods, and we will analyze the methodological implications and recommended practices in discussion section.
 
 In Eq. \ref{precision}, $k$ is one of the NTEE codes, $\#Org^{corr}_{k}$ is the number of organizations correctly classified as $k$, and ${\#Org^{pred}_{k}}$ is the number of organizations predicted as $k$. $\#Org^{corr}_{k}$ will always be smaller than or equal to ${\#Org^{pred}_{k}}$ because ML algorithms can hardly predict every observation right. For example, $Precision_{B}=0.75$ indicates that 75\% of all the organizations classified as ``education'' are correct.
 
@@ -313,11 +294,18 @@ Assuming robust human-coders' coding of nonprofits as true value, in Eq. \ref{re
     Recall_{k}=\frac{Org^{corr}_{k}}{Org^{true}_{k}}
 \end{equation}
 
+$F_1$ score (Eq. \ref{eq:f1}), the harmonic mean of precision and recall, was introduced to balance the two measures.
+
+\begin{equation} \label{eq:f1}
+    F_{1k}=\frac{2 \cdot Precision_{k} \cdot Recall_{k}}{Precision_{k} + Recall_{k}}
+\end{equation}
+
+
 \subsubsection{Intermediate decision making}
 
 The goal of this study is to find the best ML algorithm with appropriate parameters. We can either try some of the configurations randomly (i.e., \textit{stochastic search}), or iterate all possible configurations (i.e., \textit{grid search}). For NB and RF algorithms, we used the latter approach. For NN algorithms, we first used stochastic search to narrow down the configurations of hidden layers, and then conducted a grid search for the input and output layers' parameters using CNN. The grid search for all possible parameters (over 2 million combinations) is impossible even by using one of the most advanced super computing clusters in the world.
 
-We conduced two rounds of grid search. The first found is for \textit{satisficing decision making} in which we only considered the configurations that can perform at the top 5 percent. Then we ran the second found grid search for \textit{optimizing decision making} in which we increased the values of some parameters to allow the algorithms to reach their performance ceilings. We then choose the best algorithm and parameters for final training.
+We conduced two rounds of grid search. The first found is for \textit{satisficing decision making} in which we only considered the configurations that can perform at the top 5 percent (240 parameter combinations for NB and RF, 7,200 for NN, detail history files are in folder \texttt{output}). Then we ran the second found grid search for \textit{optimizing decision making} in which we increased the values of some parameters to allow the algorithms to reach their performance ceilings. We then choose the best algorithm and parameters for final training.
 
 
 \section{Results}
@@ -325,9 +313,9 @@ We conduced two rounds of grid search. The first found is for \textit{satisficin
 
 \subsection{Selecting the best classifier}
 
-For multi-class classification task (i.e., more than two classes to predict), it is difficult to measure the overall performance because for each category the performance differs. Table \ref{tab:perf_compare} presents the performance of CNN classifiers with and without resampling. Because the dataset is imbalanced, the classifier has a poor performance on category \textit{VI International, Foreign Affairs} without resampling. Training the classifier with resampled dataset substantially improves the F1 score from 14\% to 29\%, but slightly sacrifices the performance on other categories. So which one should we choose?
+For multi-class classification task (i.e., more than two classes to predict), it is difficult to measure the overall performance because for each category the performance differs. Table \ref{tab:perf_compare} presents the performance of CNN classifiers with and without resampling. Because the dataset is imbalanced, the classifier has a poor performance on category \textit{VI International, Foreign Affairs} without resampling. Training the classifier with resampled dataset substantially improves the $F_1$ score from 14\% to 29\%, but slightly sacrifices the performance on other categories. So which one should we choose?
 
-We choose the classifier trained without resampling as the best model because even the F1 score of \textit{VI} is substantially improved, we still cannot use the predicted results of this category (21\% identified among which only 44\% are correct). We recommend not sacrificing the performance on other categories as researchers need to manually check or completely drop this category in their analysis anyway. This rationale applies to selecting other classifiers.
+We choose the classifier trained without resampling as the best model because even the $F_1$ score of \textit{VI} is substantially improved, we still cannot use the predicted results of this category (21\% identified among which only 44\% are correct). We recommend not sacrificing the performance on other categories as researchers need to manually check or completely drop this category in their analysis anyway. For social scientists, mathematical improvements may not make substantial and practical meaning. This rationale applies to selecting other classifiers.
 
 
 \begin{table}
@@ -336,7 +324,7 @@ We choose the classifier trained without resampling as the best model because ev
     \caption{\textsc{Comparing Convolutional Neural Network classifiers}} \label{tab:perf_compare}
     \begin{tabular}{r|r|r|r|r|r|r|r}
 		\hline
-			Code & Precision-\textit{N} & Precision-\textit{R} & Recall-\textit{N} & Recall-\textit{R} & F1-\textit{N} & F1-\textit{R} & \%Obs.\\
+			Code & Precision-\textit{N} & Precision-\textit{R} & Recall-\textit{N} & Recall-\textit{R} & $F_1$-\textit{N} & $F_1$-\textit{R} & \%Obs.\\
 		\hline
 			I & 87\% & 83\% & 85\% & 87\% & 86\% & 85\% & 11\% \\
 			II & 85\% & 91\% & 88\% & 78\% & 86\% & 84\% & 17\% \\
@@ -351,41 +339,41 @@ We choose the classifier trained without resampling as the best model because ev
     \end{tabular}
 \begin{tablenotes}
 \footnotesize
-\item \emph{Notes:} \textit{N} = No resampling; \textit{R} = Resampling.
+\item \emph{Note}: \textit{N} = No resampling; \textit{R} = Resampling.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
 
 
 
-\subsection{Performance of best model: Convolutional Neural Network}
+\subsection{Performance of best model}
 
 In general, CNN classifier achieves the best performance. For classifying the 10 broad categories, 83.47\% records in the UCF-Testing dataset are correctly recognized; for the 25 major groups task, 77\% are correctly classified. Detail satisficing decision table can be found in source code repository published online (\texttt{/output} folder). The precision and recall for each category or group varies as Table \ref{tab:perf_bc} and Table \ref{tab:perf_mg} present. 
 
-Our CNN classier approximates or even outperforms human coders on many broad categories (i.e., I, V, VI, VIII) and major groups (i.e., ). For example, the classifier outperforms human coders on broad category \textit{VII Public, Societal Benefit}: 76\% \textit{VII} organizations are identified, and among these identified organizations, 88\% are correct -- nearly 12\% higher than human coders' performance. For major group \textit{W Public, Society Benefit}: 89\% \textit{W} organizations are identified, and among these identified organizations, 83\% are correct -- 29\% higher than human coders' performance.
+Our CNN classier approximates or even outperforms human coders on many broad categories (i.e., \textit{V}, \textit{VI}, \textit{VIII}) and major groups (i.e., \textit{A}, \textit{G}, \textit{J}, \textit{N}, \textit{S}, and \textit{W}). For example, the classifier outperforms human coders on broad category \textit{VII Public, Societal Benefit}: 76\% \textit{VII} organizations are identified, and among these identified organizations, 88\% are correct -- nearly 12\% higher than human coders' performance. For major group \textit{W Public, Society Benefit}: 86\% \textit{W} organizations are identified, and among these identified organizations, 87\% are correct -- 29\% higher than human coders' performance.
 
 \begin{table}
 \centering
 \begin{threeparttable}
-    \caption{\textsc{Performance of model: broad category}} \label{tab:perf_bc}
+    \caption{\textsc{Performance of best model on broad category}} \label{tab:perf_bc}
     \begin{tabular}{r|r|r|r|r}
 		\hline
-			Code & H-Precision & Precision & Recall & F1 \\
+			Code & H-Precision & Precision & Recall & $F_1$ \\
 		\hline
-			I & 88.49\% & 86.85\% & 84.81\% & 85.82\% \\
-			II & 92.72\% & 84.58\% & 88.13\% & 86.32\% \\
-			III & 87.00\% & 76.08\% & 89.58\% & 82.28\% \\
-			IV & 92.00\% & 75.90\% & 87.29\% & 81.20\% \\
-			V & 86.00\% & 90.07\% & 85.30\% & 87.62\% \\
-			VI & 76.64\% & 85.22\% & 85.55\% & 85.38\% \\
-			VII & 76.00\% & 59.32\% & 8.03\% & 14.14\% \\
-			VIII & 86.57\% & 87.91\% & 75.92\% & 81.48\% \\
-			IX & 89.52\% & 65.38\% & 76.87\% & 70.66\% \\
+			I & 88\% & 87\% & 85\% & 86\% \\
+			II & 93\% & 85\% & 88\% & 86\% \\
+			III & 87\% & 76\% & 90\% & 82\% \\
+			IV & 92\% & 76\% & 87\% & 81\% \\
+			V & 86\% & 85\% & 86\% & 85\% \\
+			VI & 77\% & 59\% & 8\% & 14\% \\
+			VII & 76\% & 88\% & 76\% & 81\% \\
+			VIII & 87\% & 65\% & 77\% & 71\% \\
+			IX & 90\% & 90\% & 85\% & 88\% \\
     	 \hline
     \end{tabular}
 \begin{tablenotes}
 \footnotesize
-\item \emph{Notes:} H-Precision = Human Coder Precision, compiled from \textcite[153]{StengelGettingItRight1998}.
+\item \emph{Notes}: H-Precision = Human Coder Precision, compiled from \textcite[153]{StengelGettingItRight1998}.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -394,55 +382,87 @@ Our CNN classier approximates or even outperforms human coders on many broad cat
 \begin{table}
 \centering
 \begin{threeparttable}
-    \caption{\textsc{Performance of model: major group}} \label{tab:perf_mg}
-    \begin{tabular}{r|r|r|r}
+    \caption{\textsc{Performance of best model on major group}} \label{tab:perf_mg}
+    \begin{tabular}{r|r|r|r|r}
 		\hline
-			Code & H-Precision & Precision & Recall \\
+			Code & H-Precision & Precision & Recall & $F_1$ \\
 		\hline
-
+			A & 88\% & 80\% & 87\% & 83\% \\
+			\hdashline
+			B & 93\% & 85\% & 85\% & 85\% \\
+			\hdashline
+			C & 86\% & 65\% & 74\% & 69\% \\
+			D & 90\% & 80\% & 90\% & 85\% \\
+			\hdashline
+			E & 92\% & 77\% & 78\% & 78\% \\
+			F & 86\% & 51\% & 60\% & 55\% \\
+			G & 65\% & 68\% & 68\% & 68\% \\
+			H & 73\% & 55\% & 19\% & 28\% \\
+			\hdashline
+			I & 84\% & 71\% & 71\% & 71\% \\
+			J & 72\% & 86\% & 67\% & 75\% \\
+			K & 82\% & 63\% & 68\% & 66\% \\
+			L & 83\% & 70\% & 76\% & 73\% \\
+			M & 88\% & 87\% & 90\% & 88\% \\
+			N & 88\% & 83\% & 93\% & 88\% \\
+			O & 91\% & 65\% & 61\% & 63\% \\
+			P & 88\% & 64\% & 57\% & 60\% \\
+			\hdashline
+			Q & 77\% & 43\% & 36\% & 39\% \\
+			\hdashline
+			R & 67\% & 46\% & 21\% & 28\% \\
+			S & 75\% & 84\% & 79\% & 81\% \\
+			T & 78\% & 66\% & 32\% & 43\% \\
+			U & 76\% & 52\% & 22\% & 31\% \\
+			V & 24\% & 0\% & 0\% & 0\% \\
+			W & 58\% & 87\% & 86\% & 86\% \\
+			\hdashline
+			X & 87\% & 68\% & 71\% & 70\% \\
+			\hdashline
+			Y & 90\% & 84\% & 91\% & 88\% \\
+			\hdashline
+			Z & 10\% & -- & -- & -- \\
          \hline
     \end{tabular}
 \begin{tablenotes}
 \footnotesize
-\item \emph{Notes:} H-Precision = Human Coder Precision, compiled from \textcite[153]{StengelGettingItRight1998}.
+\item \emph{Note}: H-Precision = Human Coder Precision, compiled from \textcite[153]{StengelGettingItRight1998}. Dashed lines separate the ten broad categories.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
 
 
+\subsection{Python package for classifying texts}
 
+We developed a Python package (\texttt{npoclass}) for classifying texts using NTEE codes, and scholars can use it free of charge.\footnote{https://github.com/****} Although the package can work on any texts, we expect it should perform best on nonprofit organization-related narratives. \texttt{npoclass} has the following features, and detail instructions are in the package's documentation:
 
-
-
-
-\subsection{Functions of software package for classifying texts using NTEE codes}
-
-
+\begin{enumerate}[nosep]
+	\item Take a single string text or a list of of text descriptions as input;
+	\item Return predicted codes of both broad category and major group;
+	\item Return probability on each code of broad category and major group;
+	\item Parallelize predicting process on multi-core computers.
+\end{enumerate}
 
 
 \section{Discussion}
 
+We achieved 83\% overall accuracy for classifying the nonprofits into 10 broad categories according to their text descriptions, and 78\% for classifying them into 25 major groups. We detailed the caveats and built a workflow and benchmark of applying computational linguistics for future sociological studies. 
 
-\textit{Complementing or replacing?}
+An encouraging conclusion of this study is, the ML algorithms, neural networks in particular, can substantially and reliably improve researchers' productivity as they can approximate or even outperform human coders on many categories. Therefore, human researchers can focusing on the categories on which the algorithms have poor performance. We provided a clear strategy and operationalization method on how machine-learning classifiers can ``complement'' human researchers \parencite[25]{NelsonFutureCodingComparison2018}.
 
+This study also enables social scientists to examine social, political, and economic activities at grassroots level. As discussed in the introduction section, NTEE as a typology at organizational level is not accurate because one organization can have multiple programs, and the classification of programs has never been done before. This study can help researchers to code nonprofits' activities at program level, profiling a more accurate civil society.
 
-\textit{Practical suggestions to social scientists solving real-world problems.} The results of performance in this paper indicates that, for social scientists who want to apply computational methods in their research should be ``cautiously confident.'' The key here supporting our confidence is a robust validation \parencite[271]{GrimmerTextDataPromise2013}. Otherwise, it will be ``garbage in, garbage out.'' Many factors can influence the validity of the algorithm. For example, the algorithm may have a poor performance on a datset that is structurally different from the training dataset. We strongly suggest that readers should check the annotations in our scripts posted online to understand the caveats and make necessary optimizations according to their own research question.
+Some practical suggestions to social scientists solving real-world problems. The results of performance in this paper indicates that, for social scientists who want to apply computational methods in their research should be ``cautiously confident.'' The key here supporting our confidence is a robust validation \parencite[271]{GrimmerTextDataPromise2013}. Otherwise, it will be ``garbage in, garbage out.'' Many factors can influence the validity of the algorithm. For example, the algorithm may have a poor performance on a datset that is structurally different from the training dataset. We strongly suggest that readers should check the annotations in our scripts posted online to understand the caveats and make necessary optimizations according to their own research question.
 
 Social scientists should also take the advantage of high performance computing (HPC) research infrastructures \parencite[e.g.,][]{KeaheyChameleonScalableProduction2018}. The ML algorithms can achieve best performance only when trained with a large amount of data, and such training process consumes a huge amount of computing resources which is far beyond the capacity of the most advanced personal computers. At the grid search phase of this study, we used two most advanced GPU accelerators (NVIDIA Tesla P100) for NN training and six 48-CPU computing servers for NB and RF training. HPC infrastructures are widely used in natural sciences but it is still new to social scientists. We encourage methodology workshops to incorporate the introduction of HPC infrastructures as part of their syllabus.
 
-\textit{Future studies.} 
+Future studies can make numerous improvements based on the workflow and benchmark introduced in this paper. First, students on this topic can experiment with more classifiers and parameters. For example, using a more accurate nonprofit-specific glossary and stemmer \parencite{PaxtonNonprofitSpecificGlossaryStemmer2019}, and a large-scale competition is also in preparation.\footnote{https://***.} We also deposited our working directory with all datasets, source codes, and historical versions on GitHub, enabling future large-scale collaborations on this project possible. Second, scholars are invited to use the Python software package for their own empirical studies and provide any feedback. Third, computational social scientists can apply the workflow in this paper to other domains of inquiry. Last but not least, we are advancing a multi-lingual version of this project to assist the study of/with nonprofits/NGOs in non-English speaking countries. This step is essential to develop the global civil society studies further.
 
 
-\section*{Acknowledgments}
+% \section*{Acknowledgments}
 
-Earlier version of this paper was presented at 2019 West Coast Nonprofit Data Conference. The authors acknowledge the Texas Advanced Computing Center at The University of Texas at Austin for providing cloud computing resources (Chameleon Cloud) that have contributed to the research results reported within this paper.
+% Earlier version of this paper was presented at 2019 West Coast Nonprofit Data Conference. The authors acknowledge the Texas Advanced Computing Center at The University of Texas at Austin for providing cloud computing resources (Chameleon Cloud) that have contributed to the research results reported within this paper.
 
-
-% most broad categories, even outperforms in certain categories. For example, the accuracy of broad category I and II coded by human is around 90\%, and our classifier achieve 83\% accuracy; human coders achieve about 78\% accuracy in broad category VI, but our classifier outperforms about 4\%, achieving 82.54\% accuracy \textcite[153]{StengelGettingItRight1998}.
-
-
-
-% This is table important for researchers who may want to use our model to identify certain types of nonprofits for their own research question. For example, researchers focusing on ``Education'' organizations should feel confident that 83\% organizations that classified as broad category II are correct.}
 
 
 \sloppy
@@ -450,71 +470,3 @@ Earlier version of this paper was presented at 2019 West Coast Nonprofit Data Co
 
 \end{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DRAFT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \textit{Checking the Train and Test Distributions}
-
-% How to split the data is one of the important decisions made in earlier stages of the development. One of the factor considered here is maintaining the distribution of the data, which means that the training and testing datasets should represent the similar distribution of different classes as the distribution in raw dataset. We ensure the same by sampling the dataset, which randomly selects the observations from raw datasets and puts it into either train or test dataset. Since no manipulation is implemented, the resulting sets are expected to have the similar distribution as the raw dataset. 
-
-% Since our dataset consists of 25 classes and few of these classes also have much smaller number of observation in comparison to other classes, the model can generate bias during the training phase if enough observations are not provided for the smaller classes. To ensure this, a satisficing condition\parencite{charnes1963deterministic} is fixed while sampling the raw data. When a training set is generated, it is made sure that the dataset consists of atleast 250 observations of each class, thus ensuring that the smallest class would also have enough number of training observations. If the condition is not satisifed, the training and testing sample is discarded and the sampling process is implemented again, until the satisficing creteria is matched.
-
-% \textit{Train, Validation, and Test data}
-% In order to train the model, and then test the accuracy of it using test data, the data is split into training, valiation, and testing datasets. The data here is split into 70/30 initial ratio, indicating that 70 percent of the data being used for model training and 30 percent data to be used for verifying the results provided by the model.
-
-% For the purpose of grid search, we take random 150000 observations from our dataset as a starting point. We divide this sample into 70 and 30 percent keeping in check with the distribution. 80 percent observations from the 70 percent are fed to the model as training data, and the remaining 20 percent of the same 70 percent is used for the validation purpose for the models. When the model gives it's final statistics, we verify validation accuracy of the model using the 30 percent data that we kept apart initially.
-
-% For the purpose of next round of model development, we take our whole dataset. 80 percent of the whole dataset is used as training data for the model, again checking with the distribution consistency. The remaining 20 percent is also fed to the model, for validation purposes.
-
-% grid search: Conv1D(num_filters, kernel_size, activation=conv_act)
-% output dense layer activation: out_act
-% num_filters: 32, 64, 128
-% kernel_size: 3, 5, 7
-% conv_act & out_act: 'sigmoid', 'softplus', 'tanh', 'softmax'
-
-%results[(results['val_acc']>0.7) & (results['acc']>0.75)]
-% output: conv_act: softplus, out_act: softplus, sigmoid, softmax
-% conv_num_filters: 64, 128
-% kernel_size: 3
-
-% For the Neural Network Convolutional algorithm, a grid search is first implemented. This grid search puts different values to the parameters of Conv1D layer of keras and the output activation function of the Dense layer. Each model is trained for 50 epochs. In total of 7200 results are obtained by evaluating the model at each epoch. Performance measures recorded include accuracy, validation accuracy, loss, and validation loss. 
-
-%results.sort_values('val_acc', ascending=False).drop_duplicates(["conv_act","out_act", "conv_num_filters", "conv_kernel_size"])
-%144 results
-% head_count = int(len(final_matrix)*0.05) + 1
-%final_matrix = final_matrix.head(head_count)
-
-% The 7200 results are grouped by unique conv act,out act, conv num filters, and conv kernel size, and from 50 epoches for each, the one with the highest validation accuracy is selected. This results into total of 144 results. The validation accuracy is set here to be the satisficing metric and top 5 percent of the records with highest validation accuracy are selected. The process ends up into 8 results of different combinations.
-
-% \begin{figure}
-% 	\centering
-% 	\caption{\textsc{Decision Making}} \label{fig:decisionmaking}
-% 	\includegraphics[width=1\textwidth]{tbl_fig/decision_making.png}
-% \end{figure}
-
-% The results give convolutional number of filters to be 128 in 6 out of 8 cases, and kernel size of 3 for 7 out of 8 results. The combinatons of convolutional activation and output dense activation include softplus and softplus, softplus and softmax, softplus and sigmoid, softmax and softplus, and softmaz and sigmoid.
-
-
-
-% In the context of text classification: Na\"ive Bayes classifier needs a set of features as input, hence we need to provide our text in the form of a set that consists of words from the text. This representation is called bag-of-words \parencites{Jurafsky:2009:SLP:1214993}, which consists of all important words from the text, and the number of times each word occurs in the text. 
-
-
-
-% In the training data set, each ``text'' is converted to a bag-of-words where the mission statement is converted into the set of words and given as an input. Along with the input, the output class ``label'' is also provided for the training purpose. The classifier links each input set with its corresponding output class and trains itself. For testing purpose, the classifier is given a bag-of-words as input and asked to predict the class with the highest probability for the given set of words.
-
-
-
-
-
-
-
-% Algorithms perform different mathematical functions on the given input data. These functions need numbers to work on them. Usually, these numbers are given in a table format called a vector. The algorithms perform mathematical functions like multiplication on given vectors for the training purpose. The data we have here is not originally in numerical format, and hence our text cannot be given in the string format to the algorithm. We need to convert our texts into a table format that represents numerical data. This process is called vectorization. 
-
-
-
-
-
-% \begin{figure}
-% \caption{Draft to be modified}
-% \label{classification_algo}
-% \centering
-% \includegraphics[width=\textwidth]{reference/algorithms/classification_algo.jpeg}
-% \end{figure}

@@ -1,18 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
-[35] biber-MSWIN64:315> INFO - === 
-[78] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
-[257] Biber.pm:889> INFO - Found 36 citekeys in bib section 0
-[293] Biber.pm:4093> INFO - Processing section 0
-[320] Biber.pm:4254> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
-[334] bibtex.pm:1523> INFO - LaTeX decoding ...
-[505] bibtex.pm:1340> INFO - Found BibTeX data source '../reference/classification.bib'
-[561] Utils.pm:193> WARN - year field '[1912] 2012' in entry 'DurkheimElementaryFormsReligious2012' is not an integer - this will probably not sort properly.
-[735] Utils.pm:193> WARN - year field '[1961] 2015' in entry 'BellmanAdaptiveControlProcesses2015' is not an integer - this will probably not sort properly.
-[893] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[893] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[894] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[894] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[951] bbl.pm:636> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
-[994] bbl.pm:739> INFO - Output to aux_output\npo_classifier_main.bbl
-[1007] Biber.pm:110> INFO - WARNINGS: 2
+[0] Config.pm:307> INFO - Logfile is 'aux_output\npo_classifier_main.blg'
+[24] biber-MSWIN64:315> INFO - === 
+[52] Biber.pm:371> INFO - Reading 'aux_output\npo_classifier_main.bcf'
+[134] Biber.pm:889> INFO - Found 42 citekeys in bib section 0
+[153] Biber.pm:4093> INFO - Processing section 0
+[168] Biber.pm:4254> INFO - Looking for bibtex format file '../reference/classification.bib' for section 0
+[181] bibtex.pm:1523> INFO - LaTeX decoding ...
+[354] bibtex.pm:1340> INFO - Found BibTeX data source '../reference/classification.bib'
+[392] Utils.pm:193> WARN - year field '[1912] 2012' in entry 'DurkheimElementaryFormsReligious2012' is not an integer - this will probably not sort properly.
+[495] Utils.pm:193> WARN - year field '[1961] 2015' in entry 'BellmanAdaptiveControlProcesses2015' is not an integer - this will probably not sort properly.
+[601] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[601] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[601] Biber.pm:3921> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[601] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[637] bbl.pm:636> INFO - Writing 'aux_output\npo_classifier_main.bbl' with encoding 'UTF-8'
+[669] bbl.pm:739> INFO - Output to aux_output\npo_classifier_main.bbl
+[675] Biber.pm:110> INFO - WARNINGS: 2

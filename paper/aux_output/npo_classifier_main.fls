@@ -455,7 +455,6 @@ INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\p
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
@@ -470,8 +469,6 @@ INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\pt
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -494,18 +491,18 @@ INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\pt
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT tbl_fig\ntee_classification.pdf
 INPUT .\tbl_fig\ntee_classification.pdf
 INPUT .\tbl_fig\ntee_classification.pdf
 INPUT .\tbl_fig\ntee_classification.pdf
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7t.vf
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7m.vf
@@ -519,6 +516,9 @@ INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7y.vf
 INPUT C:\Users\jm92629\AppData\Local\MiKTeX\2.9\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\jm92629\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.aux
 INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out
 INPUT C:\Users\jm92629\Google Drive\npo_classifier\paper\aux_output\npo_classifier_main.out

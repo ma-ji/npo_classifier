@@ -243,53 +243,6 @@
       \endverb
       \keyw{Aggregation,Averaging,Bootstrap,Combining}
     \endentry
-    \entry{CarmanEvaluationCapacityNonprofit2010}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=a898c2fa61368389bce79143060cc5bb}{%
-           family={Carman},
-           familyi={C\bibinitperiod},
-           given={Joanne\bibnamedelima G.},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=eb7b97ce3a37d24129698b2f01b2f0ab}{%
-           family={Fredericks},
-           familyi={F\bibinitperiod},
-           given={Kimberly\bibnamedelima A.},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4b47c643c77df71ae43187ea4cb473c1}
-      \strng{fullhash}{4b47c643c77df71ae43187ea4cb473c1}
-      \strng{bibnamehash}{4b47c643c77df71ae43187ea4cb473c1}
-      \strng{authorbibnamehash}{4b47c643c77df71ae43187ea4cb473c1}
-      \strng{authornamehash}{4b47c643c77df71ae43187ea4cb473c1}
-      \strng{authorfullhash}{4b47c643c77df71ae43187ea4cb473c1}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In this article, we explore the evaluation capacity of today's nonprofit organizations. We report the findings of a cluster analysis that suggest that when it comes to evaluation, there are three types of nonprofit organizations. The first type of nonprofit organization is one that, by most accounts, is satisfied with their evaluation efforts. Although these organizations report that they struggle with not having as much time as they would like to devote to evaluation, they are fairly satisfied with their levels of evaluation expertise and report having few problems with the implementation of evaluation systems. The second type of organization has some struggles with evaluation. These organizations report having internal support for evaluation from management, the board and staff, and some capacity to implement an evaluation system, yet they struggle with evaluation design issues, data collection, and resources for evaluation. The third type of organization is one that is struggling across the board. These organizations report having substantial implementation challenges, in terms of lacking basic resources (i.e., staff, funding, time), lacking evaluation expertise, and they report having little support for evaluation from funders, the board, management, and staff. We conclude by exploring the implications of these findings.}
-      \field{issn}{1098-2140}
-      \field{journaltitle}{American Journal of Evaluation}
-      \field{month}{3}
-      \field{note}{00107}
-      \field{number}{1}
-      \field{shorttitle}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}}
-      \field{title}{Evaluation {{Capacity}} and {{Nonprofit Organizations}}: {{Is}} the {{Glass Half}}-{{Empty}} or {{Half}}-{{Full}}?}
-      \field{volume}{31}
-      \field{year}{2010}
-      \field{pages}{84\bibrangedash 104}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1177/1098214009352361
-      \endverb
-    \endentry
     \entry{ClarkeSimpleTechnologyComplex1996}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=86d948ba34e90beaf77ea6fca8de29cd}{%
@@ -980,6 +933,103 @@
       \field{year}{2016}
       \keyw{Business \& Economics / Nonprofit Organizations \& Charities / General,Political Science / Reference}
     \endentry
+    \entry{McVeighStructuralInfluencesActivism2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2ac9cf2935a8bf3d7ba58a375fb82b5a}{%
+           family={McVeigh},
+           familyi={M\bibinitperiod},
+           given={Rory},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \strng{fullhash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \strng{bibnamehash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \strng{authorbibnamehash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \strng{authornamehash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \strng{authorfullhash}{2ac9cf2935a8bf3d7ba58a375fb82b5a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{By applying and extending the logic of Peter Blau's theory of social structure, this article identifies structural features of U.S. counties that are associated with high levels of crime, the presence of activist organizations as ideologically diverse as civil rights organizations and antiabortion groups, and low levels of voter turnout. Key empirical findings include positive effects of ethnic heterogeneity, religious heterogeneity, and income inequality on both the crime rate and the number of activist organizations in counties. Educational inequality diminishes the positive effect of income inequality on activism and has a strong negative effect on the crime rate. Many structural conditions associated with high numbers of activist organizations and a high crime rate decrease voter turnout rates.}
+      \field{issn}{0002-9602}
+      \field{journaltitle}{American Journal of Sociology}
+      \field{month}{9}
+      \field{note}{00044}
+      \field{number}{2}
+      \field{shorttitle}{Structural {{Influences}} on {{Activism}} and {{Crime}}}
+      \field{title}{Structural {{Influences}} on {{Activism}} and {{Crime}}: {{Identifying}} the {{Social Structure}} of {{Discontent}}}
+      \field{volume}{112}
+      \field{year}{2006}
+      \field{pages}{510\bibrangedash 566}
+      \range{pages}{57}
+      \verb{doi}
+      \verb 10.1086/506414
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\VUVYTZF3\\McVeigh - 2006 - Structural Influences on Activism and Crime Ident.pdf;C:\\Users\\jm92629\\Zotero\\storage\\CES9HPBD\\506414.html
+      \endverb
+    \endentry
+    \entry{MikolovEfficientEstimationWord2013}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a2d359b12ca2fadf0b40136a73f021bb}{%
+           family={Mikolov},
+           familyi={M\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d11e6f2a0d0a1183b2cf62996525afc}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{fullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{bibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authorbibnamehash}{f24c60896b6daa69474b40efb61f4e88}
+      \strng{authornamehash}{d4849f6d57e38d9b9846cfb360e45131}
+      \strng{authorfullhash}{f24c60896b6daa69474b40efb61f4e88}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1301.3781 [cs]}
+      \field{month}{1}
+      \field{note}{10216}
+      \field{title}{Efficient {{Estimation}} of {{Word Representations}} in {{Vector Space}}}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1301.3781
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\FJVJJ2JU\\Mikolov et al. - 2013 - Efficient Estimation of Word Representations in Ve.pdf;C:\\Users\\jm92629\\Zotero\\storage\\U8BF2VJ9\\1301.html
+      \endverb
+      \keyw{Computer Science - Computation and Language}
+    \endentry
     \entry{NationalCenterforCharitableStatisticsGuideUsingNCCS2006}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=7b6304abdbac4853dbd6c0564f5e3518}{%
@@ -1119,6 +1169,51 @@
       \verb C:\\Users\\jm92629\\Zotero\\storage\\S3X6KLVG\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\TDKEHFPP\\Okten and Weisbrod - 2000 - Determinants of donations in private nonprofit mar.pdf;C:\\Users\\jm92629\\Zotero\\storage\\665GBTQS\\S0047272799000663.html
       \endverb
       \keyw{fundraising,Crowd-out,Donations,Fundraising}
+    \endentry
+    \entry{PaxtonNonprofitSpecificGlossaryStemmer2019}{misc}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c431ebb8aa47a9bf340d6a512213ff10}{%
+           family={Paxton},
+           familyi={P\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00a7e4e3189705d24f63ab2f8cb427e0}{%
+           family={Velasco},
+           familyi={V\bibinitperiod},
+           given={Kristopher},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b431c4b59c186c4a7a218727994bb95c}{%
+           family={Ressler},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{21095473d2c88bea062c0a3e6196671f}
+      \strng{fullhash}{a300b63221e99585960cde1b170bee8d}
+      \strng{bibnamehash}{a300b63221e99585960cde1b170bee8d}
+      \strng{authorbibnamehash}{a300b63221e99585960cde1b170bee8d}
+      \strng{authornamehash}{21095473d2c88bea062c0a3e6196671f}
+      \strng{authorfullhash}{a300b63221e99585960cde1b170bee8d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://web.archive.org/web/20190509160945/https://www.pamelapaxton.com/990missionstatements}
+      \field{note}{00000}
+      \field{title}{Nonprofit-{{Specific Glossary}} and {{Stemmer}}}
+      \field{year}{2019}
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\R3JAVVKK\\990missionstatements.html
+      \endverb
     \endentry
     \entry{PenningtonGloveGlobalVectors2014}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1438,6 +1533,62 @@
       \verb C:\\Users\\jm92629\\Zotero\\storage\\J8Z5ETZP\\Salamon et al. - 1996 - The international classification of nonprofit orga.pdf
       \endverb
     \endentry
+    \entry{SharkeyCommunityCrimeDecline2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=98d131076c9279d5292e80b6ea921a33}{%
+           family={Sharkey},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0d517e84e5b33079d52c09c975e4ff11}{%
+           family={{Torrats-Espinosa}},
+           familyi={T\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=724ac3c75f5e3a5bcfd19f17d47fd236}{%
+           family={Takyar},
+           familyi={T\bibinitperiod},
+           given={Delaram},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9b7bd32720bfe6e501d84b1c3e729580}
+      \strng{fullhash}{394f7fe42800d6e5c0089fe702c79629}
+      \strng{bibnamehash}{394f7fe42800d6e5c0089fe702c79629}
+      \strng{authorbibnamehash}{394f7fe42800d6e5c0089fe702c79629}
+      \strng{authornamehash}{9b7bd32720bfe6e501d84b1c3e729580}
+      \strng{authorfullhash}{394f7fe42800d6e5c0089fe702c79629}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Largely overlooked in the theoretical and empirical literature on the crime decline is a long tradition of research in criminology and urban sociology that considers how violence is regulated through informal sources of social control arising from residents and organizations internal to communities. In this article, we incorporate the ``systemic'' model of community life into debates on the U.S. crime drop, and we focus on the role that local nonprofit organizations played in the national decline of violence from the 1990s to the 2010s. Using longitudinal data and a strategy to account for the endogeneity of nonprofit formation, we estimate the causal effect on violent crime of nonprofits focused on reducing violence and building stronger communities. Drawing on a panel of 264 cities spanning more than 20 years, we estimate that every 10 additional organizations focusing on crime and community life in a city with 100,000 residents leads to a 9 percent reduction in the murder rate, a 6 percent reduction in the violent crime rate, and a 4 percent reduction in the property crime rate.}
+      \field{issn}{0003-1224}
+      \field{journaltitle}{American Sociological Review}
+      \field{month}{12}
+      \field{note}{00039}
+      \field{number}{6}
+      \field{shorttitle}{Community and the {{Crime Decline}}}
+      \field{title}{Community and the {{Crime Decline}}: {{The Causal Effect}} of {{Local Nonprofits}} on {{Violent Crime}}}
+      \field{volume}{82}
+      \field{year}{2017}
+      \field{pages}{1214\bibrangedash 1240}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1177/0003122417736289
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\82PJVWY6\\Sharkey et al. - 2017 - Community and the Crime Decline The Causal Effect.pdf
+      \endverb
+    \endentry
     \entry{SloanEffectsNonprofitAccountability2009}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8b90cec3ea2921cd8bf647f35f3666d2}{%
@@ -1480,6 +1631,51 @@
       \verb{file}
       \verb C:\\Users\\jm92629\\Zotero\\storage\\ZLEW8H9Y\\Sloan - 2009 - The Effects of Nonprofit Accountability Ratings on.pdf
       \endverb
+    \endentry
+    \entry{SmithRestNonprofitSector1997}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fc0c08753b4c318588059527032495c6}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima Horton},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fc0c08753b4c318588059527032495c6}
+      \strng{fullhash}{fc0c08753b4c318588059527032495c6}
+      \strng{bibnamehash}{fc0c08753b4c318588059527032495c6}
+      \strng{authorbibnamehash}{fc0c08753b4c318588059527032495c6}
+      \strng{authornamehash}{fc0c08753b4c318588059527032495c6}
+      \strng{authorfullhash}{fc0c08753b4c318588059527032495c6}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Many nonprofit scholars recognize and study only paid staff nonprofits. More general, research-based, statistical overview 'maps" of the nonprofit sector (NPS)follow this same 'flat earth" approach. The rest of the NPS consists mainly of grassroots associations, which have cumulative magnitudes greater than paid staff nonprofits in America on several dimensions circa 1990-numbers of groups, memberships, members, active volunteers, yearly hours of volunteer time, and full-time equivalents (FTEs) of annual work by associational (not program) volunteers. These figures, combined with better estimates of numbers of IRS-missing paid staff nonprofits, constitute the first comprehensive "round earth" statistical map of the NPS as presented here. IRS listings and prevailing flat earth statistical maps based on them ignore about 90\% of all nonprofits in the nation as well as half of volunteers and their work time. Suggestions are made for improving future NPS map making and research.}
+      \field{issn}{0899-7640, 1552-7395}
+      \field{journaltitle}{Nonprofit and Voluntary Sector Quarterly}
+      \field{month}{1}
+      \field{note}{00231}
+      \field{number}{2}
+      \field{shorttitle}{The {{Rest}} of the {{Nonprofit Sector}}}
+      \field{title}{The {{Rest}} of the {{Nonprofit Sector}}: {{Grassroots Associations}} as the {{Dark Matter Ignored}} in {{Prevailing}} "{{Flat Earth}}" {{Maps}} of the {{Sector}}}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{pages}{114\bibrangedash 131}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/0899764097262002
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\R5M7Q6M7\\Smith - 1997 - The Rest of the Nonprofit Sector Grassroots Assoc.pdf
+      \endverb
+      \keyw{defining npo sector,definition}
     \endentry
     \entry{StengelGettingItRight1998}{incollection}{}
       \name{author}{3}{}{%
@@ -1630,6 +1826,37 @@
       \verb C:\\Users\\jm92629\\Zotero\\storage\\R7JAEMMQ\\US Internal Revenue Service - 2017 - 2017 Instructions for Form 990-EZ.pdf
       \endverb
     \endentry
+    \entry{USInternalRevenueServiceAnnualExemptOrganization2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=54dbd54db9cb20ffcf3c8b95f25dca3d}{%
+           family={{US Internal Revenue Service}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \strng{fullhash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \strng{bibnamehash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \strng{authorbibnamehash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \strng{authornamehash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \strng{authorfullhash}{54dbd54db9cb20ffcf3c8b95f25dca3d}
+      \field{extraname}{4}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary of exceptions from requirement to file an annual exempt organization return (required by IRC 6033).}
+      \field{howpublished}{https://www.irs.gov/charities-non-profits/annual-exempt-organization-return-who-must-file}
+      \field{note}{00000}
+      \field{title}{Annual {{Exempt Organization Return}}: {{Who Must File}}}
+      \field{year}{2019}
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\CH6544WZ\\annual-exempt-organization-return-who-must-file.html
+      \endverb
+    \endentry
     \entry{VakilConfrontingclassificationproblem1997}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=0f5b37369274c6159428836b40a5b79c}{%
@@ -1669,6 +1896,67 @@
       \endverb
       \verb{file}
       \verb C:\\Users\\jm92629\\Zotero\\storage\\488VDPLB\\Vakil - 1997 - Confronting the classification problem Toward a t.pdf
+      \endverb
+    \endentry
+    \entry{VasiNoFrackingWay2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=2c411165ab4c1f77bdd1b79d59555d80}{%
+           family={Vasi},
+           familyi={V\bibinitperiod},
+           given={Ion\bibnamedelima Bogdan},
+           giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=aab128e87becc0c13fc4f5577885beed}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Edward\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0bb2d74a5eee679f1f2bec91d2d67a58}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8580b39b45468d1c443ac1218786c4fa}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Hui\bibnamedelima Fen},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b0783703735585e2c012cac23acf487d}
+      \strng{fullhash}{035b1c1bf4e1d6781faf3d4c30449f1e}
+      \strng{bibnamehash}{035b1c1bf4e1d6781faf3d4c30449f1e}
+      \strng{authorbibnamehash}{035b1c1bf4e1d6781faf3d4c30449f1e}
+      \strng{authornamehash}{b0783703735585e2c012cac23acf487d}
+      \strng{authorfullhash}{035b1c1bf4e1d6781faf3d4c30449f1e}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent scholarship highlights the importance of public discourse for the mobilization and impact of social movements, but it neglects how cultural products may shift discourse and thereby influence mobilization and political outcomes. This study investigates how activism against hydraulic fracturing (``fracking'') utilized cultural artifacts to influence public perceptions and effect change. A systematic analysis of Internet search data, social media postings, and newspaper articles allows us to identify how the documentary Gasland reshaped public discourse. We find that Gasland contributed not only to greater online searching about fracking, but also to increased social media chatter and heightened mass media coverage. Local screenings of Gasland contributed to anti-fracking mobilizations, which, in turn, affected the passage of local fracking moratoria in the Marcellus Shale states. These results have implications not only for understanding movement outcomes, but also for theory and research on media, the environment, and energy.}
+      \field{issn}{0003-1224}
+      \field{journaltitle}{American Sociological Review}
+      \field{month}{10}
+      \field{note}{00113}
+      \field{number}{5}
+      \field{title}{``{{No Fracking Way}}!'' {{Documentary Film}}, {{Discursive Opportunity}}, and {{Local Opposition}} against {{Hydraulic Fracturing}} in the {{United States}}, 2010 to 2013}
+      \field{volume}{80}
+      \field{year}{2015}
+      \field{pages}{934\bibrangedash 959}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1177/0003122415598534
+      \endverb
+      \verb{file}
+      \verb C:\\Users\\jm92629\\Zotero\\storage\\P9HT8QUD\\Vasi et al. - 2015 - “No Fracking Way!” Documentary Film, Discursive Op.pdf
       \endverb
     \endentry
     \entry{ZhangSensitivityAnalysisPractitioners2015}{article}{}

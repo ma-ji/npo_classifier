@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces \textsc {Locations of text fields in different forms}\relax }}{6}{table.caption.2}% 
+\contentsline {table}{\numberline {1}{\ignorespaces \textsc {Locations of text fields in different forms}\relax }}{5}{table.caption.2}% 
 \contentsline {table}{\numberline {2}{\ignorespaces \textsc {NTEE-CC classification system}\relax }}{7}{table.caption.3}% 
 \contentsline {table}{\numberline {3}{\ignorespaces \textsc {Composition of Universal Classification Files}\relax }}{8}{table.caption.5}% 
 \contentsline {table}{\numberline {4}{\ignorespaces \textsc {Example of Count Vectors}\relax }}{9}{table.caption.6}% 
-\contentsline {table}{\numberline {5}{\ignorespaces \textsc {Comparing Convolutional Neural Network classifiers}\relax }}{12}{table.caption.8}% 
-\contentsline {table}{\numberline {6}{\ignorespaces \textsc {Performance of model: broad category}\relax }}{13}{table.caption.10}% 
-\contentsline {table}{\numberline {7}{\ignorespaces \textsc {Performance of model: major group}\relax }}{13}{table.caption.12}% 
+\contentsline {table}{\numberline {5}{\ignorespaces \textsc {Comparing Convolutional Neural Network classifiers}\relax }}{13}{table.caption.8}% 
+\contentsline {table}{\numberline {6}{\ignorespaces \textsc {Performance of best model on broad category}\relax }}{13}{table.caption.10}% 
+\contentsline {table}{\numberline {7}{\ignorespaces \textsc {Performance of best model on major group}\relax }}{14}{table.caption.12}% 

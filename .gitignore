@@ -106,3 +106,4 @@ venv.bak/
 .mypy_cache/
 data_raw/
 dataset/glove.6B/
+other_refs/

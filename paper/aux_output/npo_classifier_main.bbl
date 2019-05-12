@@ -1438,12 +1438,12 @@
     \endentry
     \entry{Salamonsearchnonprofitsector1992}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,uniquepart=given,hash=ffb6e975caeb3356a514ba356b499f92}{%
+        {{uniquename=0,uniquepart=base,hash=ffb6e975caeb3356a514ba356b499f92}{%
            family={Salamon},
            familyi={S\bibinitperiod},
-           given={Lester\bibnamedelima M.},
+           given={Lester\bibnamedelima M},
            giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=9b8e47d3a1676ec31b79bd4814f98be9}{%
            family={Anheier},
            familyi={A\bibinitperiod},
@@ -1487,22 +1487,19 @@
       \keyw{Classification System,Global Level,Initial Test,International Classification,Major Group}
     \endentry
     \entry{Salamoninternationalclassificationnonprofit1996}{book}{}
-      \name{author}{3}{}{%
-        {{uniquename=2,uniquepart=given,hash=ffb6e975caeb3356a514ba356b499f92}{%
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ffb6e975caeb3356a514ba356b499f92}{%
            family={Salamon},
            familyi={S\bibinitperiod},
            given={Lester\bibnamedelima M},
            giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{uniquename=0,uniquepart=base,hash=f406b428a311661b00030a4025ddf626}{%
            family={Anheir},
            familyi={A\bibinitperiod},
            given={Helmuth\bibnamedelima K},
            giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=48b611d810168c5c3d92f699d6ab10fb}{%
-           family={{coaut}},
-           familyi={c\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
@@ -1513,12 +1510,12 @@
       \list{publisher}{1}{%
         {The Johns Hopkins University Institute for Policy Studies}%
       }
-      \strng{namehash}{3dbeef1084141953eca98811eb6cb89d}
-      \strng{fullhash}{bae1120d2ef9b3ea300baea011553078}
-      \strng{bibnamehash}{bae1120d2ef9b3ea300baea011553078}
-      \strng{authorbibnamehash}{bae1120d2ef9b3ea300baea011553078}
-      \strng{authornamehash}{3dbeef1084141953eca98811eb6cb89d}
-      \strng{authorfullhash}{bae1120d2ef9b3ea300baea011553078}
+      \strng{namehash}{3313e95c9fc1176a648e899bd6bfb704}
+      \strng{fullhash}{3313e95c9fc1176a648e899bd6bfb704}
+      \strng{bibnamehash}{3313e95c9fc1176a648e899bd6bfb704}
+      \strng{authorbibnamehash}{3313e95c9fc1176a648e899bd6bfb704}
+      \strng{authornamehash}{3313e95c9fc1176a648e899bd6bfb704}
+      \strng{authorfullhash}{3313e95c9fc1176a648e899bd6bfb704}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{extradatescope}{labelyear}

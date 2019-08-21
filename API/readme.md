@@ -1,4 +1,4 @@
-`npoclass` - Classifying nonprofits into NTEE categories
+`npoclass` - Classify nonprofits into NTEE categories
 ---
 
 ### How to install

@@ -1,6 +1,8 @@
+from collections import Counter
 import csv
 import sys
 
+from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize.treebank import TreebankWordTokenizer
 
@@ -38,6 +40,7 @@ def categorize(words, categories):
 
 def main():
     load = []
+    count = Counter()
     finname = sys.argv[1]
     foutname = sys.argv[2]
     with open(finname) as fin:
@@ -46,8 +49,10 @@ def main():
             load.append({'ein': line['EIN'], 'year': line['Real_Year'], 'mission': line['CombinedText']})
 
     categories_list = list(CATEGORIES.keys())
+    stop = stopwords.words('english')
     for org in load:
         clean_mission = clean_text(org['mission'])
+        count.update([word for word in clean_mission if word not in stop and word[0] in 'qwertyuiopasdfghjklzxcvbnm'])
         orgcats = categorize(clean_mission, CATEGORIES)
         org['mission_clean'] = ' '.join(clean_mission)
         org.update({'category_{}'.format(cat): orgcats[cat] for cat in categories_list})
@@ -57,6 +62,9 @@ def main():
         fwrite.writeheader()
         for org in load:
             fwrite.writerow(org)
+
+    for key, freq in count.most_common():
+        print('{:8d} {}'.format(freq, key))
 
 
 if __name__ == '__main__':

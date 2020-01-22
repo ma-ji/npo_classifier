@@ -7,7 +7,7 @@ Install `npoclass` is simple. It is actually wrapped as a function. You can impo
 
 ```Python
 import requests
-exec(requests.get('https://raw.githubusercontent.com/ma-ji/***.py').text)
+exec(requests.get('https://raw.githubusercontent.com/"[anonymized]"/***.py').text)
 ```
 
 Then you will have a function: `npoclass(string_input=None)`

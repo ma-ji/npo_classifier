@@ -63,13 +63,13 @@ p=Pool()
 
 
 ################################### Load saved models and classes ##########################
-model_broad_cat=load_model('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/output/broad_category_model.h5')
-model_major_group=load_model('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/output/major_group_model.h5')
-with open('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/output/tokenizer.pkl', 'rb') as tokenizer_pkl:
+model_broad_cat=load_model('https://raw.githubusercontent.com/"[anonymized]"/npo_classifier/master/output/broad_category_model.h5')
+model_major_group=load_model('https://raw.githubusercontent.com/"[anonymized]"/npo_classifier/master/output/major_group_model.h5')
+with open('https://raw.githubusercontent.com/"[anonymized]"/npo_classifier/master/output/tokenizer.pkl', 'rb') as tokenizer_pkl:
     tokenizer = pickle.load(tokenizer_pkl)
-with open('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/output/lb_broad_cat.pkl', 'rb') as lb_broad_cat_pkl:
+with open('https://raw.githubusercontent.com/"[anonymized]"/npo_classifier/master/output/lb_broad_cat.pkl', 'rb') as lb_broad_cat_pkl:
     lb_broad_cat = pickle.load(lb_broad_cat_pkl)
-with open('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/output/lb_major_group.pkl', 'rb') as lb_major_group_pkl:
+with open('https://raw.githubusercontent.com/"[anonymized]"/npo_classifier/master/output/lb_major_group.pkl', 'rb') as lb_major_group_pkl:
     lb_major_group = pickle.load(lb_major_group_pkl)
 
 # String/String list input --> a list of string token list(s) --> spellchecking (parallel) --> predict class (serial).

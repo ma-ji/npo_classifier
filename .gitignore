@@ -108,3 +108,4 @@ data_raw/
 dataset/glove.6B/
 other_refs/
 not_git/
+bert_model/

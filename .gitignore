@@ -110,3 +110,4 @@ other_refs/
 not_git/
 bert_model/
 API/bert_model/
+API/npoclass_model

@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 from time import sleep
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path='bert_model/'):
+def npoclass(inputs, gpu_core=True, model_path='npoclass_model/'):
    
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42

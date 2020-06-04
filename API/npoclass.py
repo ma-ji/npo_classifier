@@ -10,8 +10,8 @@ warnings.filterwarnings("ignore")
 from time import sleep
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path='npoclass_model/'):
-   
+def npoclass(inputs, gpu_core=True, model_path='npoclass_model/', ntee_type='bc'):
+    
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
     random.seed(seed_val)
@@ -19,15 +19,23 @@ def npoclass(inputs, gpu_core=True, model_path='npoclass_model/'):
     torch.manual_seed(seed_val)
 
     # Read model, if not read.
-    global model_loaded
+    global model_loaded, tokenizer_loaded, label_encoder
     try:
         assert model_loaded
+        assert tokenizer_loaded
+        assert label_encoder
     except:
         #load a pretrained model and tokenizer.
         model_loaded = BertForSequenceClassification.from_pretrained(model_path)
         tokenizer_loaded = BertTokenizer.from_pretrained(model_path)
         # Read label encoder.
-        with open(model_path+'le_broad_cat.pkl', 'rb') as label_encoder_pkl:
+        if ntee_type=='bc':
+            le_file_name='le_broad_cat.pkl'
+        elif ntee_type=='mg':
+            le_file_name='le_major_group.pkl'
+        else:
+            raise ValueError("ntee_type must be 'bc' (broad category) or 'mg' (major group)")
+        with open(model_path+le_file_name, 'rb') as label_encoder_pkl:
             label_encoder = pickle.load(label_encoder_pkl)
     
     # Select acceleration method.

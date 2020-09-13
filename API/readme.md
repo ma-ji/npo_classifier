@@ -17,8 +17,8 @@ Then you will have a function: `npoclass(inputs, gpu_core=True, model_path='npoc
     - A string text: `'We protect environment.'`
     - A list of strings: `['We protect environment.', 'We protect human.', 'We support art.']`
 - `gpu_core=True`: Use GPU as default if GPU core is available.
-- `model_path='npoclass_model/'`: Path to model and label encoder files.
-- `ntee_type='bc'`: Choose to predict broad category ('bc') or major group ('mg'). Currently only predicting broad category is supported. 
+- `model_path='npoclass_model/'`: Path to model and label encoder files. Can be downloaded [here](https://jima.me/open/npoclass_model.zip) (387MB).
+- `ntee_type='bc'`: Choose to predict broad category ('bc') or major group ('mg').
 
 <!-- #### Output results:
 - If input is a string:

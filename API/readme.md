@@ -1,13 +1,13 @@
-`npoclass` - Classify nonprofits into NTEE categories
+`npoclass` - Classify nonprofits using NTEE codes
 ---
 
 ### How to install
 
-Install `npoclass` is simple. It is actually wrapped as a function. You can import it with two lines:
+Install `npoclass` is simple. It is wrapped as a function which can be imported with two lines:
 
 ```Python
 import requests
-exec(requests.get('https://raw.githubusercontent.com/ma-ji/***.py').text)
+exec(requests.get('https://raw.githubusercontent.com/ma-ji/npoclass.py').text)
 ```
 
 Then you will have a function: `npoclass(inputs, gpu_core=True, model_path='npoclass_model/', ntee_type='bc')`
@@ -20,15 +20,15 @@ Then you will have a function: `npoclass(inputs, gpu_core=True, model_path='npoc
 - `model_path='npoclass_model/'`: Path to model and label encoder files.
 - `ntee_type='bc'`: Choose to predict broad category ('bc') or major group ('mg'). Currently only predicting broad category is supported. 
 
-#### Output results:
+<!-- #### Output results:
 - If input is a string:
-- If input is a list of strings:
+- If input is a list of strings: -->
 
 
 ### TODOs:
 - List of Q&A.
     - [x] Use GPU or CPU.
     - <s> OMM errors.</s>
+- [ ] Workflow.
 - [ ] Parallel input encoding.
-- <s>Workflow.</s>
-- <s>Publish as a package to aviod importing unnessary classes.</s>
+- <s>Publish on PyPI.</s>

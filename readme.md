@@ -31,3 +31,7 @@ This research developed a machine-learning classifier that reliably automates th
     ├── data_acquisition
     └── data_analysis
 ```
+
+### How to cite
+
+Ma, Ji. 2020. "Automated Coding Using Machine-Learning and Remapping the U.S. Nonprofit Sector: A Guide and Benchmark." _Nonprofit and Voluntary Sector Quarterly_ forthcoming.

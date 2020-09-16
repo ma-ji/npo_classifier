@@ -4,10 +4,10 @@ This research developed a machine-learning classifier that reliably automates th
 
 ### Useful resources
 - [Methodology paper](/Ma_2020_npo_classifier_main.pdf).
-- [API](/API/) for classifying text descriptions of nonprofits into [NTEE codes](https://nccs.urban.org/project/national-taxonomy-exempt-entities-ntee-codes#overview).
+- [API](/API/) for classifying text descriptions of nonprofits using [NTEE codes](https://nccs.urban.org/project/national-taxonomy-exempt-entities-ntee-codes#overview).
 - [Universal Classification Files](/dataset/UCF) for benchmarking and testing.
-- [Remapped U.S. nonprofit sector (i.e., nonprofits multi-labeled).](https://jima.me/?ntee_remap)
-- Nonprofit Classifier Competition
+- [Remapped U.S. nonprofit sector (i.e., nonprofits multi-labeled)](https://jima.me/?ntee_remap).
+- Nonprofit Classifier Competition (TBD)
 
 ### Folder structure
 ```
@@ -46,3 +46,8 @@ Ma, Ji. 2020. "Automated Coding Using Machine-Learning and Remapping the U.S. No
   url = {https://github.com/ma-ji/npo_classifier},
 }
 ```
+
+### Funding
+
+This project was supported in part by the 2019-20 PRI Award and Stephen H. Spurr Centennial Fellowship from the [LBJ School of
+Public Affairs](https://lbj.utexas.edu/) and a [Planet Texas 2050](https://bridgingbarriers.utexas.edu/planet-texas-2050/) grant from UT Austin.

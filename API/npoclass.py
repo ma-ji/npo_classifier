@@ -10,15 +10,29 @@ warnings.filterwarnings("ignore")
 from time import sleep
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path='npoclass_model/', ntee_type='bc'):
+def npoclass(inputs, gpu_core=True, model_path='npoclass_model_bc/', ntee_type='bc'):
     
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
     random.seed(seed_val)
     np.random.seed(seed_val)
     torch.manual_seed(seed_val)
+    
+    # Check model files.
+    if ntee_type=='bc' and model_path!='npoclass_model_bc/':
+        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_bc.zip and unzip to current folder.")
+    if ntee_type=='mg' and model_path!='npoclass_model_mg/':
+        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_mg.zip and unzip to current folder.")
+        
+    # Check ntee type.
+    if ntee_type=='bc':
+        le_file_name='le_broad_cat.pkl'
+    elif ntee_type=='mg':
+        le_file_name='le_major_group.pkl'
+    else:
+        raise ValueError("ntee_type must be 'bc' (broad category) or 'mg' (major group)")
 
-    # Read model, if not read.
+    # Read model and label encoder, if not read.
     global model_loaded, tokenizer_loaded, label_encoder
     try:
         assert model_loaded
@@ -29,12 +43,6 @@ def npoclass(inputs, gpu_core=True, model_path='npoclass_model/', ntee_type='bc'
         model_loaded = BertForSequenceClassification.from_pretrained(model_path)
         tokenizer_loaded = BertTokenizer.from_pretrained(model_path)
         # Read label encoder.
-        if ntee_type=='bc':
-            le_file_name='le_broad_cat.pkl'
-        elif ntee_type=='mg':
-            le_file_name='le_major_group.pkl'
-        else:
-            raise ValueError("ntee_type must be 'bc' (broad category) or 'mg' (major group)")
         with open(model_path+le_file_name, 'rb') as label_encoder_pkl:
             label_encoder = pickle.load(label_encoder_pkl)
     
@@ -58,6 +66,7 @@ def npoclass(inputs, gpu_core=True, model_path='npoclass_model/', ntee_type='bc'
         encoded_dict = tokenizer_loaded.encode_plus(text_string,
                                                     add_special_tokens = True, # Add '[CLS]' and '[SEP]'
                                                     max_length = 256,           # Pad & truncate all sentences.
+                                                    truncation=True,
                                                     pad_to_max_length = True,
                                                     return_attention_mask = True,   # Construct attn. masks.
                                                     return_tensors = 'pt',     # Return pytorch tensors.

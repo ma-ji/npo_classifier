@@ -315,7 +315,7 @@ tblib==1.6.0
 tenacity==6.2.0
 tensorboard==2.1.0
 tensorboardX==2.0
-tensorflow==2.1.0
+tensorflow==2.1.2
 tensorflow-estimator==2.1.0
 termcolor==1.1.0
 terminado==0.8.3

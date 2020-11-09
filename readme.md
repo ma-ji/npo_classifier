@@ -34,16 +34,21 @@ This research developed a machine-learning classifier that reliably automates th
 
 ### How to cite
 
-Ma, Ji. 2020. "Automated Coding Using Machine-Learning and Remapping the U.S. Nonprofit Sector: A Guide and Benchmark." _Nonprofit and Voluntary Sector Quarterly_ forthcoming.
+Ma, Ji. 2020. "Automated Coding Using Machine Learning and Remapping the U.S. Nonprofit Sector: A Guide and Benchmark." _Nonprofit and Voluntary Sector Quarterly_, October, 0899764020968153. https://doi.org/10.1177/0899764020968153.
 
 ```
-@article{MaAutomatedcodingusing2020,
-  title = {Automated Coding Using Machine-Learning and Remapping the {{U}}.{{S}}. Nonprofit Sector: {{A}} Guide and Benchmark},
-  author = {Ma, Ji},
-  date = {2020},
-  journaltitle = {Nonprofit and Voluntary Sector Quarterly},
-  volume = {forthcoming},
-  url = {https://github.com/ma-ji/npo_classifier},
+@article{MaAutomatedCodingUsing2020,
+	title = {Automated {Coding} {Using} {Machine} {Learning} and {Remapping} the {U}.{S}. {Nonprofit} {Sector}: {A} {Guide} and {Benchmark}},
+	issn = {0899-7640},
+	url = {https://doi.org/10.1177/0899764020968153},
+	doi = {10.1177/0899764020968153},
+	language = {en},
+	urldate = {2020-10-30},
+	journal = {Nonprofit and Voluntary Sector Quarterly},
+	author = {Ma, Ji},
+	month = oct,
+	year = {2020},
+	pages = {0899764020968153},
 }
 ```
 

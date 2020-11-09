@@ -10,19 +10,19 @@ warnings.filterwarnings("ignore")
 from time import sleep
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path='npoclass_model_bc/', ntee_type='bc'):
+def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc'):
     
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
     random.seed(seed_val)
     np.random.seed(seed_val)
     torch.manual_seed(seed_val)
-    
+
     # Check model files.
-    if ntee_type=='bc' and model_path!='npoclass_model_bc/':
-        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_bc.zip and unzip to current folder.")
-    if ntee_type=='mg' and model_path!='npoclass_model_mg/':
-        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_mg.zip and unzip to current folder.")
+    if ntee_type=='bc' and model_path==None:
+        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_bc.zip, unzip, and specifiy model_path (default set to None).")
+    if ntee_type=='mg' and model_path==None:
+        raise ValueError("Make sure model files/path are correct. Please download from https://jima.me/open/npoclass_model_mg.zip, unzip, and specifiy model_path (default set to None).")
         
     # Check ntee type.
     if ntee_type=='bc':

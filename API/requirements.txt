@@ -25,7 +25,7 @@ beautifulsoup4==4.9.0
 bert-for-tf2==0.12.7
 bitarray==1.2.1
 bkcharts==0.2
-bleach==3.1.4
+bleach==3.3.0
 blessings==1.7
 blinker==1.4
 bokeh==2.0.2

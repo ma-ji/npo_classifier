@@ -1,5 +1,8 @@
 ## Automated coding using machine-learning and remapping the U.S. nonprofit sector: A guide and benchmark
 
+[![NVSQ DOI](https://img.shields.io/badge/NVSQ%20DOI-10.1177/0899764020968153-brightgreen)](https://doi.org/10.1177/0899764020968153)
+[![OPEN ACCESS PAPER](https://img.shields.io/badge/OPEN%20ACCESS%20PAPER@OSF-10.31219%2FOSF.IO%2FPT3Q9-blue)](https://dx.doi.org/10.31219/osf.io/pt3q9)
+
 This research developed a machine-learning classifier that reliably automates the coding process using the National Taxonomy of Exempt Entities as a schema and remapped the U.S. nonprofit sector. I achieved 90% overall accuracy for classifying the nonprofits into nine broad categories and 88% for classifying them into 25 major groups. The intercoder reliabilities between algorithms and human coders measured by kappa statistics are in the "almost perfect" range of 0.80--1.00. The results suggest that a state-of-the-art machine-learning algorithm can approximate human coders and substantially improve researchers' productivity. I also reassigned multiple category codes to over 439 thousand nonprofits and discovered a considerable amount of organizational activities that were previously ignored. The classifier is an essential methodological prerequisite for large-N and Big Data analyses, and the remapped U.S. nonprofit sector can serve as an important instrument for asking or reexamining fundamental questions of nonprofit studies.
 
 ### Useful resources

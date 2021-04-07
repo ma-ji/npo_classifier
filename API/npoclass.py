@@ -8,9 +8,10 @@ from tqdm import tqdm, trange
 import tensorflow as tf
 warnings.filterwarnings("ignore")
 from time import sleep
+from joblib import Parallel, delayed
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc'):
+def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
     
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
@@ -74,12 +75,12 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc'):
         return encoded_dict
     # Encode input string(s).
     if type(inputs)==list:
-        for text_string in tqdm(inputs):
-            encoded_outputs=func_encode_string(text_string)
+        encoded_outputs=Parallel(n_jobs=n_jobs, backend="threading", batch_size='auto')(delayed(func_encode_string)(text_string) for text_string in inputs)
+        for encoded_output in encoded_outputs:
             # Add the encoded sentence to the list.
-            input_ids.append(encoded_outputs['input_ids'])
+            input_ids.append(encoded_output['input_ids'])
             # And its attention mask (simply differentiates padding from non-padding).
-            attention_masks.append(encoded_outputs['attention_mask'])
+            attention_masks.append(encoded_output['attention_mask'])
     if type(inputs)==str:
         encoded_outputs=func_encode_string(inputs)
         input_ids=[encoded_outputs['input_ids']]

@@ -63,8 +63,8 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
     input_ids = []
     attention_masks = []
     # Encode inputs.
-    def func_encode_string(text_string):
-        encoded_dict = tokenizer_loaded.encode_plus(text_string,
+    def func_encode_string(text_string, tokenizer_loaded_f=tokenizer_loaded):
+        encoded_dict = tokenizer_loaded_f.encode_plus(text_string,
                                                     add_special_tokens = True, # Add '[CLS]' and '[SEP]'
                                                     max_length = 256,           # Pad & truncate all sentences.
                                                     truncation=True,

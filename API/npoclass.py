@@ -9,6 +9,9 @@ import tensorflow as tf
 warnings.filterwarnings("ignore")
 from time import sleep
 from joblib import Parallel, delayed
+from tlz import partition_all
+import itertools
+import math
 
 ################################### Define functions ##########################
 def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
@@ -63,19 +66,23 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
     input_ids = []
     attention_masks = []
     # Encode inputs.
-    def func_encode_string(text_string, tokenizer_loaded_f=tokenizer_loaded):
-        encoded_dict = tokenizer_loaded_f.encode_plus(text_string,
-                                                    add_special_tokens = True, # Add '[CLS]' and '[SEP]'
-                                                    max_length = 256,           # Pad & truncate all sentences.
-                                                    truncation=True,
-                                                    pad_to_max_length = True,
-                                                    return_attention_mask = True,   # Construct attn. masks.
-                                                    return_tensors = 'pt',     # Return pytorch tensors.
-                                                   )
-        return encoded_dict
+    def func_encode_string(text_strings):
+        encoded_dict_list=[]
+        for text_string in text_strings:
+            encoded_dict = tokenizer_loaded.encode_plus(text_string,
+                                                        add_special_tokens = True, # Add '[CLS]' and '[SEP]'
+                                                        max_length = 256,           # Pad & truncate all sentences.
+                                                        truncation=True,
+                                                        pad_to_max_length = True,
+                                                        return_attention_mask = True,   # Construct attn. masks.
+                                                        return_tensors = 'pt',     # Return pytorch tensors.
+                                                       )
+            encoded_dict_list+=[encoded_dict]
+        return encoded_dict_list
     # Encode input string(s).
     if type(inputs)==list:
-        encoded_outputs=Parallel(n_jobs=n_jobs, backend="threading", batch_size='auto', verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
+        encoded_outputs=Parallel(n_jobs=n_jobs, backend="threading", batch_size='auto', verbose=1)(delayed(func_encode_string)(text_strings) for text_strings in partition_all(math.ceil(len(inputs)/n_jobs), inputs))
+        encoded_outputs=itertools.chain(*encoded_outputs)
         for encoded_output in encoded_outputs:
             # Add the encoded sentence to the list.
             input_ids.append(encoded_output['input_ids'])

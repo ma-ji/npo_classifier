@@ -81,7 +81,7 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
         return encoded_dict_list
     # Encode input string(s).
     if type(inputs)==list:
-        encoded_outputs=Parallel(n_jobs=n_jobs, backend="threading", batch_size='auto', verbose=1)(delayed(func_encode_string)(text_strings) for text_strings in partition_all(math.ceil(len(inputs)/n_jobs), inputs))
+        encoded_outputs=Parallel(n_jobs=n_jobs, backend="threading", batch_size='auto', verbose=1)(delayed(func_encode_string)(text_strings) for text_strings in partition_all(1000, inputs))
         encoded_outputs=itertools.chain(*encoded_outputs)
         for encoded_output in encoded_outputs:
             # Add the encoded sentence to the list.

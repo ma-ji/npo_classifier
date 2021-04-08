@@ -10,13 +10,14 @@ import requests
 exec(requests.get('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/API/npoclass.py').text)
 ```
 
-Then you will have a function: `npoclass(inputs, gpu_core=True, model_path='npoclass_model_bc/', ntee_type='bc')`
+Then you will have a function: `npoclass(inputs, gpu_core=True, n_jobs=4, model_path='npoclass_model_bc/', ntee_type='bc')`
 
 #### Input parameters:
 - `inputs`: a string text or a list of strings. For example:
     - A string text: `'We protect environment.'`
     - A list of strings: `['We protect environment.', 'We protect human.', 'We support art.']`
 - `gpu_core=True`: Use GPU as default if GPU core is available.
+- `n_jobs=4`: The number of workers used to encode text strings.
 - `model_path='npoclass_model_bc/'`: Path to model and label encoder files. Can be downloaded [here](https://jima.me/open/npoclass_model_bc.zip) (387MB).
 - `ntee_type='bc'`: Predict broad category ('bc') or major group ('mg').
 
@@ -53,14 +54,9 @@ A list of result dictionaries in the order of the input. If the input is a strin
 
 
 
-<!-- #### Output results:
-- If input is a string:
-- If input is a list of strings: -->
-
 <!-- ### TODOs:
 - List of Q&A.
     - [x] Use GPU or CPU.
     - <s> OMM errors.</s>
-- [ ] Workflow.
-- [ ] Parallel input encoding.
+- [x] Parallel input encoding.
 - <s>Publish on PyPI.</s> -->

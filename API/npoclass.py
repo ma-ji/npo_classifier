@@ -1,5 +1,5 @@
 #set up environment
-import os, torch, pickle, warnings, random
+import os, torch, pickle, warnings, random, joblib
 import pandas as pd
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
@@ -13,9 +13,8 @@ from tlz import partition_all
 import itertools
 import math
 
-
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
+def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing'):
     
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
@@ -65,7 +64,7 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
     sleep(.5) # Pause a second for better printing results.
     
     # Encode inputs.
-    global func_encode_string # Define as global, otherwise cannot pickle or very slow.
+    global func_encode_string, func_encode_string_batch # Define as global, otherwise cannot pickle or very slow.
     def func_encode_string(text_string):
         encoded_dict = tokenizer_loaded.encode_plus(text_string,
                                                     add_special_tokens = True, # Add '[CLS]' and '[SEP]'
@@ -76,18 +75,42 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
                                                     return_tensors = 'pt',     # Return pytorch tensors.
                                                    )
         return encoded_dict
+    def func_encode_string_batch(text_strings):
+        encoded_dicts=[]
+        for text_string in text_strings:
+            encoded_dicts+=[func_encode_string(text_string)]
+        return encoded_dicts
 
     # Tokenize all of the sentences and map the tokens to thier word IDs.
     input_ids = []
     attention_masks = []
     # Encode input string(s).
     if type(inputs)==list:
-        encoded_outputs=Parallel(n_jobs=n_jobs, backend="multiprocessing", pre_dispatch=n_jobs, verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
-        for encoded_output in encoded_outputs:
-            # Add the encoded sentence to the list.
-            input_ids.append(encoded_output['input_ids'])
-            # And its attention mask (simply differentiates padding from non-padding).
-            attention_masks.append(encoded_output['attention_mask'])
+        if backend=='multiprocessing':
+            encoded_outputs=Parallel(n_jobs=n_jobs, backend="multiprocessing", pre_dispatch=n_jobs, verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
+            for encoded_output in encoded_outputs:
+                # Add the encoded sentence to the list.
+                input_ids.append(encoded_output['input_ids'])
+                # And its attention mask (simply differentiates padding from non-padding).
+                attention_masks.append(encoded_output['attention_mask'])
+        elif backend=='sequential':
+            for text_string in tqdm(inputs):
+                encoded_output=func_encode_string(text_string)
+                # Add the encoded sentence to the list.
+                input_ids.append(encoded_output['input_ids'])
+                # And its attention mask (simply differentiates padding from non-padding).
+                attention_masks.append(encoded_output['attention_mask'])
+        elif backend=='dask':
+            with joblib.parallel_backend('dask'):
+                n_jobs=len(client.scheduler_info()['workers']) # Get # works.
+                string_chunks = partition_all(math.ceil(len(inputs)/n_jobs), inputs)  # Collect into groups of size 1000
+                encoded_outputs=Parallel(n_jobs=-1, batch_size='auto', verbose=1)(delayed(func_encode_string_batch)(text_strings) for text_strings in string_chunks)
+                encoded_outputs=itertools.chain(*encoded_outputs)
+            for encoded_output in encoded_outputs:
+                # Add the encoded sentence to the list.
+                input_ids.append(encoded_output['input_ids'])
+                # And its attention mask (simply differentiates padding from non-padding).
+                attention_masks.append(encoded_output['attention_mask'])           
     if type(inputs)==str:
         encoded_output=func_encode_string(inputs)
         input_ids=[encoded_output['input_ids']]
@@ -140,5 +163,5 @@ def npoclass(inputs, gpu_core=True, n_jobs=4, model_path=None, ntee_type='bc'):
             prob_dict[label_encoder.classes_[label_index]]=logits_prob[list_index][label_index]
         result_dict['probabilities']=prob_dict
         result_list+=[result_dict]
-        
+
     return result_list

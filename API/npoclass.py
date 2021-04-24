@@ -87,7 +87,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
     # Encode input string(s).
     if type(inputs)==list:
         if backend=='multiprocessing':
-            encoded_outputs=Parallel(n_jobs=n_jobs, backend="multiprocessing", pre_dispatch=n_jobs, verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
+            encoded_outputs=Parallel(n_jobs=n_jobs, backend="loky", pre_dispatch=n_jobs, verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
             for encoded_output in encoded_outputs:
                 # Add the encoded sentence to the list.
                 input_ids.append(encoded_output['input_ids'])

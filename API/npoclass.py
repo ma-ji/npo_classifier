@@ -131,7 +131,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
     logits_all=[]
     print('Predicting categories ...')
     sleep(.5) # Pause a second for better printing results.
-    for batch in tqdm(pred_dataloader):
+    for batch in tqdm(pred_dataloader, mininterval=10):
         # Add batch to the pre-chosen device
         batch = tuple(t.to(device) for t in batch)
         b_input_ids, b_input_mask = batch

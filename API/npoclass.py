@@ -1,17 +1,16 @@
 #set up environment
-import os, torch, pickle, warnings, random, joblib
+import os, torch, pickle, warnings, random, joblib, math, itertools
 import pandas as pd
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertForSequenceClassification, BertTokenizer
-from tqdm import tqdm, trange
+from tqdm import tqdm
 import tensorflow as tf
 warnings.filterwarnings("ignore")
 from time import sleep
 from joblib import Parallel, delayed
 from tlz import partition_all
-import itertools
-import math
+from multiprocessing import Pool
 
 ################################### Define functions ##########################
 def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing'):
@@ -87,7 +86,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
     # Encode input string(s).
     if type(inputs)==list:
         if backend=='multiprocessing': # Multiprocessing is faster than loky in processing large objects.
-            encoded_outputs=Parallel(n_jobs=n_jobs, backend="multiprocessing", pre_dispatch=n_jobs, verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
+            encoded_outputs=Parallel(n_jobs=n_jobs, backend="multiprocessing", batch_size='auto', verbose=1)(delayed(func_encode_string)(text_string) for text_string in inputs)
             for encoded_output in encoded_outputs:
                 # Add the encoded sentence to the list.
                 input_ids.append(encoded_output['input_ids'])

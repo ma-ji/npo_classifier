@@ -37,21 +37,28 @@ This research developed a machine-learning classifier that reliably automates th
 
 ### How to cite
 
-Ma, Ji. 2020. "Automated Coding Using Machine Learning and Remapping the U.S. Nonprofit Sector: A Guide and Benchmark." _Nonprofit and Voluntary Sector Quarterly_, October, 0899764020968153. https://doi.org/10.1177/0899764020968153.
+Ma, J. (2021). Automated Coding Using Machine Learning and Remapping the U.S. Nonprofit Sector: A Guide and Benchmark. _Nonprofit and Voluntary Sector Quarterly, 50_(3), 662–687. https://doi.org/10.1177/0899764020968153
 
 ```
-@article{MaAutomatedCodingUsing2020,
+@article{MaAutomatedCodingUsing2021,
 	title = {Automated {Coding} {Using} {Machine} {Learning} and {Remapping} the {U}.{S}. {Nonprofit} {Sector}: {A} {Guide} and {Benchmark}},
+	volume = {50},
 	issn = {0899-7640},
+	shorttitle = {Automated {Coding} {Using} {Machine} {Learning} and {Remapping} the {U}.{S}. {Nonprofit} {Sector}},
 	url = {https://doi.org/10.1177/0899764020968153},
 	doi = {10.1177/0899764020968153},
+	abstract = {This research developed a machine learning classifier that reliably automates the coding process using the National Taxonomy of Exempt Entities as a schema and remapped the U.S. nonprofit sector. I achieved 90\% overall accuracy for classifying the nonprofits into nine broad categories and 88\% for classifying them into 25 major groups. The intercoder reliabilities between algorithms and human coders measured by kappa statistics are in the “almost perfect” range of .80 to 1.00. The results suggest that a state-of-the-art machine learning algorithm can approximate human coders and substantially improve researchers’ productivity. I also reassigned multiple category codes to more than 439,000 nonprofits and discovered a considerable amount of organizational activities that were previously ignored. The classifier is an essential methodological prerequisite for large-N and Big Data analyses, and the remapped U.S. nonprofit sector can serve as an important instrument for asking or reexamining fundamental questions of nonprofit studies. The working directory with all data sets, source codes, and historical versions are available on GitHub (https://github.com/ma-ji/npo\_classifier).},
 	language = {en},
-	urldate = {2020-10-30},
+	number = {3},
+	urldate = {2021-05-22},
 	journal = {Nonprofit and Voluntary Sector Quarterly},
 	author = {Ma, Ji},
-	month = oct,
-	year = {2020},
-	pages = {0899764020968153},
+	month = jun,
+	year = {2021},
+	note = {Publisher: SAGE Publications Inc},
+	keywords = {BERT, computational social science, machine learning, National Taxonomy of Exempt Entities, neural network, nonprofit organization},
+	pages = {662--687},
+	file = {Submitted Version:C\:\\Users\\jm92629\\Zotero\\storage\\XXRCK6LR\\Ma - 2021 - Automated Coding Using Machine Learning and Remapp.pdf:application/pdf}
 }
 ```
 

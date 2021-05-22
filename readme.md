@@ -57,8 +57,7 @@ Ma, J. (2021). Automated Coding Using Machine Learning and Remapping the U.S. No
 	year = {2021},
 	note = {Publisher: SAGE Publications Inc},
 	keywords = {BERT, computational social science, machine learning, National Taxonomy of Exempt Entities, neural network, nonprofit organization},
-	pages = {662--687},
-	file = {Submitted Version:C\:\\Users\\jm92629\\Zotero\\storage\\XXRCK6LR\\Ma - 2021 - Automated Coding Using Machine Learning and Remapp.pdf:application/pdf}
+	pages = {662--687}
 }
 ```
 

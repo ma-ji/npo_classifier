@@ -2,8 +2,28 @@
 ---
 
 ### How to install
+---
 
-After checking package [`requirements.txt`](https://github.com/ma-ji/npo_classifier/blob/master/API/requirements.txt) (recommend using a [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)), install `npoclass` is simple. It is wrapped as a function and can be imported with two lines:
+#### Manage environment
+
+1. [Install Anaconda Python distribution](https://www.anaconda.com/products/individual)
+2. Create and use an environment
+
+    ```Python
+    conda create --name py38 python=3.8 # Install an environment named py38, using Python 3.8 as backend.
+    conda activate py38 # Activate the environment.
+    pip3 install -r requirements.txt # Install required packages.
+    ```
+3. If you use Jupyter Notebook, you need to add the environment:
+
+    ```Python
+    conda install -c anaconda ipykernel
+    python -m ipykernel install --user --name=py38
+    ```
+
+#### "Install" the classifier as a function
+
+After checking required packages using an environment, install `npoclass` is simple. It is wrapped as a function and can be imported with two lines:
 
 ```Python
 import requests
@@ -11,6 +31,10 @@ exec(requests.get('https://raw.githubusercontent.com/ma-ji/npo_classifier/master
 ```
 
 Then you will have a function: `npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing')`
+
+
+### How to use
+---
 
 #### Input parameters:
 - `inputs`: a string text or a list of strings. For example:
@@ -56,7 +80,9 @@ A list of result dictionaries in the order of the input. If the input is a strin
 ]
 ```
 
-#### Suggestions on efficient computing
+
+### Suggestions on efficient computing
+---
 
 Two steps of prediction are time-consuming: 1) encoding raw text as vectors and 2) predicting classes using the model. Running Step 2 on GPU is much faster than on CPU and can hardly be optimized unless you have multiple GPUs. If you have a large amount of long text documents (e.g., several thousands of documents, and each has a thousand words), Step 1 will be very time-consuming if you go `sequential`. `dask` is only recommended if you have a huge amount of data; otherwise, `multiprocessing` is good enough because the scheduling step in cluster-computing also eats time. Which one works for you? You decide!
 

@@ -10,7 +10,7 @@ This research developed a machine-learning classifier that reliably automates th
 - [API](/API/) for classifying text descriptions of nonprofits using [NTEE codes](https://nccs.urban.org/project/national-taxonomy-exempt-entities-ntee-codes#overview).
 - [Universal Classification Files](/dataset/UCF) for benchmarking and testing.
 - [Remapped U.S. nonprofit sector (i.e., nonprofits multi-labeled)](https://jima.me/?ntee_remap).
-- [Nonprofit Classifier Competition](https://github.com/ma-ji/css/blob/c2dcf6d211a50e95e8e6ca47ab6974af6b9f3f5c/docs/final.md)
+- [Nonprofit Classifier Competition](https://web.archive.org/web/20210810134310/https://css.jima.me/final/)
 
 ### Folder structure
 ```

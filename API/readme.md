@@ -30,7 +30,7 @@ import requests
 exec(requests.get('https://raw.githubusercontent.com/ma-ji/npo_classifier/master/API/npoclass.py').text)
 ```
 
-Then you will have a function: `npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing')`
+Then you will have a function: `npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing', batch_size_dl=64)`
 
 
 ### How to use
@@ -48,6 +48,7 @@ Then you will have a function: `npoclass(inputs, gpu_core=True, model_path=None,
     - `multiprocessing`: Use `joblib`'s [`multiprocessing`](https://joblib.readthedocs.io/en/latest/parallel.html#parallel-reference-documentation) backend.
     - `sequential`: No parallel encoding and `n_jobs` ignored.
     - `dask`: Use [`dask.distributed`](https://distributed.dask.org/en/latest/client.html) as backend. `n_jobs` ignored and use all cluster workers. Follow [this post](https://jima.me/?p=950) for detail instruction.
+- `batch_size_dl=64`: Batch size of the data loader for predicting categories. Larger number requires more GPU RAM.
 
 #### Output:
 

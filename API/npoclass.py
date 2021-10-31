@@ -1,6 +1,5 @@
 #set up environment
-import os, torch, pickle, warnings, random, joblib, math, itertools
-import pandas as pd
+import torch, pickle, warnings, random, joblib, math, itertools
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertForSequenceClassification, BertTokenizer
@@ -10,10 +9,9 @@ warnings.filterwarnings("ignore")
 from time import sleep
 from joblib import Parallel, delayed
 from tlz import partition_all
-from multiprocessing import Pool
 
 ################################### Define functions ##########################
-def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing'):
+def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, backend='multiprocessing', batch_size_dl = 64):
     
     # Set the seed value all over the place to make this reproducible.
     seed_val = 42
@@ -67,9 +65,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
     def func_encode_string(text_string):
         encoded_dict = tokenizer_loaded.encode_plus(text_string,
                                                     add_special_tokens = True, # Add '[CLS]' and '[SEP]'
-                                                    max_length = 256,           # Pad & truncate all sentences.
-                                                    truncation=True,
-                                                    pad_to_max_length = True,
+                                                    truncation='longest_first', padding='max_length', # Max length accepted by model.
                                                     return_attention_mask = True,   # Construct attn. masks.
                                                     return_tensors = 'pt',     # Return pytorch tensors.
                                                    )
@@ -102,7 +98,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
         elif backend=='dask':
             with joblib.parallel_backend('dask'):
                 n_jobs=len(client.scheduler_info()['workers']) # Get # works.
-                string_chunks = partition_all(math.ceil(len(inputs)/n_jobs), inputs)  # Collect into groups of size 1000
+                string_chunks = partition_all(math.ceil(len(inputs)/n_jobs), inputs)  # Collect into groups of size by worker numbers.
                 encoded_outputs=Parallel(n_jobs=-1, batch_size='auto', verbose=1)(delayed(func_encode_string_batch)(text_strings) for text_strings in string_chunks)
                 encoded_outputs=itertools.chain(*encoded_outputs)
             for encoded_output in encoded_outputs:
@@ -120,10 +116,9 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
     attention_masks = torch.cat(attention_masks, dim=0)
 
     # Prepare dataloader for efficient calculation.
-    batch_size = 64
     pred_data = TensorDataset(input_ids, attention_masks)
     pred_sampler = SequentialSampler(pred_data)
-    pred_dataloader = DataLoader(pred_data, sampler=pred_sampler, batch_size=batch_size)
+    pred_dataloader = DataLoader(pred_data, sampler=pred_sampler, batch_size=batch_size_dl)
 
     # Start prediction.
     model_loaded.eval()

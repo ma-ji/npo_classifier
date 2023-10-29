@@ -5,7 +5,6 @@ import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import BertForSequenceClassification, BertTokenizer
 from tqdm import tqdm
-import tensorflow as tf
 warnings.filterwarnings("ignore")
 from time import sleep
 from joblib import Parallel, delayed
@@ -136,7 +135,7 @@ def npoclass(inputs, gpu_core=True, model_path=None, ntee_type='bc', n_jobs=4, b
         logits_all+=outputs[0].tolist()
 
     # Calculate probabilities of logitcs.
-    logits_prob=tf.nn.sigmoid(logits_all).numpy().tolist()
+    logits_prob = (1 / (1 + np.exp(-np.array(logits_all)))).tolist()
     # Find the positions of max values in logits.
     logits_max=np.argmax(logits_prob, axis=1)
     # Transfer to labels.

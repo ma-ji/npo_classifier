@@ -1,4 +1,5 @@
 # set up environment
+import gc
 import itertools
 import math
 import pickle
@@ -8,12 +9,10 @@ import warnings
 import joblib
 import numpy as np
 import torch
-from torch.utils.data import (DataLoader, SequentialSampler,
-                              TensorDataset)
+from torch.utils.data import DataLoader, SequentialSampler, TensorDataset
 from transformers import BertForSequenceClassification, BertTokenizer
 
 warnings.filterwarnings("ignore")
-from multiprocessing import Pool
 from time import sleep
 
 from joblib import Parallel, delayed
@@ -212,5 +211,9 @@ def npoclass(
             ]
         result_dict["probabilities"] = prob_dict
         result_list += [result_dict]
+        
+    # Clean up RAM and GPU memory
+    del model_loaded, b_input_ids, b_input_mask, outputs
+    gc.collect(); torch.cuda.empty_cache()
 
     return result_list

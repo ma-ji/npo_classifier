@@ -41,7 +41,7 @@ Then you will have a function: `npoclass(inputs, gpu_core=True, model_path=None,
     - A string text: `'We protect environment.'`
     - A list of strings: `['We protect environment.', 'We protect human.', 'We support art.']`
 - `gpu_core=True`: Use GPU as default if GPU core is available.
-- `model_path='npoclass_model_bc/'`: Path to model and label encoder files. Can be downloaded [here](https://jima.me/open/npoclass_model_bc.zip) (387MB).
+- `model_path='npoclass_model_bc/'`: Path to model and label encoder files. Can be downloaded [here](https://osf.io/cbryd).
 - `ntee_type='bc'`: Predict broad category ('bc') or major group ('mg').
 - `n_jobs=4`: The number of workers used to encode text strings.
 - `backend='multiprocessing'`: Be one of {`'multiprocessing'`, `'sequential'`, `'dask'`}. Define the backend for parallel text encoding.
